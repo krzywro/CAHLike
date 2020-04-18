@@ -1,0 +1,11 @@
+<div class="card text-white bg-dark" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">@Text</h5>
+    <p href="#" class="card-link text-white text-right"><CardStackIcon></CardStackIcon> @AnswerCards</p>
+  </div>
+</div>
+
+@code {
+  [Parameter] public string Text { get; set; }
+  [Parameter] public int AnswerCards { get; set; } = 1;
+}
