@@ -5,7 +5,7 @@
     <NavMenu />
 </div>
 
-<div class="main" style="background-color: #eee;">
+<div class="main" style="background-color: #eee; height: 100vh">
     <div class="top-row px-4">
         <a href="http://blazor.net" target="_blank" class="ml-md-auto">About</a>
     </div>
@@ -36,7 +36,7 @@
     protected override async Task OnInitializedAsync()
     {
 
-        state.ServerGreeting += () => { greetingVisible = true; StateHasChanged(); };
+        state.ServerGreeting += () => { greetingVisible = false; StateHasChanged(); };
         await state.EnsurePlayerHubConnection();
 
         await state.RegisterPlayer();

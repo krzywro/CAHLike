@@ -51,7 +51,7 @@ namespace KrzyWro.CAH.Server.Hubs
 
         public async Task RegisterPlayer(Guid playerId, string playerName)
         {
-            PlayerToConnections.AddOrUpdate(playerId, x => new HashSet<string>(), (x, v) => { v.Add(Context.ConnectionId); return v; });
+            PlayerToConnections.AddOrUpdate(playerId, x => new HashSet<string>() { Context.ConnectionId }, (x, v) => { v.Add(Context.ConnectionId); return v; });
             ConnectionToPlayer.AddOrUpdate(Context.ConnectionId, playerId, (x, v) => playerId);
             _logger.LogInformation($"[Connected {Context.ConnectionId}] Player: {playerId}");
 
@@ -66,22 +66,80 @@ namespace KrzyWro.CAH.Server.Hubs
 
         public async Task RequestHand()
         {
-
             var playerHandString = await _cache.GetStringAsync($"{CachePlayerHandPrefix}{ConnectionToPlayer[Context.ConnectionId]}");
             var playerHand = string.IsNullOrEmpty(playerHandString)
                 ? new List<AnswerModel>()
                 : JsonSerializer.Deserialize<List<AnswerModel>>(playerHandString);
 
-            while (playerHand.Count < 10)
+            while (playerHand.Count < 5)
             {
                 var answer = await _deckService.PopAnswer();
-                playerHand.Add(answer);
+                if (answer != null)
+                    playerHand.Add(answer);
+                else
+                    break;
             }
 
             playerHandString = JsonSerializer.Serialize(playerHand);
             await _cache.SetStringAsync($"{CachePlayerHandPrefix}{ConnectionToPlayer[Context.ConnectionId]}", playerHandString);
 
             await Clients.Caller.SendAsync("GetHand", playerHand);
+        }
+
+        public async Task SendAnswers(List<AnswerModel> answers)
+        {
+            var collectedAnswersString = await _cache.GetStringAsync("collectedAnswers");
+            var collectedAnswers = string.IsNullOrEmpty(collectedAnswersString)
+                ? new List<Guid>()
+                : JsonSerializer.Deserialize<List<Guid>>(collectedAnswersString);
+
+            var playerHandString = await _cache.GetStringAsync($"{CachePlayerHandPrefix}{ConnectionToPlayer[Context.ConnectionId]}");
+            var playerHand = JsonSerializer.Deserialize<List<AnswerModel>>(playerHandString);
+            playerHand = playerHand.Where(hand => !answers.Select(a => a.Id).Contains(hand.Id)).ToList();
+            playerHandString = JsonSerializer.Serialize(playerHand);
+            await _cache.SetStringAsync($"{CachePlayerHandPrefix}{ConnectionToPlayer[Context.ConnectionId]}", playerHandString);
+
+            await _cache.SetStringAsync($"{CachePlayerAnswerPrefix}{ConnectionToPlayer[Context.ConnectionId]}", JsonSerializer.Serialize(answers));
+
+            collectedAnswers.Add(ConnectionToPlayer[Context.ConnectionId]);
+
+            if (collectedAnswers.Count < PlayerToConnections.Count)
+            {
+                foreach (var connection in PlayerToConnections[ConnectionToPlayer[Context.ConnectionId]])
+                {
+                    await Clients.Client(connection).SendAsync("WaitForOtherPlayers");
+                }
+                collectedAnswersString = JsonSerializer.Serialize(collectedAnswers);
+                await _cache.SetStringAsync("collectedAnswers", collectedAnswersString);
+            }
+            else
+            {
+                var pickerId = collectedAnswers.First();
+
+                var collectedAnswersValues = new List<List<AnswerModel>>();
+                foreach(var playerId in collectedAnswers)
+                {
+                    var value = await _cache.GetStringAsync($"{CachePlayerAnswerPrefix}{playerId}");
+                    collectedAnswersValues.Add(JsonSerializer.Deserialize<List<AnswerModel>>(value));
+                }
+
+                foreach (var connection in PlayerToConnections.Where(x => x.Key != pickerId).SelectMany(x => x.Value))
+                {
+                    await Clients.Client(connection).SendAsync("WaitForBestAnswerPick", collectedAnswersValues);
+                }
+
+                foreach (var connection in PlayerToConnections[pickerId])
+                {
+                    await Clients.Client(connection).SendAsync("SelectBestAnswer", collectedAnswersValues);
+                }
+            }
+        }
+
+        public async Task PickAnswer(List<AnswerModel> answers)
+        {
+            await _deckService.PrepareNextQuestion();
+            await Clients.All.SendAsync("BestAnswerPick", answers);
+            await _cache.RemoveAsync("collectedAnswers");
         }
     }
 }

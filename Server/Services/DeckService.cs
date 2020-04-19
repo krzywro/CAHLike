@@ -37,7 +37,8 @@ namespace KrzyWro.CAH.Server.Services
             await EnsureDeck();
             var questions = await _cache.GetStringAsync("questions");
             var deck = JsonSerializer.Deserialize<Stack<QuestionModel>>(questions);
-            return deck.Peek();
+            deck.TryPeek(out var question);
+            return question;
         }
 
         public async Task<AnswerModel> PopAnswer()
@@ -45,7 +46,7 @@ namespace KrzyWro.CAH.Server.Services
             await EnsureDeck();
             var answers = await _cache.GetStringAsync("answers");
             var deck = JsonSerializer.Deserialize<Stack<AnswerModel>>(answers);
-            var answer = deck.Pop();
+            deck.TryPop(out var answer);
             answers = JsonSerializer.Serialize(deck);
             await _cache.SetStringAsync("answers", answers);
 
@@ -57,7 +58,7 @@ namespace KrzyWro.CAH.Server.Services
             await EnsureDeck();
             var questions = await _cache.GetStringAsync("questions");
             var deck = JsonSerializer.Deserialize<Stack<QuestionModel>>(questions);
-            deck.Pop();
+            deck.TryPop(out _);
             questions = JsonSerializer.Serialize(deck);
             await _cache.SetStringAsync("questions", questions);
         }
