@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System.Linq;
+using KrzyWro.CAH.Server.Hubs;
 
 namespace KrzyWro.CAH.Server
 {
@@ -24,6 +25,7 @@ namespace KrzyWro.CAH.Server
         {
 
             services.AddControllersWithViews();
+            services.AddSignalR();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -50,6 +52,7 @@ namespace KrzyWro.CAH.Server
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+                endpoints.MapHub<PlayerHub>("/playerhub");
                 endpoints.MapFallbackToFile("index.html");
             });
         }

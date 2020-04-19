@@ -1,5 +1,8 @@
 ﻿using Blazored.LocalStorage;
+using KrzyWro.CAH.Shared;
 using KrzyWro.CAH.Shared.Cards;
+using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.SignalR.Client;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +12,10 @@ namespace KrzyWro.CAH.Client
 {
     public class AppState
     {
-        private ISyncLocalStorageService _syncLocalStorage;
+        private readonly ISyncLocalStorageService _syncLocalStorage;
+        public HubConnection PlayerHubConnection;
+        public async Task EnsurePlayerHubConnection() => await PlayerHubConnection?.StartAsync();
+        public async Task RegisterPlayer() => await PlayerHubConnection?.SendAsync("RegisterPlayer", PlayerId, Player.Name);
 
         private List<AnswerModel> _selectedAnswers = new List<AnswerModel>();
         public IReadOnlyList<AnswerModel> SelectedAnswers => _selectedAnswers;
@@ -32,6 +38,8 @@ namespace KrzyWro.CAH.Client
         public event Action OnAnswerSelectionChange;
         private void NotifyStateChanged() => OnAnswerSelectionChange?.Invoke();
 
+        public Player Player => new Player(PlayerId);
+
         public Guid PlayerId
         {
             get
@@ -46,9 +54,21 @@ namespace KrzyWro.CAH.Client
             }
         }
 
-        public AppState(ISyncLocalStorageService syncLocalStorage)
+        public event Action ServerGreeting;
+
+        public AppState(ISyncLocalStorageService syncLocalStorage, NavigationManager NavigationManager)
         {
             _syncLocalStorage = syncLocalStorage;
+
+            PlayerHubConnection = new HubConnectionBuilder()
+                .WithUrl(NavigationManager.ToAbsoluteUri("/playerhub"))
+                .WithAutomaticReconnect()
+                .Build();
+
+            PlayerHubConnection.On("Greet", () =>
+            {
+                ServerGreeting?.Invoke();
+            });
 
             CurrentQuestion = new QuestionModel(Guid.NewGuid(), "Test pytania dłuższego lub krótszego", 1);
             Hand = new List<AnswerModel> {
