@@ -1,0 +1,176 @@
+{
+  "Questions": [
+    {
+      "AnswerCards": 1,
+      "Id": "e6d7dfdf-ff83-49df-931a-abf1ce80cf00",
+      "Text": "Co zmienia d\u0142ugo\u015B\u0107 gdy jest ciep\u0142o?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "7318179f-9c1e-4e36-8a6a-d42b2f0ac25e",
+      "Text": "Czego pragnie, ale nigdy nie poprze polityk?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "5471b98c-459d-40ff-9e91-e9c7653d524d",
+      "Text": "Co cieszy dopiero po opowiedzeniu kolegom?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "b71e7bb8-23a4-49dd-8b76-2b05e55f3a84",
+      "Text": "Koszmarny sen. Wr\u00F3ci\u0142 z pracy, a w domu ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "c960d264-b9ef-45ef-8800-0e61d7e65d3c",
+      "Text": "Co zawsze przychodzi za p\u00F3\u017Ano?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "13ce9331-ca02-4d7a-b3f2-33ec70048c35",
+      "Text": "Co to jest: boli, ale kr\u0119ci?"
+    }
+  ],
+  "Answers": [
+    {
+      "Id": "94089ad6-8bd4-4be5-bd00-3756d3ef959f",
+      "Text": "Poci\u0105g pe\u0142en s\u0142oik\u00F3w"
+    },
+    {
+      "Id": "b440d536-ec81-4809-8d49-324538abc0c8",
+      "Text": "Spe\u0142nienie w wyniku duszenia"
+    },
+    {
+      "Id": "fcb53040-fcb2-40bb-b766-a74c839949a9",
+      "Text": "Flegmatyczny angielski d\u017Centelmen"
+    },
+    {
+      "Id": "5e85d661-e41d-4d5e-8481-a7cf7e68d109",
+      "Text": "K\u0105piel przy \u015Bwiecach"
+    },
+    {
+      "Id": "1a11b868-fafa-4319-ba5f-5759d372feb2",
+      "Text": "Kl\u0105twa stra\u017Caka"
+    },
+    {
+      "Id": "a76a9d1b-b617-4225-a2e2-e42976503da5",
+      "Text": "Prokurator"
+    },
+    {
+      "Id": "9cd3a803-332e-4e85-bd5a-76628bfe633f",
+      "Text": "Zbyt p\u00F3\u017Ana (cho\u0107 zdecydowana) interwencja"
+    },
+    {
+      "Id": "2fa8f0e6-6fa2-4933-8de2-c31493318c91",
+      "Text": "Muzyka marszowa"
+    },
+    {
+      "Id": "1df595b2-8b6d-40ef-aca3-bedb2ff1b904",
+      "Text": "Ci\u0119\u017Cka praca"
+    },
+    {
+      "Id": "707016c3-78fe-4f65-afb3-b306cf2de38a",
+      "Text": "Tajemnicza wysypka"
+    },
+    {
+      "Id": "c36b347a-c74b-445d-bdcb-2ab6952e274d",
+      "Text": "Zanudzenie na \u015Bmier\u0107"
+    },
+    {
+      "Id": "5982bfc1-6b20-4cc6-8fe1-e3fc17089642",
+      "Text": "Pokuta dla nastolatka"
+    },
+    {
+      "Id": "643630bd-4d8d-4584-9936-ee22f4d055a0",
+      "Text": "Totalna wojna"
+    },
+    {
+      "Id": "7668cca6-e031-49cb-8f4d-ecc43e9a0b51",
+      "Text": "Niep\u0142odno\u015B\u0107"
+    },
+    {
+      "Id": "1f0aaa5d-81fb-4620-b655-ed1792c9e288",
+      "Text": "Kochanek"
+    },
+    {
+      "Id": "973859f2-2603-4ae8-902c-fb4b29694a70",
+      "Text": "Weso\u0142a wd\u00F3wka"
+    },
+    {
+      "Id": "207fb39d-c22f-4b39-91e7-a6e894d1d7d1",
+      "Text": "Opalone blondynki"
+    },
+    {
+      "Id": "5cd01f79-5c8f-47f3-9f97-5471ecedccde",
+      "Text": "Trening asertywno\u015Bci"
+    },
+    {
+      "Id": "6e089a75-b2aa-4e56-8de3-c9f9694fc43f",
+      "Text": "Rodzinny wyjazd na wie\u015B"
+    },
+    {
+      "Id": "a4b71cf6-5316-49ca-af09-94106bb1d8dd",
+      "Text": "Jej niezupe\u0142nie niewinne hobby"
+    },
+    {
+      "Id": "ddc7b5c8-9f0f-4248-916f-63d67500b3fc",
+      "Text": "Cysterna w ogniu"
+    },
+    {
+      "Id": "e412f34c-c22f-4095-add1-8b46b4489cec",
+      "Text": "Dworzec"
+    },
+    {
+      "Id": "f730971b-e712-4f4a-ab40-db52b6f4bd3e",
+      "Text": "Masa\u017C st\u00F3p"
+    },
+    {
+      "Id": "953c0e6c-7aff-490f-97b3-6e82d51ca57b",
+      "Text": "Unikalny talent"
+    },
+    {
+      "Id": "7e96475d-2422-48b6-9daa-52b1621e85dc",
+      "Text": "Zwolnienie dyscyplinarne"
+    },
+    {
+      "Id": "0d25b6ac-d50b-4979-951f-6544f33b4022",
+      "Text": "Marne usprawiedliwienie"
+    },
+    {
+      "Id": "164daf7b-5a2a-4eda-bc6f-d15ae1358235",
+      "Text": "Obce przeciwcia\u0142a"
+    },
+    {
+      "Id": "cb8cd2ac-fb84-4bcf-b3c4-e2730c31b6ec",
+      "Text": "Przera\u017Cenie rodzic\u00F3w"
+    },
+    {
+      "Id": "f495e0b6-8145-41c2-a611-fa634366b4f1",
+      "Text": "Wsp\u00F3\u0142\u017Cycie przed \u015Blubem"
+    },
+    {
+      "Id": "eea288cc-7da4-4bab-81ea-efa3b09be6ce",
+      "Text": "Te\u015Bciowa"
+    },
+    {
+      "Id": "74c6c189-62bf-46fb-9b88-9c7d018baea4",
+      "Text": "Tajfun"
+    },
+    {
+      "Id": "76f6e97f-285c-4116-97b5-bfb97b3d20e4",
+      "Text": "Kurczak z ro\u017Cna"
+    },
+    {
+      "Id": "43b868b3-d2f8-4d9a-84cb-586585954ac9",
+      "Text": "Potajemne spotkanie"
+    },
+    {
+      "Id": "496a9ce0-08ac-4e99-98e6-704e06eeca46",
+      "Text": "Pranie m\u00F3zgu"
+    },
+    {
+      "Id": "a3ae8df2-5f60-4338-846e-10829b09173a",
+      "Text": "Spanie na wycieraczce"
+    }
+  ]
+}

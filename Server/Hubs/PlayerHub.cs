@@ -1,10 +1,16 @@
-﻿using KrzyWro.CAH.Shared;
+﻿using KrzyWro.CAH.Server.Services;
+using KrzyWro.CAH.Shared;
+using KrzyWro.CAH.Shared.Cards;
 using Microsoft.AspNetCore.SignalR;
+using Microsoft.Extensions.Caching.Distributed;
+using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace KrzyWro.CAH.Server.Hubs
@@ -15,10 +21,17 @@ namespace KrzyWro.CAH.Server.Hubs
         public static ConcurrentDictionary<string, Guid> ConnectionToPlayer = new ConcurrentDictionary<string, Guid>();
 
         private readonly ILogger _logger;
+        private readonly IDistributedCache _cache;
+        private readonly IDeckService _deckService;
 
-        public PlayerHub(ILogger<PlayerHub> logger)
+        private const string CachePlayerHandPrefix = "player_hand_";
+        private const string CachePlayerAnswerPrefix = "player_answer_";
+
+        public PlayerHub(ILogger<PlayerHub> logger, IDistributedCache cache, IDeckService deckService)
         {
             _logger = logger;
+            _cache = cache;
+            _deckService = deckService;
         }
 
         public override Task OnConnectedAsync()
@@ -42,9 +55,33 @@ namespace KrzyWro.CAH.Server.Hubs
             ConnectionToPlayer.AddOrUpdate(Context.ConnectionId, playerId, (x, v) => playerId);
             _logger.LogInformation($"[Connected {Context.ConnectionId}] Player: {playerId}");
 
-            await Clients.Client(Context.ConnectionId).SendAsync("Greet");
+            await Clients.Caller.SendAsync("Greet");
         }
 
+        public async Task RequestQuestion()
+        {
+            var question = await _deckService.PeekQuestion();
+            await Clients.Caller.SendAsync("GetQuestion", question);
+        }
 
+        public async Task RequestHand()
+        {
+
+            var playerHandString = await _cache.GetStringAsync($"{CachePlayerHandPrefix}{ConnectionToPlayer[Context.ConnectionId]}");
+            var playerHand = string.IsNullOrEmpty(playerHandString)
+                ? new List<AnswerModel>()
+                : JsonSerializer.Deserialize<List<AnswerModel>>(playerHandString);
+
+            while (playerHand.Count < 10)
+            {
+                var answer = await _deckService.PopAnswer();
+                playerHand.Add(answer);
+            }
+
+            playerHandString = JsonSerializer.Serialize(playerHand);
+            await _cache.SetStringAsync($"{CachePlayerHandPrefix}{ConnectionToPlayer[Context.ConnectionId]}", playerHandString);
+
+            await Clients.Caller.SendAsync("GetHand", playerHand);
+        }
     }
 }

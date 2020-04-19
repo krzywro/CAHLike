@@ -16,6 +16,8 @@ namespace KrzyWro.CAH.Client
         public HubConnection PlayerHubConnection;
         public async Task EnsurePlayerHubConnection() => await PlayerHubConnection?.StartAsync();
         public async Task RegisterPlayer() => await PlayerHubConnection?.SendAsync("RegisterPlayer", PlayerId, Player.Name);
+        public async Task RequestQuestion() => await PlayerHubConnection?.SendAsync("RequestQuestion");
+        public async Task RequestHand() => await PlayerHubConnection?.SendAsync("RequestHand");
 
         private List<AnswerModel> _selectedAnswers = new List<AnswerModel>();
         public IReadOnlyList<AnswerModel> SelectedAnswers => _selectedAnswers;
@@ -36,6 +38,8 @@ namespace KrzyWro.CAH.Client
         public List<AnswerModel> Hand { get; private set; } = new List<AnswerModel>();
 
         public event Action OnAnswerSelectionChange;
+        public event Action OnQuestionRetrival;
+        public event Action OnHandRetrival;
         private void NotifyStateChanged() => OnAnswerSelectionChange?.Invoke();
 
         public Player Player => new Player(PlayerId);
@@ -70,19 +74,17 @@ namespace KrzyWro.CAH.Client
                 ServerGreeting?.Invoke();
             });
 
-            CurrentQuestion = new QuestionModel(Guid.NewGuid(), "Test pytania dłuższego lub krótszego", 1);
-            Hand = new List<AnswerModel> {
-                new AnswerModel(Guid.NewGuid(), "1"),
-                new AnswerModel(Guid.NewGuid(), "2"),
-                new AnswerModel(Guid.NewGuid(), "3"),
-                new AnswerModel(Guid.NewGuid(), "4"),
-                new AnswerModel(Guid.NewGuid(), "5"),
-                new AnswerModel(Guid.NewGuid(), "6"),
-                new AnswerModel(Guid.NewGuid(), "7"),
-                new AnswerModel(Guid.NewGuid(), "8"),
-                new AnswerModel(Guid.NewGuid(), "9"),
-                new AnswerModel(Guid.NewGuid(), "10"),
-            };
+            PlayerHubConnection.On<QuestionModel>("GetQuestion", question =>
+            {
+                CurrentQuestion = question;
+                OnQuestionRetrival?.Invoke();
+            });
+
+            PlayerHubConnection.On<List<AnswerModel>>("GetHand", hand =>
+            {
+                Hand = hand;
+                OnHandRetrival?.Invoke();
+            });
         }
     }
 }

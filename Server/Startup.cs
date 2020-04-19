@@ -7,6 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System.Linq;
 using KrzyWro.CAH.Server.Hubs;
+using KrzyWro.CAH.Server.Services;
 
 namespace KrzyWro.CAH.Server
 {
@@ -26,6 +27,14 @@ namespace KrzyWro.CAH.Server
 
             services.AddControllersWithViews();
             services.AddSignalR();
+
+            services.AddStackExchangeRedisCache(options =>
+            {
+                options.Configuration = "localhost";
+                options.InstanceName = "SampleInstance";
+            });
+
+            services.AddScoped<IDeckService, DeckService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
