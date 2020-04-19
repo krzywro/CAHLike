@@ -1,11 +1,12 @@
-<div class="card text-white bg-dark" style="width: 18rem;">
+@using KrzyWro.CAH.Shared.Cards
+
+<div class="card text-white bg-dark" style="width: 18rem; margin: 0.5rem auto">
   <div class="card-body">
-    <h5 class="card-title">@Text</h5>
-    <p href="#" class="card-link text-white text-right"><CardStackIcon></CardStackIcon> @AnswerCards</p>
+    <p class="card-text">@Question.Text</p>
+    <p href="#" class="card-link text-white text-right"><CardStackIcon></CardStackIcon> @Question.AnswerCards</p>
   </div>
 </div>
 
 @code {
-  [Parameter] public string Text { get; set; }
-  [Parameter] public int AnswerCards { get; set; } = 1;
+    [Parameter] public QuestionModel Question { get; set; }
 }

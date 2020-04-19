@@ -1,0 +1,32 @@
+@using KrzyWro.CAH.Shared.Cards
+@inject AppState state
+
+<div class="card text-black bg-white @border" style="margin: 0.5rem auto" @onclick="@(e => state.ToggleAnswer(Answer))">
+    <div class="card-body">
+        <p class="card-text">
+            @Answer.Text
+                @if (SelectionNumber > 0)
+                {
+                    <span class="badge badge-pill badge-primary float-right">@SelectionNumber</span>
+                }
+            </p>
+    </div>
+</div>
+
+@code {
+    [Parameter] public AnswerModel Answer { get; set; }
+    private int SelectionNumber { get; set; }
+
+    private string border => SelectionNumber > 0 ? "border-primary" : string.Empty;
+
+    protected override void OnInitialized()
+    {
+        state.OnAnswerSelectionChange += UpdateSelectionNumber;
+        UpdateSelectionNumber();
+    }
+
+    private void UpdateSelectionNumber()
+    {
+        SelectionNumber = state.GetAnswerSelectionNumber(Answer);
+    }
+}
