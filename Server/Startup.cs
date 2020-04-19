@@ -28,12 +28,13 @@ namespace KrzyWro.CAH.Server
             services.AddControllersWithViews();
             services.AddSignalR();
 
-            services.AddStackExchangeRedisCache(options =>
-            {
-                options.Configuration = "localhost";
-                options.InstanceName = "SampleInstance";
-            });
+            //services.AddStackExchangeRedisCache(options =>
+            //{
+            //    options.Configuration = "localhost";
+            //    options.InstanceName = "SampleInstance";
+            //});
 
+            services.AddDistributedMemoryCache();
             services.AddScoped<IDeckService, DeckService>();
         }
 

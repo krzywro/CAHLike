@@ -66,6 +66,20 @@ namespace KrzyWro.CAH.Server.Hubs
 
         public async Task RequestHand()
         {
+            var collectedAnswersString = await _cache.GetStringAsync("collectedAnswers");
+            var collectedAnswers = string.IsNullOrEmpty(collectedAnswersString)
+                ? new List<Guid>()
+                : JsonSerializer.Deserialize<List<Guid>>(collectedAnswersString);
+            if(collectedAnswers.Contains(ConnectionToPlayer[Context.ConnectionId]))
+            {
+                var value = await _cache.GetStringAsync($"{CachePlayerAnswerPrefix}{ConnectionToPlayer[Context.ConnectionId]}");
+                var awaitingAnswers = JsonSerializer.Deserialize<List<AnswerModel>>(value);
+                await Clients.Caller.SendAsync("YourAnswers", awaitingAnswers);
+                await Clients.Caller.SendAsync("WaitForOtherPlayers");
+                return;
+            }
+
+
             var playerHandString = await _cache.GetStringAsync($"{CachePlayerHandPrefix}{ConnectionToPlayer[Context.ConnectionId]}");
             var playerHand = string.IsNullOrEmpty(playerHandString)
                 ? new List<AnswerModel>()

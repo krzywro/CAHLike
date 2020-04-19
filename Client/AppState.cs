@@ -132,6 +132,11 @@ namespace KrzyWro.CAH.Client
                 BestAnswer = hand;
                 OnBestPick?.Invoke();
             });
+            PlayerHubConnection.On<List<AnswerModel>>("YourAnswers", hand =>
+            {
+                _selectedAnswers = hand;
+                OnHandRetrival?.Invoke();
+            });
         }
     }
 }
