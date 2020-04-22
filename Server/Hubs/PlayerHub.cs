@@ -18,6 +18,7 @@ namespace KrzyWro.CAH.Server.Hubs
     public class PlayerHub : Hub
     {
         public static ConcurrentDictionary<Guid, HashSet<string>> PlayerToConnections = new ConcurrentDictionary<Guid, HashSet<string>>();
+        public static ConcurrentDictionary<Guid, string> PlayerToNames = new ConcurrentDictionary<Guid, string>();
         public static ConcurrentDictionary<string, Guid> ConnectionToPlayer = new ConcurrentDictionary<string, Guid>();
 
         private readonly ILogger _logger;
@@ -42,18 +43,23 @@ namespace KrzyWro.CAH.Server.Hubs
         public override Task OnDisconnectedAsync(Exception exception)
         {
             ConnectionToPlayer.TryRemove(Context.ConnectionId, out var playerId);
+            PlayerToNames.TryGetValue(playerId, out var playerName);
             PlayerToConnections.AddOrUpdate(playerId, x => new HashSet<string>(), (x, v) => { v.Remove(Context.ConnectionId); return v; });
             if (PlayerToConnections[playerId]?.Count == 0)
+            {
                 PlayerToConnections.TryRemove(playerId, out _);
-            _logger.LogInformation($"[Disconnected {Context.ConnectionId}] Player: {playerId}");
+                PlayerToNames.TryRemove(playerId, out _);
+            }
+            _logger.LogInformation($"[Disconnected {Context.ConnectionId}] Player: {playerName} ({playerId})");
             return base.OnDisconnectedAsync(exception);
         }
 
         public async Task RegisterPlayer(Guid playerId, string playerName)
         {
             PlayerToConnections.AddOrUpdate(playerId, x => new HashSet<string>() { Context.ConnectionId }, (x, v) => { v.Add(Context.ConnectionId); return v; });
+            PlayerToNames.AddOrUpdate(playerId, playerName, (x, v) => playerName);
             ConnectionToPlayer.AddOrUpdate(Context.ConnectionId, playerId, (x, v) => playerId);
-            _logger.LogInformation($"[Connected {Context.ConnectionId}] Player: {playerId}");
+            _logger.LogInformation($"[Connected {Context.ConnectionId}] Player: {playerName} ({playerId})");
 
             await Clients.Caller.SendAsync("Greet");
         }
@@ -85,7 +91,7 @@ namespace KrzyWro.CAH.Server.Hubs
                 ? new List<AnswerModel>()
                 : JsonSerializer.Deserialize<List<AnswerModel>>(playerHandString);
 
-            while (playerHand.Count < 5)
+            while (playerHand.Count < 10)
             {
                 var answer = await _deckService.PopAnswer();
                 if (answer != null)

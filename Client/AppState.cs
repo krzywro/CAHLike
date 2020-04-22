@@ -12,11 +12,23 @@ namespace KrzyWro.CAH.Client
 {
     public class AppState
     {
-        private readonly ISyncLocalStorageService _syncLocalStorage;
+        private readonly ILocalStorageService _localStorage;
         public HubConnection PlayerHubConnection;
         public async Task EnsurePlayerHubConnection() => await PlayerHubConnection?.StartAsync();
-        public async Task RegisterPlayer() => await PlayerHubConnection?.SendAsync("RegisterPlayer", PlayerId, Player.Name);
-        public async Task RequestQuestion()
+		public async Task RegisterPlayer()
+        {
+            var player = await _localStorage.GetItemAsync<Player>("player");
+            if (player == null)
+            {
+                player = new Player { Id = Guid.NewGuid() };
+                await _localStorage.SetItemAsync("player", player);
+            }
+            Player = player;
+            PlayerNameChanged?.Invoke();
+            await PlayerHubConnection?.SendAsync("RegisterPlayer", player.Id, Player.Name);
+		}
+
+		public async Task RequestQuestion()
         {
             PlayerAnswers = new List<List<AnswerModel>>();
             BestAnswer = new List<AnswerModel>();
@@ -56,36 +68,29 @@ namespace KrzyWro.CAH.Client
         public QuestionModel CurrentQuestion { get; private set; }
         public List<AnswerModel> Hand { get; private set; } = new List<AnswerModel>();
 
-        public event Action OnAnswerSelectionChange;
-        public event Action OnQuestionRetrival;
-        public event Action OnHandRetrival;
-        public event Action OnWaitForOtherPlayers;
-        public event Action OnWaitForBestPick;
-        public event Action OnSelectBestAnswer;
-        public event Action OnBestPick;
         private void NotifyStateChanged() => OnAnswerSelectionChange?.Invoke();
 
-        public Player Player => new Player(PlayerId);
+        public Player Player { get; private set; } = new Player();
 
-        public Guid PlayerId
+        public async Task SetPlayerName(string name)
         {
-            get
-            {
-                var id = _syncLocalStorage.GetItem<Guid?>("playerId");
-                if (id == null || id == Guid.Empty)
-                {
-                    id = Guid.NewGuid();
-                    _syncLocalStorage.SetItem("playerId", id);
-                }
-                return id.Value;
-            }
+            Player.Name = name;
+            await _localStorage.SetItemAsync("player", Player);
+            await RegisterPlayer();
         }
 
-        public event Action ServerGreeting;
-
-        public AppState(ISyncLocalStorageService syncLocalStorage, NavigationManager NavigationManager)
+        public AppState(ISyncLocalStorageService syncLocalStorage, ILocalStorageService localStorage, NavigationManager NavigationManager)
         {
-            _syncLocalStorage = syncLocalStorage;
+            _localStorage = localStorage;
+
+            var player = syncLocalStorage.GetItem<Player>("player");
+            if (player == null)
+            {
+                player = new Player { Id = Guid.NewGuid() };
+                syncLocalStorage.SetItem("player", player);
+            }
+            Player = player;
+
 
             PlayerHubConnection = new HubConnectionBuilder()
                 .WithUrl(NavigationManager.ToAbsoluteUri("/playerhub"))
@@ -138,5 +143,17 @@ namespace KrzyWro.CAH.Client
                 OnHandRetrival?.Invoke();
             });
         }
+
+        #region Events
+        public event Action PlayerNameChanged;
+        public event Action ServerGreeting;
+        public event Action OnAnswerSelectionChange;
+        public event Action OnQuestionRetrival;
+        public event Action OnHandRetrival;
+        public event Action OnWaitForOtherPlayers;
+        public event Action OnWaitForBestPick;
+        public event Action OnSelectBestAnswer;
+        public event Action OnBestPick;
+        #endregion
     }
 }

@@ -141,9 +141,12 @@
 
     private async Task SelectAnswer()
     {
-        iAmSelectingBestAnswer = false;
-        StateHasChanged();
-        await state.PickAnswer();
+        if(state.BestAnswer.Any())
+        {
+            iAmSelectingBestAnswer = false;
+            StateHasChanged();
+            await state.PickAnswer();
+        }
     }
 
     private async Task NextQuestion()
@@ -181,6 +184,8 @@
             StateHasChanged();
         };
 
+        await state.EnsurePlayerHubConnection();
+        await state.RegisterPlayer();
         await state.RequestQuestion();
         await state.RequestHand();
     }

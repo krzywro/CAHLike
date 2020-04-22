@@ -6,9 +6,7 @@ namespace KrzyWro.CAH.Shared
 {
     public class Player
     {
-        public Guid Id { get; }
+        public Guid Id { get; set; }
         public string Name { get; set; } = "New Player";
-
-        public Player(Guid id) => Id = id;
     }
 }
