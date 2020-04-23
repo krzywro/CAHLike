@@ -15,7 +15,8 @@ namespace KrzyWro.CAH.Client
         private readonly ILocalStorageService _localStorage;
         public HubConnection PlayerHubConnection;
         public async Task EnsurePlayerHubConnection() => await PlayerHubConnection?.StartAsync();
-		public async Task RegisterPlayer()
+
+        public async Task RegisterPlayer()
         {
             var player = await _localStorage.GetItemAsync<Player>("player");
             if (player == null)
@@ -26,18 +27,21 @@ namespace KrzyWro.CAH.Client
             Player = player;
             PlayerNameChanged?.Invoke();
             await PlayerHubConnection?.SendAsync("RegisterPlayer", player.Id, Player.Name);
+            await PlayerHubConnection?.SendAsync("RequestScores");
 		}
 
 		public async Task RequestQuestion()
         {
             PlayerAnswers = new List<List<AnswerModel>>();
             BestAnswer = new List<AnswerModel>();
+            BestAnswerPlayerName = string.Empty;
             _selectedAnswers.Clear();
             NotifyStateChanged();
             await PlayerHubConnection?.SendAsync("RequestQuestion");
         }
 
         public async Task RequestHand() => await PlayerHubConnection?.SendAsync("RequestHand");
+
         public async Task SendAnswers()
         {
             await PlayerHubConnection?.SendAsync("SendAnswers", SelectedAnswers);
@@ -51,6 +55,7 @@ namespace KrzyWro.CAH.Client
 
         public List<List<AnswerModel>> PlayerAnswers { get; private set; } = new List<List<AnswerModel>>();
         public List<AnswerModel> BestAnswer { get; set; } = new List<AnswerModel>();
+        public string BestAnswerPlayerName { get; private set; } = string.Empty;
 
         public int GetAnswerSelectionNumber(AnswerModel id) => _selectedAnswers.IndexOf(id) + 1;
 
@@ -71,6 +76,8 @@ namespace KrzyWro.CAH.Client
         private void NotifyStateChanged() => OnAnswerSelectionChange?.Invoke();
 
         public Player Player { get; private set; } = new Player();
+
+        public IDictionary<string, int> Scores { get; private set; } = new Dictionary<string, int>();
 
         public async Task SetPlayerName(string name)
         {
@@ -131,11 +138,17 @@ namespace KrzyWro.CAH.Client
                 OnSelectBestAnswer?.Invoke();
             });
 
-            PlayerHubConnection.On<List<AnswerModel>>("BestAnswerPick", hand =>
+            PlayerHubConnection.On<List<AnswerModel>, string>("BestAnswerPick", (answers, playerName) =>
             {
                 PlayerAnswers = new List<List<AnswerModel>>();
-                BestAnswer = hand;
+                BestAnswer = answers;
+                BestAnswerPlayerName = playerName;
                 OnBestPick?.Invoke();
+            });
+            PlayerHubConnection.On<Dictionary<string, int>>("SendScores", scores =>
+            {
+                Scores = scores;
+                OnScoresArrival?.Invoke();
             });
             PlayerHubConnection.On<List<AnswerModel>>("YourAnswers", hand =>
             {
@@ -154,6 +167,7 @@ namespace KrzyWro.CAH.Client
         public event Action OnWaitForBestPick;
         public event Action OnSelectBestAnswer;
         public event Action OnBestPick;
+        public event Action OnScoresArrival;
         #endregion
     }
 }

@@ -19,6 +19,7 @@ namespace KrzyWro.CAH.Server.Hubs
     {
         public static ConcurrentDictionary<Guid, HashSet<string>> PlayerToConnections = new ConcurrentDictionary<Guid, HashSet<string>>();
         public static ConcurrentDictionary<Guid, string> PlayerToNames = new ConcurrentDictionary<Guid, string>();
+        public static ConcurrentDictionary<Guid, int> PlayerToScore = new ConcurrentDictionary<Guid, int>();
         public static ConcurrentDictionary<string, Guid> ConnectionToPlayer = new ConcurrentDictionary<string, Guid>();
 
         private readonly ILogger _logger;
@@ -45,11 +46,6 @@ namespace KrzyWro.CAH.Server.Hubs
             ConnectionToPlayer.TryRemove(Context.ConnectionId, out var playerId);
             PlayerToNames.TryGetValue(playerId, out var playerName);
             PlayerToConnections.AddOrUpdate(playerId, x => new HashSet<string>(), (x, v) => { v.Remove(Context.ConnectionId); return v; });
-            if (PlayerToConnections[playerId]?.Count == 0)
-            {
-                PlayerToConnections.TryRemove(playerId, out _);
-                PlayerToNames.TryRemove(playerId, out _);
-            }
             _logger.LogInformation($"[Disconnected {Context.ConnectionId}] Player: {playerName} ({playerId})");
             return base.OnDisconnectedAsync(exception);
         }
@@ -58,9 +54,10 @@ namespace KrzyWro.CAH.Server.Hubs
         {
             PlayerToConnections.AddOrUpdate(playerId, x => new HashSet<string>() { Context.ConnectionId }, (x, v) => { v.Add(Context.ConnectionId); return v; });
             PlayerToNames.AddOrUpdate(playerId, playerName, (x, v) => playerName);
+            PlayerToScore.AddOrUpdate(playerId, 0, (x, v) => v);
             ConnectionToPlayer.AddOrUpdate(Context.ConnectionId, playerId, (x, v) => playerId);
             _logger.LogInformation($"[Connected {Context.ConnectionId}] Player: {playerName} ({playerId})");
-
+            await SendScoresToAllClients();
             await Clients.Caller.SendAsync("Greet");
         }
 
@@ -68,6 +65,10 @@ namespace KrzyWro.CAH.Server.Hubs
         {
             var question = await _deckService.PeekQuestion();
             await Clients.Caller.SendAsync("GetQuestion", question);
+        }
+        public async Task RequestScores()
+        {
+            await Clients.Caller.SendAsync("SendScores", PlayerToScore.OrderByDescending(x => x.Value).ToDictionary(x => PlayerToNames[x.Key], x => x.Value));
         }
 
         public async Task RequestHand()
@@ -129,8 +130,6 @@ namespace KrzyWro.CAH.Server.Hubs
                 {
                     await Clients.Client(connection).SendAsync("WaitForOtherPlayers");
                 }
-                collectedAnswersString = JsonSerializer.Serialize(collectedAnswers);
-                await _cache.SetStringAsync("collectedAnswers", collectedAnswersString);
             }
             else
             {
@@ -153,13 +152,42 @@ namespace KrzyWro.CAH.Server.Hubs
                     await Clients.Client(connection).SendAsync("SelectBestAnswer", collectedAnswersValues);
                 }
             }
+
+            collectedAnswersString = JsonSerializer.Serialize(collectedAnswers);
+            await _cache.SetStringAsync("collectedAnswers", collectedAnswersString);
         }
 
         public async Task PickAnswer(List<AnswerModel> answers)
         {
             await _deckService.PrepareNextQuestion();
-            await Clients.All.SendAsync("BestAnswerPick", answers);
+            var collectedAnswersString = await _cache.GetStringAsync("collectedAnswers");
+            var collectedAnswers = string.IsNullOrEmpty(collectedAnswersString)
+                ? new List<Guid>()
+                : JsonSerializer.Deserialize<List<Guid>>(collectedAnswersString);
+
+            var playerName = string.Empty;
+            var answersGuids = answers.Select(x => x.Id).ToArray();
+
+            foreach (var playerId in collectedAnswers)
+            {
+                var value = await _cache.GetStringAsync($"{CachePlayerAnswerPrefix}{playerId}");
+                var cachedAnswers = JsonSerializer.Deserialize<List<AnswerModel>>(value);
+                if (answersGuids.Intersect(cachedAnswers.Select(x => x.Id)).Any())
+                {
+                    PlayerToNames.TryGetValue(playerId, out playerName);
+                    PlayerToScore.AddOrUpdate(playerId, 1, (k, v) => v + 1);
+                    break;
+                }
+            }
+
+            await Clients.All.SendAsync("BestAnswerPick", answers, playerName);
+            await SendScoresToAllClients();
             await _cache.RemoveAsync("collectedAnswers");
+        }
+
+        private async Task SendScoresToAllClients()
+        {
+            await Clients.All.SendAsync("SendScores", PlayerToScore.OrderByDescending(x => x.Value).ToDictionary(x => PlayerToNames[x.Key], x => x.Value));
         }
     }
 }

@@ -103,7 +103,7 @@
         @if (state.BestAnswer.Any() && !iAmSelectingBestAnswer)
         {
             <div class="card bg-success text-white" style="width: 100%">
-                <div class="card-header">Najlepsza odpowiedź</div>
+                <div class="card-header">Najlepsza odpowiedź: @state.BestAnswerPlayerName</div>
                 <div class="card-body">
                     <div class="row justify-content-center">
                         @foreach (var card in state.BestAnswer)

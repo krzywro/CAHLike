@@ -1,0 +1,30 @@
+﻿@inject AppState state
+
+<div class="card text-center" style="margin: 0.5rem;">
+    <div class="card-body">
+        <h5 class="card-title">Ranking</h5>
+        <table class="table table-sm">
+            <thead>
+                <tr>
+                    <th scope="col">Gracz</th>
+                    <th scope="col">Punkty</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var row in state.Scores)
+                {
+                    <tr>
+                        <td>@row.Key</td>
+                        <td>@row.Value</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+@code {      
+    protected override void OnInitialized()
+    {
+        state.OnScoresArrival += StateHasChanged;
+    }
+}
