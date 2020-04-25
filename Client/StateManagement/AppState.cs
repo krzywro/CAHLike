@@ -1,12 +1,13 @@
 ﻿using Blazored.LocalStorage;
+using KrzyWro.CAH.Client.Helpers;
 using KrzyWro.CAH.Shared;
 using KrzyWro.CAH.Shared.Cards;
-using KrzyWro.SupportLib;
+using KrzyWro.CAH.Shared.Contracts;
+using KrzyWro.CAH.Shared.Contracts.ServerMessages;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.SignalR.Client;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace KrzyWro.CAH.Client.StateManagement
@@ -29,8 +30,8 @@ namespace KrzyWro.CAH.Client.StateManagement
             }
             Player = player;
             await Events.PlayerNameChanged.RaiseAsync();
-            await PlayerHubConnection?.SendAsync("RegisterPlayer", player.Id, Player.Name);
-            await PlayerHubConnection?.SendAsync("RequestScores");
+            await PlayerHubConnection?.SendAsync(nameof(IPlayerHub.RegisterPlayer), player.Id, Player.Name);
+            await PlayerHubConnection?.SendAsync(nameof(IPlayerHub.RequestScores));
 		}
 
 		public async Task RequestQuestion()
@@ -40,18 +41,18 @@ namespace KrzyWro.CAH.Client.StateManagement
             BestAnswerPlayerName = string.Empty;
             _selectedAnswers.Clear();
             await Events.OnAnswerSelectionChange.RaiseAsync();
-            await PlayerHubConnection?.SendAsync("RequestQuestion");
+            await PlayerHubConnection?.SendAsync(nameof(IPlayerHub.RequestQuestion));
         }
 
-        public async Task RequestHand() => await PlayerHubConnection?.SendAsync("RequestHand");
+        public async Task RequestHand() => await PlayerHubConnection?.SendAsync(nameof(IPlayerHub.RequestHand));
 
         public async Task SendAnswers()
         {
-            await PlayerHubConnection?.SendAsync("SendAnswers", SelectedAnswers);
+            await PlayerHubConnection?.SendAsync(nameof(IPlayerHub.SendAnswers), SelectedAnswers);
             Hand = new List<AnswerModel>();
         }
 
-        public async Task PickAnswer() => await PlayerHubConnection?.SendAsync("PickAnswer", BestAnswer);
+        public async Task PickAnswer() => await PlayerHubConnection?.SendAsync(nameof(IPlayerHub.PickAnswer), BestAnswer);
 
         private List<AnswerModel> _selectedAnswers = new List<AnswerModel>();
         public IReadOnlyList<AnswerModel> SelectedAnswers => _selectedAnswers;
@@ -104,53 +105,53 @@ namespace KrzyWro.CAH.Client.StateManagement
                 .WithAutomaticReconnect()
                 .Build();
 
-            PlayerHubConnection.On("Greet", async () =>
+            PlayerHubConnection.OnMessage<IGreetMessage>(async () =>
             {
                 await Events.ServerGreeting.RaiseAsync();
             });
 
-            PlayerHubConnection.On<QuestionModel>("GetQuestion", async question =>
+            PlayerHubConnection.OnMessage<IQuestionMessage, QuestionModel>(async question =>
             {
                 CurrentQuestion = question;
                 await Events.OnQuestionRetrival.RaiseAsync();
             });
 
-            PlayerHubConnection.On<List<AnswerModel>>("GetHand", async hand =>
+            PlayerHubConnection.OnMessage<IHandMessage, List<AnswerModel>>(async hand =>
             {
                 Hand = hand;
                 await Events.OnHandRetrival.RaiseAsync();
             });
 
-            PlayerHubConnection.On("WaitForOtherPlayers", async () =>
+            PlayerHubConnection.OnMessage<IWaitForOtherPlayers>(async () =>
             {
                 await Events.OnWaitForOtherPlayers.RaiseAsync();
             });
 
-            PlayerHubConnection.On<List<List<AnswerModel>>>("WaitForBestAnswerPick", async hand =>
+            PlayerHubConnection.OnMessage<IWaitForBestAnswer, List<List<AnswerModel>>>(async hand =>
             {
                 PlayerAnswers = hand;
                 await Events.OnWaitForBestPick.RaiseAsync();
             });
 
-            PlayerHubConnection.On<List<List<AnswerModel>>>("SelectBestAnswer", async hand =>
+            PlayerHubConnection.OnMessage<ISelectBestAnswer, List<List<AnswerModel>>>(async hand =>
             {
                 PlayerAnswers = hand;
                 await Events.OnSelectBestAnswer.RaiseAsync();
             });
 
-            PlayerHubConnection.On<List<AnswerModel>, string>("BestAnswerPick", async (answers, playerName) =>
+            PlayerHubConnection.OnMessage<IBestAnswerPicked, List<AnswerModel>, string>(async (answers, playerName) =>
             {
                 PlayerAnswers = new List<List<AnswerModel>>();
                 BestAnswer = answers;
                 BestAnswerPlayerName = playerName;
                 await Events.OnBestPick.RaiseAsync();
             });
-            PlayerHubConnection.On<List<ScoreRow>>("SendScores", async scores =>
+            PlayerHubConnection.OnMessage<ISendScores, List<ScoreRow>>(async scores =>
             {
                 Scores = scores;
                 await Events.OnScoresArrival.RaiseAsync();
             });
-            PlayerHubConnection.On<List<AnswerModel>>("YourAnswers", async hand =>
+            PlayerHubConnection.OnMessage<IRestoreSelectedAnswers, List<AnswerModel>>(async hand =>
             {
                 _selectedAnswers = hand;
                 await Events.OnHandRetrival.RaiseAsync();
