@@ -3,11 +3,13 @@ using KrzyWro.CAH.Client.Helpers;
 using KrzyWro.CAH.Shared;
 using KrzyWro.CAH.Shared.Cards;
 using KrzyWro.CAH.Shared.Contracts;
+using KrzyWro.CAH.Shared.Contracts.ClientMessages;
 using KrzyWro.CAH.Shared.Contracts.ServerMessages;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.SignalR.Client;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace KrzyWro.CAH.Client.StateManagement
@@ -30,8 +32,8 @@ namespace KrzyWro.CAH.Client.StateManagement
             }
             Player = player;
             await Events.PlayerNameChanged.RaiseAsync();
-            await PlayerHubConnection?.SendAsync(nameof(IPlayerHub.RegisterPlayer), player.Id, Player.Name);
-            await PlayerHubConnection?.SendAsync(nameof(IPlayerHub.RequestScores));
+            await PlayerHubConnection?.SendMessageAsync<IPlayerHubRegisterPlayer, Guid, string>(player.Id, Player.Name);
+            await PlayerHubConnection?.SendMessageAsync<IPlayerHubRequestScores>();
 		}
 
 		public async Task RequestQuestion()
@@ -41,18 +43,18 @@ namespace KrzyWro.CAH.Client.StateManagement
             BestAnswerPlayerName = string.Empty;
             _selectedAnswers.Clear();
             await Events.OnAnswerSelectionChange.RaiseAsync();
-            await PlayerHubConnection?.SendAsync(nameof(IPlayerHub.RequestQuestion));
+            await PlayerHubConnection?.SendMessageAsync<IPlayerHubRequestQuestion>();
         }
 
-        public async Task RequestHand() => await PlayerHubConnection?.SendAsync(nameof(IPlayerHub.RequestHand));
+        public async Task RequestHand() => await PlayerHubConnection?.SendMessageAsync<IPlayerHubRequestHand>();
 
         public async Task SendAnswers()
         {
-            await PlayerHubConnection?.SendAsync(nameof(IPlayerHub.SendAnswers), SelectedAnswers);
+            await PlayerHubConnection?.SendMessageAsync<IPlayerHubSendAnswers, List<AnswerModel>>(SelectedAnswers.ToList());
             Hand = new List<AnswerModel>();
         }
 
-        public async Task PickAnswer() => await PlayerHubConnection?.SendAsync(nameof(IPlayerHub.PickAnswer), BestAnswer);
+        public async Task PickAnswer() => await PlayerHubConnection?.SendMessageAsync<IPlayerHubPickAnswer, List<AnswerModel>>(BestAnswer);
 
         private List<AnswerModel> _selectedAnswers = new List<AnswerModel>();
         public IReadOnlyList<AnswerModel> SelectedAnswers => _selectedAnswers;

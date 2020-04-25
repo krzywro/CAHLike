@@ -1,17 +1,14 @@
-﻿using KrzyWro.CAH.Shared.Cards;
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
+﻿using KrzyWro.CAH.Shared.Contracts.ClientMessages;
 
 namespace KrzyWro.CAH.Shared.Contracts
 {
-    public interface IPlayerHub
+    public interface IPlayerHub :
+        IPlayerHubPickAnswer,
+        IPlayerHubRegisterPlayer,
+        IPlayerHubRequestHand,
+        IPlayerHubRequestQuestion,
+        IPlayerHubRequestScores,
+        IPlayerHubSendAnswers
     {
-        Task RegisterPlayer(Guid playerId, string playerName);
-        Task RequestQuestion();
-        Task RequestScores();
-        Task RequestHand();
-        Task SendAnswers(List<AnswerModel> answers);
-        Task PickAnswer(List<AnswerModel> answers);
     }
 }
