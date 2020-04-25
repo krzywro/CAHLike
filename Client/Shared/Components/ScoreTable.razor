@@ -15,8 +15,8 @@
                 @foreach (var row in state.Scores)
                 {
                     <tr>
-                        <td>@row.Key</td>
-                        <td>@row.Value</td>
+                        <td>@row.PlayerName</td>
+                        <td><span class="badge badge-pill badge-@(row.Online ? "success" : "light")">@row.Score</span></td>
                     </tr>
                 }
             </tbody>

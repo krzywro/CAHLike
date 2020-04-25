@@ -35,8 +35,8 @@ namespace KrzyWro.CAH.Client.StateManagement
 
 		public async Task RequestQuestion()
         {
-            PlayerAnswers = new List<List<AnswerModel>>();
-            BestAnswer = new List<AnswerModel>();
+            PlayerAnswers.Clear();
+            BestAnswer.Clear();
             BestAnswerPlayerName = string.Empty;
             _selectedAnswers.Clear();
             await Events.OnAnswerSelectionChange.RaiseAsync();
@@ -78,7 +78,7 @@ namespace KrzyWro.CAH.Client.StateManagement
 
         public Player Player { get; private set; } = new Player();
 
-        public IDictionary<string, int> Scores { get; private set; } = new Dictionary<string, int>();
+        public IList<ScoreRow> Scores { get; private set; } = new List<ScoreRow>();
 
         public async Task SetPlayerName(string name)
         {
@@ -94,7 +94,7 @@ namespace KrzyWro.CAH.Client.StateManagement
             var player = syncLocalStorage.GetItem<Player>("player");
             if (player == null)
             {
-                player = new Player { Id = Guid.NewGuid() };
+                player = new Player { Id = Guid.NewGuid(), Name = "Nowy gracz" };
                 syncLocalStorage.SetItem("player", player);
             }
             Player = player;
@@ -145,7 +145,7 @@ namespace KrzyWro.CAH.Client.StateManagement
                 BestAnswerPlayerName = playerName;
                 await Events.OnBestPick.RaiseAsync();
             });
-            PlayerHubConnection.On<Dictionary<string, int>>("SendScores", async scores =>
+            PlayerHubConnection.On<List<ScoreRow>>("SendScores", async scores =>
             {
                 Scores = scores;
                 await Events.OnScoresArrival.RaiseAsync();

@@ -41,13 +41,14 @@ namespace KrzyWro.CAH.Server.Hubs
             return base.OnConnectedAsync();
         }
 
-        public override Task OnDisconnectedAsync(Exception exception)
+        public override async Task OnDisconnectedAsync(Exception exception)
         {
             ConnectionToPlayer.TryRemove(Context.ConnectionId, out var playerId);
             PlayerToNames.TryGetValue(playerId, out var playerName);
             PlayerToConnections.AddOrUpdate(playerId, x => new HashSet<string>(), (x, v) => { v.Remove(Context.ConnectionId); return v; });
             _logger.LogInformation($"[Disconnected {Context.ConnectionId}] Player: {playerName} ({playerId})");
-            return base.OnDisconnectedAsync(exception);
+            await SendScoresToAllClients(); 
+            await base.OnDisconnectedAsync(exception);
         }
 
         public async Task RegisterPlayer(Guid playerId, string playerName)
@@ -68,7 +69,7 @@ namespace KrzyWro.CAH.Server.Hubs
         }
         public async Task RequestScores()
         {
-            await Clients.Caller.SendAsync("SendScores", PlayerToScore.OrderByDescending(x => x.Value).ToDictionary(x => PlayerToNames[x.Key], x => x.Value));
+            await Clients.Caller.SendAsync("SendScores", CreateScoresToSend());
         }
 
         public async Task RequestHand()
@@ -124,7 +125,7 @@ namespace KrzyWro.CAH.Server.Hubs
 
             collectedAnswers.Add(ConnectionToPlayer[Context.ConnectionId]);
 
-            if (collectedAnswers.Count < PlayerToConnections.Count)
+            if (collectedAnswers.Count < PlayerToConnections.Count(x => x.Value.Any()))
             {
                 foreach (var connection in PlayerToConnections[ConnectionToPlayer[Context.ConnectionId]])
                 {
@@ -187,7 +188,13 @@ namespace KrzyWro.CAH.Server.Hubs
 
         private async Task SendScoresToAllClients()
         {
-            await Clients.All.SendAsync("SendScores", PlayerToScore.OrderByDescending(x => x.Value).ToDictionary(x => PlayerToNames[x.Key], x => x.Value));
+            await Clients.All.SendAsync("SendScores", CreateScoresToSend());
         }
+
+        private List<ScoreRow> CreateScoresToSend()
+            => PlayerToScore
+                .OrderByDescending(x => x.Value)
+                .Select(x => new ScoreRow { PlayerName = PlayerToNames[x.Key], Score = x.Value, Online = PlayerToConnections[x.Key].Any() })
+                .ToList();
     }
 }
