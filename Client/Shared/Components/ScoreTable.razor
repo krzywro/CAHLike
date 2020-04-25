@@ -1,4 +1,5 @@
-﻿@inject AppState state
+﻿@implements IDisposable
+@inject AppState state
 
 <div class="card text-center" style="margin: 0.5rem;">
     <div class="card-body">
@@ -25,6 +26,11 @@
 @code {      
     protected override void OnInitialized()
     {
-        state.OnScoresArrival += StateHasChanged;
+        state.Events.OnScoresArrival += StateHasChanged;
+    }
+
+    public void Dispose()
+    {
+        state.Events.OnScoresArrival -= StateHasChanged;
     }
 }

@@ -1,7 +1,8 @@
 ﻿@page "/"
 @using KrzyWro.CAH.Shared.Cards
-@inject AppState state
 @using KrzyWro.CAH.Client.Shared.Components
+@implements IDisposable
+@inject AppState state
 <div class="row justify-content-center sticky-top">
     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
         @if (state.CurrentQuestion != null)
@@ -45,7 +46,7 @@
                     {
                         <div class="row justify-content-center">
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 text-center">
-                                <button type="button" class="btn btn-primary btn-lg" style="margin: 0.5rem;"  @onclick="SendAnswer">Wyślij odpowiedź</button>
+                                <button type="button" class="btn btn-primary btn-lg" style="margin: 0.5rem;" @onclick="SendAnswer">Wyślij odpowiedź</button>
                             </div>
                         </div>
                     }
@@ -115,7 +116,7 @@
                     </div>
                     <div class="row justify-content-center">
                         <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 text-center">
-                            <button type="button" class="btn btn-primary btn-lg" style="margin: 1rem auto"  @onclick="NextQuestion">Następne pytanie</button>
+                            <button type="button" class="btn btn-primary btn-lg" style="margin: 1rem auto" @onclick="NextQuestion">Następne pytanie</button>
                         </div>
                     </div>
                 </div>
@@ -125,11 +126,10 @@
 </div>
 @code {
     private bool iAmSelectingBestAnswer = false;
-    private bool showBestAnswerModal = false;
 
-    private void OnAnswerClick(AnswerModel answer)
+    private async Task OnAnswerClick(AnswerModel answer)
     {
-        state.ToggleAnswer(answer);
+        await state.ToggleAnswer(answer);
         StateHasChanged();
     }
 
@@ -141,7 +141,7 @@
 
     private async Task SelectAnswer()
     {
-        if(state.BestAnswer.Any())
+        if (state.BestAnswer.Any())
         {
             iAmSelectingBestAnswer = false;
             StateHasChanged();
@@ -151,7 +151,6 @@
 
     private async Task NextQuestion()
     {
-        showBestAnswerModal = false;
         StateHasChanged();
         await state.RequestQuestion();
         await state.RequestHand();
@@ -166,27 +165,34 @@
         }
     }
 
+    private void OnSelectBestAnswer()
+    {
+        iAmSelectingBestAnswer = true;
+        StateHasChanged();
+    }
+
     protected override async Task OnInitializedAsync()
     {
-        state.OnQuestionRetrival += StateHasChanged;
-        state.OnHandRetrival += StateHasChanged;
-        state.OnWaitForOtherPlayers += StateHasChanged;
-        state.OnWaitForBestPick += StateHasChanged;
-        state.OnSelectBestAnswer += () =>
-        {
-            iAmSelectingBestAnswer = true;
-            StateHasChanged();
-        };
-
-        state.OnBestPick += () =>
-        {
-            showBestAnswerModal = true;
-            StateHasChanged();
-        };
+        state.Events.OnQuestionRetrival += StateHasChanged;
+        state.Events.OnHandRetrival += StateHasChanged;
+        state.Events.OnWaitForOtherPlayers += StateHasChanged;
+        state.Events.OnWaitForBestPick += StateHasChanged;
+        state.Events.OnBestPick += StateHasChanged;
+        state.Events.OnSelectBestAnswer += OnSelectBestAnswer;
 
         await state.EnsurePlayerHubConnection();
         await state.RegisterPlayer();
         await state.RequestQuestion();
         await state.RequestHand();
+    }
+
+    public void Dispose()
+    {
+        state.Events.OnQuestionRetrival -= StateHasChanged;
+        state.Events.OnHandRetrival -= StateHasChanged;
+        state.Events.OnWaitForOtherPlayers -= StateHasChanged;
+        state.Events.OnWaitForBestPick -= StateHasChanged;
+        state.Events.OnBestPick -= StateHasChanged;
+        state.Events.OnSelectBestAnswer -= OnSelectBestAnswer;
     }
 }

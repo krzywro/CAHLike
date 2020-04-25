@@ -1,4 +1,5 @@
-﻿@inject AppState state
+﻿@implements IDisposable
+@inject AppState state
 @using KrzyWro.CAH.Client.Shared.Components
 <div class="top-row pl-4 navbar navbar-dark">
     <a class="navbar-brand" href="">KrzyWro.CAHLike</a>
@@ -29,6 +30,11 @@
     private void ToggleNavMenu()
     {
         collapseNavMenu = !collapseNavMenu;
-        state.PlayerNameChanged += StateHasChanged;
+        state.Events.PlayerNameChanged += StateHasChanged;
+    }
+
+    public void Dispose()
+    {
+        state.Events.PlayerNameChanged -= StateHasChanged;
     }
 }

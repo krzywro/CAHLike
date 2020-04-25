@@ -10,6 +10,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KrzyWro.CAH.Shared", "Share
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Krzywro.CAH.DeckCreator", "Krzywro.CAH.DeckCreator\Krzywro.CAH.DeckCreator.csproj", "{A860395E-10FA-463F-AD94-3BCF88C8917E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KrzyWro.SupportLib", "KrzyWro.SupportLib\KrzyWro.SupportLib.csproj", "{7B2C9BEF-1A78-403F-A11F-26DD9F520F73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -68,6 +70,18 @@ Global
 		{A860395E-10FA-463F-AD94-3BCF88C8917E}.Release|x64.Build.0 = Release|Any CPU
 		{A860395E-10FA-463F-AD94-3BCF88C8917E}.Release|x86.ActiveCfg = Release|Any CPU
 		{A860395E-10FA-463F-AD94-3BCF88C8917E}.Release|x86.Build.0 = Release|Any CPU
+		{7B2C9BEF-1A78-403F-A11F-26DD9F520F73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B2C9BEF-1A78-403F-A11F-26DD9F520F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B2C9BEF-1A78-403F-A11F-26DD9F520F73}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7B2C9BEF-1A78-403F-A11F-26DD9F520F73}.Debug|x64.Build.0 = Debug|Any CPU
+		{7B2C9BEF-1A78-403F-A11F-26DD9F520F73}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7B2C9BEF-1A78-403F-A11F-26DD9F520F73}.Debug|x86.Build.0 = Debug|Any CPU
+		{7B2C9BEF-1A78-403F-A11F-26DD9F520F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B2C9BEF-1A78-403F-A11F-26DD9F520F73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B2C9BEF-1A78-403F-A11F-26DD9F520F73}.Release|x64.ActiveCfg = Release|Any CPU
+		{7B2C9BEF-1A78-403F-A11F-26DD9F520F73}.Release|x64.Build.0 = Release|Any CPU
+		{7B2C9BEF-1A78-403F-A11F-26DD9F520F73}.Release|x86.ActiveCfg = Release|Any CPU
+		{7B2C9BEF-1A78-403F-A11F-26DD9F520F73}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,6 +1,7 @@
 ﻿using Blazored.LocalStorage;
 using KrzyWro.CAH.Shared;
 using KrzyWro.CAH.Shared.Cards;
+using KrzyWro.SupportLib;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.SignalR.Client;
 using System;
@@ -8,11 +9,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace KrzyWro.CAH.Client
+namespace KrzyWro.CAH.Client.StateManagement
 {
     public class AppState
     {
         private readonly ILocalStorageService _localStorage;
+
+        public AppEvents Events { get; } = new AppEvents();
         public HubConnection PlayerHubConnection;
         public async Task EnsurePlayerHubConnection() => await PlayerHubConnection?.StartAsync();
 
@@ -25,7 +28,7 @@ namespace KrzyWro.CAH.Client
                 await _localStorage.SetItemAsync("player", player);
             }
             Player = player;
-            PlayerNameChanged?.Invoke();
+            await Events.PlayerNameChanged.RaiseAsync();
             await PlayerHubConnection?.SendAsync("RegisterPlayer", player.Id, Player.Name);
             await PlayerHubConnection?.SendAsync("RequestScores");
 		}
@@ -36,7 +39,7 @@ namespace KrzyWro.CAH.Client
             BestAnswer = new List<AnswerModel>();
             BestAnswerPlayerName = string.Empty;
             _selectedAnswers.Clear();
-            NotifyStateChanged();
+            await Events.OnAnswerSelectionChange.RaiseAsync();
             await PlayerHubConnection?.SendAsync("RequestQuestion");
         }
 
@@ -59,7 +62,7 @@ namespace KrzyWro.CAH.Client
 
         public int GetAnswerSelectionNumber(AnswerModel id) => _selectedAnswers.IndexOf(id) + 1;
 
-        public void ToggleAnswer(AnswerModel id)
+        public async Task ToggleAnswer(AnswerModel id)
         {
 
             if (_selectedAnswers.Contains(id))
@@ -67,13 +70,11 @@ namespace KrzyWro.CAH.Client
             else if (_selectedAnswers.Count < CurrentQuestion.AnswerCards)
                 _selectedAnswers.Add(id);
 
-            NotifyStateChanged();
+            await Events.OnAnswerSelectionChange.RaiseAsync();
         }
 
         public QuestionModel CurrentQuestion { get; private set; }
         public List<AnswerModel> Hand { get; private set; } = new List<AnswerModel>();
-
-        private void NotifyStateChanged() => OnAnswerSelectionChange?.Invoke();
 
         public Player Player { get; private set; } = new Player();
 
@@ -98,76 +99,63 @@ namespace KrzyWro.CAH.Client
             }
             Player = player;
 
-
             PlayerHubConnection = new HubConnectionBuilder()
                 .WithUrl(NavigationManager.ToAbsoluteUri("/playerhub"))
                 .WithAutomaticReconnect()
                 .Build();
 
-            PlayerHubConnection.On("Greet", () =>
+            PlayerHubConnection.On("Greet", async () =>
             {
-                ServerGreeting?.Invoke();
+                await Events.ServerGreeting.RaiseAsync();
             });
 
-            PlayerHubConnection.On<QuestionModel>("GetQuestion", question =>
+            PlayerHubConnection.On<QuestionModel>("GetQuestion", async question =>
             {
                 CurrentQuestion = question;
-                OnQuestionRetrival?.Invoke();
+                await Events.OnQuestionRetrival.RaiseAsync();
             });
 
-            PlayerHubConnection.On<List<AnswerModel>>("GetHand", hand =>
+            PlayerHubConnection.On<List<AnswerModel>>("GetHand", async hand =>
             {
                 Hand = hand;
-                OnHandRetrival?.Invoke();
+                await Events.OnHandRetrival.RaiseAsync();
             });
 
-            PlayerHubConnection.On("WaitForOtherPlayers", () =>
+            PlayerHubConnection.On("WaitForOtherPlayers", async () =>
             {
-                OnWaitForOtherPlayers?.Invoke();
+                await Events.OnWaitForOtherPlayers.RaiseAsync();
             });
 
-            PlayerHubConnection.On<List<List<AnswerModel>>>("WaitForBestAnswerPick", hand =>
-            {
-                PlayerAnswers = hand;
-                OnWaitForBestPick?.Invoke();
-            });
-
-            PlayerHubConnection.On<List<List<AnswerModel>>>("SelectBestAnswer", hand =>
+            PlayerHubConnection.On<List<List<AnswerModel>>>("WaitForBestAnswerPick", async hand =>
             {
                 PlayerAnswers = hand;
-                OnSelectBestAnswer?.Invoke();
+                await Events.OnWaitForBestPick.RaiseAsync();
             });
 
-            PlayerHubConnection.On<List<AnswerModel>, string>("BestAnswerPick", (answers, playerName) =>
+            PlayerHubConnection.On<List<List<AnswerModel>>>("SelectBestAnswer", async hand =>
+            {
+                PlayerAnswers = hand;
+                await Events.OnSelectBestAnswer.RaiseAsync();
+            });
+
+            PlayerHubConnection.On<List<AnswerModel>, string>("BestAnswerPick", async (answers, playerName) =>
             {
                 PlayerAnswers = new List<List<AnswerModel>>();
                 BestAnswer = answers;
                 BestAnswerPlayerName = playerName;
-                OnBestPick?.Invoke();
+                await Events.OnBestPick.RaiseAsync();
             });
-            PlayerHubConnection.On<Dictionary<string, int>>("SendScores", scores =>
+            PlayerHubConnection.On<Dictionary<string, int>>("SendScores", async scores =>
             {
                 Scores = scores;
-                OnScoresArrival?.Invoke();
+                await Events.OnScoresArrival.RaiseAsync();
             });
-            PlayerHubConnection.On<List<AnswerModel>>("YourAnswers", hand =>
+            PlayerHubConnection.On<List<AnswerModel>>("YourAnswers", async hand =>
             {
                 _selectedAnswers = hand;
-                OnHandRetrival?.Invoke();
+                await Events.OnHandRetrival.RaiseAsync();
             });
         }
 
-        #region Events
-        public event Action PlayerNameChanged;
-        public event Action ServerGreeting;
-        public event Action OnAnswerSelectionChange;
-        public event Action OnQuestionRetrival;
-        public event Action OnHandRetrival;
-        public event Action OnWaitForOtherPlayers;
-        public event Action OnWaitForBestPick;
-        public event Action OnSelectBestAnswer;
-        public event Action OnBestPick;
-        public event Action OnScoresArrival;
-        #endregion
     }
 }
