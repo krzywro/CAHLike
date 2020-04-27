@@ -1,0 +1,16 @@
+﻿@implements IDisposable
+@inject AppState state
+
+<div class="row justify-content-center sticky-top">
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+        @if (state.CurrentState != Flow.State.Idle && state.CurrentState != Flow.State.EnteredAGame)
+        {
+            <QuestionCard Question="state.CurrentQuestion"></QuestionCard>
+        }
+    </div>
+</div>
+
+@code {        
+    protected override void OnInitialized() => state.Events.OnQuestionRetrival += StateHasChanged;
+    public void Dispose() => state.Events.OnQuestionRetrival -= StateHasChanged;
+}

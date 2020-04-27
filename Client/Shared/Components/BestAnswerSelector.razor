@@ -1,0 +1,51 @@
+﻿@using KrzyWro.CAH.Shared.Cards
+@inject AppState state
+
+<div class="card" style="width: 100%; margin: 0.5rem 0;">
+    <div class="card-header">Wybierz najlepszą odpowiedź</div>
+    <div class="card-body">
+        <div class="row justify-content-center">
+            @foreach (var list in state.PlayerAnswers)
+            {
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12" @onclick="@(e => ToggleBestAnswer(list))">
+
+                    <div class="card @(state.BestAnswer == list ? "bg-primary" : "bg-secondary")" style="width: 100%; margin: 0.5rem;">
+                        <div class="card-body">
+                            <div class="row justify-content-center">
+                                @foreach (var card in list)
+                                {
+                                    <div class="col-12">
+                                        <AnswerCard @key="@card.Id" Answer="@card" ShowAnswerNumber="false"></AnswerCard>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 text-center">
+                <button type="button" class="btn btn-primary btn-lg" style="margin: 0.5rem;" @onclick="SelectAnswer">Wybierz odpowiedź</button>
+            </div>
+        </div>
+    </div>
+</div>
+@code {
+
+    private void ToggleBestAnswer(List<AnswerModel> answers)
+    {
+        state.ToggleBestAnswer(answers);
+        StateHasChanged();
+    }
+
+    private async Task SelectAnswer()
+    {
+        if (state.BestAnswer.Any())
+        {
+            StateHasChanged();
+            await state.PickAnswer();
+        }
+    }
+}

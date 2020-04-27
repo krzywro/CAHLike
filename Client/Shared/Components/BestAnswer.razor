@@ -1,0 +1,27 @@
+﻿@inject AppState state
+
+<div class="card bg-success text-white" style="width: 100%">
+    <div class="card-header">Najlepsza odpowiedź: @state.BestAnswerPlayerName</div>
+    <div class="card-body">
+        <div class="row justify-content-center">
+            @foreach (var card in state.BestAnswer)
+            {
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <AnswerCard @key="@card.Id" Answer="@card"></AnswerCard>
+                </div>
+            }
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 text-center">
+                <button type="button" class="btn btn-primary btn-lg" style="margin: 1rem auto" @onclick="NextQuestion">Następne pytanie</button>
+            </div>
+        </div>
+    </div>
+</div>
+@code {
+    private async Task NextQuestion()
+    {
+        StateHasChanged();
+        await state.NextQuestion();
+    }
+}

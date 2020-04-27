@@ -18,9 +18,13 @@ namespace KrzyWro.CAH.Client
             builder.Services.AddSingleton(new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
             builder.Services.AddBlazoredLocalStorage();
 
+            builder.Services.AddScoped<IPlayerHubClient, PlayerHubClient>();
+            builder.Services.AddScoped<IAppLocalStorage, AppLocalStorage>();
             builder.Services.AddScoped<AppState>();
 
-            await builder.Build().RunAsync();
+            var host = builder.Build();
+            await host.Services.GetService<AppState>().Init();
+            await host.RunAsync();
         }
     }
 }

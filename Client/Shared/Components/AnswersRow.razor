@@ -1,0 +1,52 @@
+﻿@implements IDisposable
+@inject AppState state
+
+<div class="row">
+    <div class="col-12">
+        @if (state.CurrentState == Flow.State.PickingAnswer)
+        {
+            <Hand></Hand>
+        }
+        @if (state.SelectedAnswers.Any())
+        {
+            <MyChoice></MyChoice>
+        }
+        @if (state.CurrentState == Flow.State.WaitingForOtherPlayersAnswers)
+        {
+            <WaitingSpinner Text="Oczekiwanie na pozostałych graczy"></WaitingSpinner>
+        }
+        @if (state.CurrentState == Flow.State.WaitingForBestAnswerSelection)
+        {
+            <OtherPlayerAnswersPreview></OtherPlayerAnswersPreview>
+        }
+        @if (state.CurrentState == Flow.State.SelectingBestAnswer)
+        {
+            <BestAnswerSelector></BestAnswerSelector>
+        }
+        @if (state.CurrentState == Flow.State.ViewingBestAnswer)
+        {
+            <BestAnswer></BestAnswer>
+        }
+    </div>
+</div>
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        state.Events.OnAnswerSelectionChange += StateHasChanged;
+        state.Events.OnWaitForOtherPlayers += StateHasChanged;
+        state.Events.OnWaitForBestPick += StateHasChanged;
+        state.Events.OnBestPick += StateHasChanged;
+        state.Events.OnSelectBestAnswer += StateHasChanged;
+
+        await state.RegisterPlayer();
+    }
+
+    public void Dispose()
+    {
+        state.Events.OnAnswerSelectionChange -= StateHasChanged;
+        state.Events.OnWaitForOtherPlayers -= StateHasChanged;
+        state.Events.OnWaitForBestPick -= StateHasChanged;
+        state.Events.OnBestPick -= StateHasChanged;
+        state.Events.OnSelectBestAnswer -= StateHasChanged;
+    }
+}

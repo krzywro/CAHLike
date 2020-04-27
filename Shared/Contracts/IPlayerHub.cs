@@ -10,5 +10,6 @@ namespace KrzyWro.CAH.Shared.Contracts
         IPlayerHubRequestScores,
         IPlayerHubSendAnswers
     {
+        public static readonly string Path = "/playerhub";
     }
 }
