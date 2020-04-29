@@ -24,6 +24,9 @@ namespace KrzyWro.CAH.Client.StateManagement
                 .Build();
         }
 
+        public void OnConnected(Func<string, Task> action) => _hubConnection.Reconnected += action;
+        public void OnDisconnected(Func<Exception, Task> action) => _hubConnection.Reconnecting += action;
+
         public async Task Init() => await _hubConnection.StartAsync();
 
         public void OnGreet(Func<Task> action) => _hubConnection.OnMessage<IGreetMessage>(action);

@@ -4,6 +4,7 @@ namespace KrzyWro.CAH.Client.StateManagement
 {
     public class AppEvents
     {
+        private readonly AsyncEvent stateChanged = new AsyncEvent();
         private readonly AsyncEvent playerNameChanged = new AsyncEvent();
         private readonly AsyncEvent serverGreeting = new AsyncEvent();
         private readonly AsyncEvent onQuestionRetrival = new AsyncEvent();
@@ -15,6 +16,7 @@ namespace KrzyWro.CAH.Client.StateManagement
         private readonly AsyncEvent onBestPick = new AsyncEvent();
         private readonly AsyncEvent onScoresArrival = new AsyncEvent();
 
+        public AsyncEvent StateChanged { get { return stateChanged; } set { } }
         public AsyncEvent PlayerNameChanged { get { return playerNameChanged; } set { } }
         public AsyncEvent ServerGreeting { get { return serverGreeting; } set { } }
         public AsyncEvent OnAnswerSelectionChange { get { return onAnswerSelectionChange; } set { } }

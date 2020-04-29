@@ -30,15 +30,13 @@
     </div>
 </div>
 @code {
-    protected override async Task OnInitializedAsync()
+    protected override void OnInitialized()
     {
         state.Events.OnAnswerSelectionChange += StateHasChanged;
         state.Events.OnWaitForOtherPlayers += StateHasChanged;
         state.Events.OnWaitForBestPick += StateHasChanged;
         state.Events.OnBestPick += StateHasChanged;
         state.Events.OnSelectBestAnswer += StateHasChanged;
-
-        await state.RegisterPlayer();
     }
 
     public void Dispose()

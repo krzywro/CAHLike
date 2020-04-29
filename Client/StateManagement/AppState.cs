@@ -25,6 +25,8 @@ namespace KrzyWro.CAH.Client.StateManagement
 
         public Flow.State CurrentState { get; private set; } = Flow.InitialState;
 
+        public bool Connected { get; private set; } = true;
+
         public AppState(IAppLocalStorage localStorage, IPlayerHubClient playerHub)
         {
             _localStorage = localStorage;
@@ -98,12 +100,26 @@ namespace KrzyWro.CAH.Client.StateManagement
 
         private async Task InitPlayerHub()
         {
+            _playerHub.OnConnected(async x =>
+            {
+                Connected = true;
+                await Events.StateChanged.RaiseAsync();
+            });
+
+            _playerHub.OnDisconnected(async x =>
+            {
+                Connected = false;
+                await Events.StateChanged.RaiseAsync();
+            });
+
             await _playerHub.Init();
 
             _playerHub.OnGreet(async () =>
             {
+                Connected = true;
                 CurrentState = CurrentState.ChangeState(Flow.Action.EnterGame);
                 CurrentState = CurrentState.ChangeState(Flow.Action.ProceedToNextQuestion);
+                await Events.StateChanged.RaiseAsync();
                 await Events.ServerGreeting.RaiseAsync();
             });
 

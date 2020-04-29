@@ -1,22 +1,44 @@
 ﻿@inherits LayoutComponentBase
+@implements IDisposable
 @inject AppState state
 @using KrzyWro.CAH.Client.Shared.Components
 
-<PlayerNameEditor></PlayerNameEditor>
 
-<div class="sidebar">
-    <NavMenu />
-</div>
+<div style="visibility: @contentVisibility">
+    <PlayerNameEditor></PlayerNameEditor>
 
-<div class="main">
-    <div class="top-row px-4">
+    <div class="sidebar">
+        <NavMenu />
     </div>
 
-    <div class="content px-4">
-        @Body
+    <div class="main">
+        <div class="top-row px-4">
+        </div>
+
+        <div class="content px-4">
+            @Body
+        </div>
     </div>
 </div>
+<div style="visibility: @loaderVisibility">
+    <Loader Text="Łączenie z serwerem"></Loader>
+</div>
+
 @code
 {
+    private string contentVisibility => state.CurrentState != Flow.State.Idle && state.Connected
+        ? "visible"
+        : "hidden";
 
+    private string loaderVisibility => state.CurrentState == Flow.State.Idle || !state.Connected
+        ? "visible"
+        : "hidden";
+
+    protected override async Task OnInitializedAsync()
+    {
+        state.Events.StateChanged += StateHasChanged;
+        await state.RegisterPlayer();
+    }
+
+    public void Dispose() => state.Events.StateChanged -= StateHasChanged;
 }
