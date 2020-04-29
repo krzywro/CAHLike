@@ -7,10 +7,10 @@
     <title>Bądźmy (nie)poważni</title>
     <base href="/" />
     <link href="css/normalize.css" />
-    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/site.css" rel="stylesheet" />
-    <script src="js/jquery-3.5.0.slim.min.js" defer></script>
-    <script src="js/bootstrap.min.js" defer></script>
+    <link href="manifest.json" rel="manifest" />
+    <link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
 </head>
 
 <body style="background-color: #eee;" class="h-100">
@@ -29,6 +29,9 @@
         <a class="dismiss">🗙</a>
     </div>
     <script src="_framework/blazor.webassembly.js"></script>
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>navigator.serviceWorker.register('service-worker.js');</script>
 </body>
 
 </html>

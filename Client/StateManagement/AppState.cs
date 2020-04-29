@@ -27,6 +27,8 @@ namespace KrzyWro.CAH.Client.StateManagement
 
         public bool Connected { get; private set; } = true;
 
+        public bool ConnectionFailed { get; private set; } = false;
+
         public AppState(IAppLocalStorage localStorage, IPlayerHubClient playerHub)
         {
             _localStorage = localStorage;
@@ -35,7 +37,8 @@ namespace KrzyWro.CAH.Client.StateManagement
 
         public async Task RegisterPlayer()
         {
-            await _playerHub.SendRegisterPlayer(Player);
+            if(!ConnectionFailed)
+                await _playerHub.SendRegisterPlayer(Player);
 		}
 
         public async Task NextQuestion()
@@ -113,7 +116,14 @@ namespace KrzyWro.CAH.Client.StateManagement
                 await Events.StateChanged.RaiseAsync();
             });
 
-            await _playerHub.Init();
+            try
+            {
+                await _playerHub.Init();
+            }
+            catch
+            {
+                ConnectionFailed = true;
+            }
 
             _playerHub.OnGreet(async () =>
             {
