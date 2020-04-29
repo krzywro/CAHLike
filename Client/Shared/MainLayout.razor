@@ -4,35 +4,33 @@
 @using KrzyWro.CAH.Client.Shared.Components
 
 
-<div style="visibility: @contentVisibility">
-    <PlayerNameEditor></PlayerNameEditor>
+<PlayerNameEditor></PlayerNameEditor>
 
-    <div class="sidebar">
-        <NavMenu />
+<div class="sidebar" style="@contentVisibility">
+    <NavMenu />
+</div>
+
+<div class="main" style="@contentVisibility">
+    <div class="top-row px-4">
     </div>
 
-    <div class="main">
-        <div class="top-row px-4">
-        </div>
-
-        <div class="content px-4">
-            @Body
-        </div>
+    <div class="content px-4">
+        @Body
     </div>
 </div>
-<div style="visibility: @loaderVisibility">
+<div class="container h-100" style="@loaderVisibility">
     <Loader Text="Łączenie z serwerem"></Loader>
 </div>
 
 @code
 {
     private string contentVisibility => state.CurrentState != Flow.State.Idle && state.Connected
-        ? "visible"
-        : "hidden";
+        ? string.Empty
+        : "display: none";
 
     private string loaderVisibility => state.CurrentState == Flow.State.Idle || !state.Connected
-        ? "visible"
-        : "hidden";
+        ? string.Empty
+        : "display: none";
 
     protected override async Task OnInitializedAsync()
     {

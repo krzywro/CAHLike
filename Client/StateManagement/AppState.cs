@@ -96,6 +96,7 @@ namespace KrzyWro.CAH.Client.StateManagement
             await _localStorage.SetPlayerName(name);
             Player = await _localStorage.GetPlayer();
             await RegisterPlayer();
+            await Events.PlayerNameChanged.RaiseAsync();
         }
 
         private async Task InitPlayerHub()
