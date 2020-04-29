@@ -1,11 +1,12 @@
 ﻿<!DOCTYPE html>
-<html>
+<html class="h-100">
 
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>Bądźmy (nie)poważni</title>
     <base href="/" />
+    <link href="https://yarnpkg.com/en/package/normalize.css" />
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
     <link href="css/site.css" rel="stylesheet" />
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -13,8 +14,16 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </head>
 
-<body style="background-color: #eee;">
-    <app>Loading...</app>
+<body style="background-color: #eee;" class="h-100">
+    <app class="h-100">
+        <div class="container h-100">
+            <div class="row h-100 justify-content-center align-items-center">
+                <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;">
+                    <span class="sr-only">Loading...</span>
+                </div>
+            </div>
+        </div>
+    </app>
 
     <div id="blazor-error-ui">
         An unhandled error has occurred.
