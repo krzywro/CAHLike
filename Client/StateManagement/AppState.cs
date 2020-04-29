@@ -57,9 +57,12 @@ namespace KrzyWro.CAH.Client.StateManagement
 
         public async Task SendAnswers()
         {
-            CurrentState = CurrentState.ChangeState(Flow.Action.SendAnswer);
-            await _playerHub.SendAnswers(SelectedAnswers.ToList());
-            Hand = new List<AnswerModel>();
+            if (SelectedAnswers.Count == CurrentQuestion.AnswerCards)
+            {
+                CurrentState = CurrentState.ChangeState(Flow.Action.SendAnswer);
+                await _playerHub.SendAnswers(SelectedAnswers.ToList());
+                Hand = new List<AnswerModel>();
+            }
         }
 
         public async Task PickAnswer()
