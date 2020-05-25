@@ -49,6 +49,11 @@ namespace KrzyWro.CAH.Server.Hubs
             ConnectionToPlayer.TryRemove(Context.ConnectionId, out var playerId);
             PlayerToNames.TryGetValue(playerId, out var playerName);
             PlayerToConnections.AddOrUpdate(playerId, x => new HashSet<string>(), (x, v) => { v.Remove(Context.ConnectionId); return v; });
+
+            if (PlayerToConnections.TryGetValue(playerId, out var connections) && !connections.Any()
+                && PlayerToScore.TryGetValue(playerId, out var playerScore) && playerScore == 0)
+                    PlayerToScore.TryRemove(playerId, out _);
+
             _logger.LogInformation($"[Disconnected {Context.ConnectionId}] Player: {playerName} ({playerId})");
             await SendScoresToAllClients(); 
             await base.OnDisconnectedAsync(exception);
