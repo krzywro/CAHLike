@@ -197,6 +197,8 @@ namespace KrzyWro.CAH.Client.StateManagement
             Events.ServerGreeting += RequestHand;
             Events.ServerGreeting += _playerHub.SendRequestScores;
 
+            await InitPlayerHub();
+
             if (await _localStorage.ShouldFirstRunSetup())
                 CurrentState = CurrentState.ChangeState(Flow.Action.FirstRunSetup);
             else
@@ -204,8 +206,6 @@ namespace KrzyWro.CAH.Client.StateManagement
                 await Events.PlayerNameChanged.RaiseAsync();
                 await RegisterPlayer();
             }
-
-            await InitPlayerHub();
         }
 
     }
