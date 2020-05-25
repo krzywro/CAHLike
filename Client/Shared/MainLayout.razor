@@ -40,11 +40,7 @@
         ? string.Empty
         : "display: none";
 
-    protected override async Task OnInitializedAsync()
-    {
-        state.Events.StateChanged += StateHasChanged;
-        await state.RegisterPlayer();
-    }
+    protected override void OnInitialized() => state.Events.StateChanged += StateHasChanged;        
 
     public void Dispose() => state.Events.StateChanged -= StateHasChanged;
 }

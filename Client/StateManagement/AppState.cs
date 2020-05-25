@@ -98,6 +98,10 @@ namespace KrzyWro.CAH.Client.StateManagement
         {
             await _localStorage.SetPlayerName(name);
             Player = await _localStorage.GetPlayer();
+
+            if (CurrentState == Flow.State.FirstRunNamePicking)
+                CurrentState = CurrentState.ChangeState(Flow.Action.PickName);
+
             await RegisterPlayer();
             await Events.PlayerNameChanged.RaiseAsync();
         }
@@ -193,7 +197,14 @@ namespace KrzyWro.CAH.Client.StateManagement
             Events.ServerGreeting += RequestHand;
             Events.ServerGreeting += _playerHub.SendRequestScores;
 
-            await Events.PlayerNameChanged.RaiseAsync();
+            if (await _localStorage.ShouldFirstRunSetup())
+                CurrentState = CurrentState.ChangeState(Flow.Action.FirstRunSetup);
+            else
+            {
+                await Events.PlayerNameChanged.RaiseAsync();
+                await RegisterPlayer();
+            }
+
             await InitPlayerHub();
         }
 

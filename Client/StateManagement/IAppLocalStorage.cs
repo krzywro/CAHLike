@@ -7,5 +7,6 @@ namespace KrzyWro.CAH.Client.StateManagement
     {
         Task<Player> GetPlayer();
         Task SetPlayerName(string newName);
+        Task<bool> ShouldFirstRunSetup();
     }
 }

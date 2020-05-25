@@ -10,6 +10,7 @@ namespace KrzyWro.CAH.Client.StateManagement
         private static class Keys
         {
             public const string Player = "player";
+            public const string FirstRun = "firstRunDone";
         }
 
         private const string NewPlayer = "Nowy gracz";
@@ -38,6 +39,19 @@ namespace KrzyWro.CAH.Client.StateManagement
             var player = await GetPlayer();
             player.Name = newName;
             await _localStorage.SetItemAsync(Keys.Player, player);
+            await _localStorage.SetItemAsync(Keys.FirstRun, true);
+        }
+
+        public async Task<bool> ShouldFirstRunSetup()
+        {
+            var done = await _localStorage.GetItemAsync<bool?>(Keys.FirstRun);
+            if (!done.HasValue)
+            {
+                done = false;
+                await _localStorage.SetItemAsync(Keys.FirstRun, done);
+            }
+
+            return !done.Value;
         }
     }
 }

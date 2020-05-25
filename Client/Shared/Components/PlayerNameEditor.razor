@@ -5,7 +5,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="staticBackdropLabel">Nazwa gracza</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <button type="button" class="close @CloseButtonsVisibility" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
@@ -17,8 +17,8 @@
             </form>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Zamknij</button>
-                <button type="button" class="btn btn-primary" @onclick="SetPlayerName" data-dismiss="modal">Zapisz</button>
+                <button type="button" class="btn btn-secondary @CloseButtonsVisibility" data-dismiss="modal">Zamknij</button>
+                <button type="button" class="btn btn-primary " @onclick="SetPlayerName" data-dismiss="modal">Zapisz</button>
             </div>
         </div>
     </div>
@@ -26,10 +26,9 @@
 @code {
     private string Name { get; set; }
 
-    protected override void OnInitialized()
-    {
-        Name = state.Player.Name;
-    }
+    private string CloseButtonsVisibility => state.CurrentState == Flow.State.FirstRunNamePicking ? "d-none" : string.Empty;
+
+    protected override void OnInitialized() => Name = state.Player.Name;
 
     private async Task SetPlayerName()
     {
