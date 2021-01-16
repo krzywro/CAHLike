@@ -13,5 +13,7 @@ namespace KrzyWro.CAH.Server.Services
         Task PrepareNextQuestion();
         Task<QuestionModel> PeekQuestion();
         Task<AnswerModel> PopAnswer();
+        Task<Stack<QuestionModel>> RequestQuestionDeck();
+        Task<Stack<AnswerModel>> RequestAnswerDeck();
     }
 }
