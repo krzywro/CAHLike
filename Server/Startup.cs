@@ -28,18 +28,10 @@ namespace KrzyWro.CAH.Server
 
             services.AddControllersWithViews();
             services.AddSignalR();
-
-            //services.AddStackExchangeRedisCache(options =>
-            //{
-            //    options.Configuration = "localhost";
-            //    options.InstanceName = "SampleInstance";
-            //});
-
             services.AddDistributedMemoryCache();
             services.AddScoped<IPlayerPoolService, PlayerPoolService>();
             services.AddScoped<IDeckService, DeckService>();
             services.AddScoped<IGamesService, GamesService>();
-            services.AddApplicationInsightsTelemetry();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
