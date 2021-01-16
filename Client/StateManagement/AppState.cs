@@ -61,6 +61,7 @@ namespace KrzyWro.CAH.Client.StateManagement
             await RequestQuestion();
             await RequestHand();
         }
+        public Task CreateGame() => _lobbyHub.SendRequestGameCreation();
 
         private async Task RequestQuestion()
         {
