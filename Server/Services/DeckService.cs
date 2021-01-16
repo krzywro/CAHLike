@@ -2,11 +2,8 @@
 using KrzyWro.CAH.Shared.Cards;
 using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.Hosting;
-using System;
-using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Text.Json;
 using System.Threading.Tasks;
 
@@ -61,6 +58,24 @@ namespace KrzyWro.CAH.Server.Services
             deck.TryPop(out _);
             questions = JsonSerializer.Serialize(deck);
             await _cache.SetStringAsync("questions", questions);
+        }
+
+        public async Task<Stack<AnswerModel>> RequestAnswerDeck()
+        {
+            string contentRootPath = _hostEnvironment.ContentRootPath;
+            using var stream = new FileStream(Path.Join(contentRootPath, "Deck.json"), FileMode.Open, FileAccess.Read);
+            var deck = await JsonSerializer.DeserializeAsync<DeckModel>(stream);
+
+            return new Stack<AnswerModel>(deck.Answers.Shuffle());
+        }
+
+        public async Task<Stack<QuestionModel>> RequestQuestionDeck()
+        {
+            string contentRootPath = _hostEnvironment.ContentRootPath;
+            using var stream = new FileStream(Path.Join(contentRootPath, "Deck.json"), FileMode.Open, FileAccess.Read);
+            var deck = await JsonSerializer.DeserializeAsync<DeckModel>(stream);
+
+            return new Stack<QuestionModel>(deck.Questions.Shuffle());
         }
 
         public async Task ResetDeck()

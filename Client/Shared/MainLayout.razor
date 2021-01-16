@@ -28,11 +28,11 @@
 
 @code
 {
-    private string contentVisibility => state.CurrentState != Flow.State.Idle && state.Connected && !state.ConnectionFailed
+    private string contentVisibility => state.Connected && !state.ConnectionFailed
         ? string.Empty
         : "display: none";
 
-    private string loaderVisibility => (state.CurrentState == Flow.State.Idle || !state.Connected) && !state.ConnectionFailed
+    private string loaderVisibility => !state.Connected && !state.ConnectionFailed
         ? string.Empty
         : "display: none";
 

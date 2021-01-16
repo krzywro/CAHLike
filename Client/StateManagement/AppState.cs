@@ -1,5 +1,11 @@
-﻿using KrzyWro.CAH.Shared;
+﻿using KrzyWro.CAH.Client.StateManagement.LobbyState;
+using KrzyWro.CAH.Client.StateManagement.PlayerState;
+using KrzyWro.CAH.Client.StateManagement.TableState;
+using KrzyWro.CAH.Shared;
 using KrzyWro.CAH.Shared.Cards;
+using KrzyWro.CAH.Shared.Dto;
+using Microsoft.AspNetCore.Components;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -10,9 +16,13 @@ namespace KrzyWro.CAH.Client.StateManagement
     {
         private readonly IAppLocalStorage _localStorage;
         private readonly IPlayerHubClient _playerHub;
+        private readonly ILobbyHubClient _lobbyHub;
+        private readonly ITableHubClient _tableHub;
+        private readonly NavigationManager _navigationManager;
 
         public AppEvents Events { get; } = new AppEvents();
 
+        public IList<TableEntry> GameList { get; private set; } = new List<TableEntry>();
 
         public List<AnswerModel> SelectedAnswers { get; private set; } = new List<AnswerModel>();
         public List<List<AnswerModel>> PlayerAnswers { get; private set; } = new List<List<AnswerModel>>();
@@ -26,13 +36,17 @@ namespace KrzyWro.CAH.Client.StateManagement
         public Flow.State CurrentState { get; private set; } = Flow.InitialState;
 
         public bool Connected { get; private set; } = true;
+        public bool TableSetUp { get; private set; } = false;
 
         public bool ConnectionFailed { get; private set; } = false;
 
-        public AppState(IAppLocalStorage localStorage, IPlayerHubClient playerHub)
+        public AppState(IAppLocalStorage localStorage, IPlayerHubClient playerHub, ILobbyHubClient lobbyHub, ITableHubClient tableHub, NavigationManager navigationManager)
         {
             _localStorage = localStorage;
             _playerHub = playerHub;
+            _lobbyHub = lobbyHub;
+            _tableHub = tableHub;
+            _navigationManager = navigationManager;
         }
 
         public async Task RegisterPlayer()
@@ -55,17 +69,23 @@ namespace KrzyWro.CAH.Client.StateManagement
             BestAnswerPlayerName = string.Empty;
             SelectedAnswers.Clear();
             await Events.OnAnswerSelectionChange.RaiseAsync();
-            await _playerHub.SendRequestQuestion();
+            await _tableHub.SendRequestQuestion();
         }
 
-        private async Task RequestHand() => await _playerHub.SendRequestHand();
+        public Task RequestGameList()
+        {
+            GameList.Clear();
+            return _lobbyHub.SendRequestGameList();
+        }
+
+        private async Task RequestHand() => await _tableHub.SendRequestHand();
 
         public async Task SendAnswers()
         {
             if (SelectedAnswers.Count == CurrentQuestion.AnswerCards)
             {
                 CurrentState = CurrentState.ChangeState(Flow.Action.SendAnswer);
-                await _playerHub.SendAnswers(SelectedAnswers.ToList());
+                await _tableHub.PlayerSendAnswers(SelectedAnswers.ToList());
                 Hand = new List<AnswerModel>();
             }
         }
@@ -73,7 +93,7 @@ namespace KrzyWro.CAH.Client.StateManagement
         public async Task PickAnswer()
         {
             CurrentState = CurrentState.ChangeState(Flow.Action.WaitForBestAnswer);
-            await _playerHub.SendPickedBestAnswers(BestAnswer);
+            await _tableHub.MasterSendAnswers(BestAnswer);
         }
 
         public int GetAnswerSelectionNumber(AnswerModel id) => SelectedAnswers.IndexOf(id) + 1;
@@ -132,44 +152,78 @@ namespace KrzyWro.CAH.Client.StateManagement
             _playerHub.OnGreet(async () =>
             {
                 Connected = true;
-                CurrentState = CurrentState.ChangeState(Flow.Action.EnterGame);
-                CurrentState = CurrentState.ChangeState(Flow.Action.ProceedToNextQuestion);
                 await Events.StateChanged.RaiseAsync();
                 await Events.ServerGreeting.RaiseAsync();
             });
+        }
 
-            _playerHub.OnReceivingQuestion(async question =>
+        private async Task InitLobbyHub()
+        {
+            if (Connected)
+            {
+                await _lobbyHub.Init();
+                _lobbyHub.OnRecivingGameList(async games =>
+                {
+                    GameList = games;
+                    if (games.Count == 0)
+                        await _lobbyHub.SendRequestGameCreation();
+                    await Events.OnGameEntryArrival.RaiseAsync();
+                });
+                _lobbyHub.OnGameCreated(async game =>
+                {
+                    GameList.Add(game);
+                    await Events.OnGameEntryArrival.RaiseAsync();
+                });
+                await _lobbyHub.Join(Player.Id);
+            }
+        }
+
+        public async Task InitTableHub(Guid gameId)
+        {
+            if (!Connected || TableSetUp)
+                return;
+
+            TableSetUp = true;
+            CurrentState = CurrentState.ChangeState(Flow.Action.EnterGame);
+
+            _tableHub.OnTableSendQuestion(async question =>
             {
                 CurrentQuestion = question;
                 await Events.OnQuestionRetrival.RaiseAsync();
             });
 
-            _playerHub.OnReceivingHand(async hand =>
+            _tableHub.OnTablePlayerSendHand(async hand =>
             {
                 Hand = hand;
                 await Events.OnHandRetrival.RaiseAsync();
             });
 
-            _playerHub.OnWaitForOtherPlayers(async () =>
+            _tableHub.OnTablePlayerWaitForOtherPlayers(async () =>
             {
                 await Events.OnWaitForOtherPlayers.RaiseAsync();
             });
 
-            _playerHub.OnWaitForBestAnswer(async hand =>
+            _tableHub.OnTableMasterNomination(async () =>
+            {
+                CurrentState = CurrentState.ChangeState(Flow.Action.BecameMaster);
+                await Events.OnWaitForOtherPlayers.RaiseAsync();
+            });
+
+            _tableHub.OnTablePlayerWaitForSelection(async hand =>
             {
                 CurrentState = CurrentState.ChangeState(Flow.Action.WaitForBestAnswer);
                 PlayerAnswers = hand;
                 await Events.OnWaitForBestPick.RaiseAsync();
             });
 
-            _playerHub.OnSelectBestAnswer(async hand =>
+            _tableHub.OnTableMasterRequestSelection(async hand =>
             {
                 CurrentState = CurrentState.ChangeState(Flow.Action.PickBestAnswer);
                 PlayerAnswers = hand;
                 await Events.OnSelectBestAnswer.RaiseAsync();
             });
 
-            _playerHub.OnBestAnswerPicked(async (answers, playerName) =>
+            _tableHub.OnTableSendBestAnswer(async (answers, playerName) =>
             {
                 CurrentState = CurrentState.ChangeState(Flow.Action.ProceedToBestAnswer);
                 PlayerAnswers = new List<List<AnswerModel>>();
@@ -177,30 +231,39 @@ namespace KrzyWro.CAH.Client.StateManagement
                 BestAnswerPlayerName = playerName;
                 await Events.OnBestPick.RaiseAsync();
             });
-            _playerHub.OnRecevingScores(async scores =>
+            _tableHub.OnTableSendScores(async scores =>
             {
                 Scores = scores;
                 await Events.OnScoresArrival.RaiseAsync();
             });
-            _playerHub.OnReceivingRestoreSelectedAnswers(async hand =>
+            _tableHub.OnTablePlayerRestoreSelectedAnswers(async hand =>
             {
+                CurrentState = CurrentState.ChangeState(Flow.Action.SendAnswer);
                 SelectedAnswers = hand;
                 await Events.OnHandRetrival.RaiseAsync();
             });
+
+            await _tableHub.Init(gameId);
+            await _tableHub.Join(Player.Id);
+            await NextQuestion();
+
+            await Events.StateChanged.RaiseAsync();
         }
 
         public async Task Init()
         {
             Player = await _localStorage.GetPlayer();
-
-            Events.ServerGreeting += RequestQuestion;
-            Events.ServerGreeting += RequestHand;
-            Events.ServerGreeting += _playerHub.SendRequestScores;
+            Events.ServerGreeting += RequestGameList;
 
             await InitPlayerHub();
+            await InitLobbyHub();
+
 
             if (await _localStorage.ShouldFirstRunSetup())
+            {
+                _navigationManager.NavigateTo("/");
                 CurrentState = CurrentState.ChangeState(Flow.Action.FirstRunSetup);
+            }
             else
             {
                 await Events.PlayerNameChanged.RaiseAsync();

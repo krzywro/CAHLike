@@ -1,14 +1,9 @@
-﻿using KrzyWro.CAH.Shared.Contracts.ClientMessages;
+﻿using KrzyWro.CAH.Shared.Contracts.ClientMessages.Player;
 
 namespace KrzyWro.CAH.Shared.Contracts
 {
     public interface IPlayerHub :
-        IPlayerHubPickAnswer,
-        IPlayerHubRegisterPlayer,
-        IPlayerHubRequestHand,
-        IPlayerHubRequestQuestion,
-        IPlayerHubRequestScores,
-        IPlayerHubSendAnswers
+        IPlayerRegister
     {
         public static readonly string Path = "/playerhub";
     }

@@ -5,6 +5,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Blazored.LocalStorage;
 using System.Net.Http;
 using KrzyWro.CAH.Client.StateManagement;
+using KrzyWro.CAH.Client.StateManagement.LobbyState;
+using KrzyWro.CAH.Client.StateManagement.PlayerState;
+using KrzyWro.CAH.Client.StateManagement.TableState;
 
 namespace KrzyWro.CAH.Client
 {
@@ -18,7 +21,9 @@ namespace KrzyWro.CAH.Client
             builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
             builder.Services.AddBlazoredLocalStorage();
 
+            builder.Services.AddScoped<ILobbyHubClient, LobbyHubClient>();
             builder.Services.AddScoped<IPlayerHubClient, PlayerHubClient>();
+            builder.Services.AddScoped<ITableHubClient, TableHubClient>();
             builder.Services.AddScoped<IAppLocalStorage, AppLocalStorage>();
             builder.Services.AddScoped<AppState>();
 

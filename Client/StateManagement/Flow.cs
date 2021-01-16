@@ -4,8 +4,8 @@ namespace KrzyWro.CAH.Client.StateManagement
 {
     public static class Flow
     {
-        public enum State { Idle, EnteredAGame, PickingAnswer, WaitingForOtherPlayersAnswers, WaitingForBestAnswerSelection, SelectingBestAnswer, ViewingBestAnswer, FirstRunNamePicking }
-        public enum Action { EnterGame, SendAnswer, PickBestAnswer, WaitForBestAnswer, ProceedToBestAnswer, ProceedToNextQuestion, LeaveGame, PickName, FirstRunSetup }
+        public enum State { Idle, EnteredAGame, PickingAnswer, WaitingForOtherPlayersAnswers, WaitingForBestAnswerSelection, SelectingBestAnswer, ViewingBestAnswer, FirstRunNamePicking, MasterWaitingForPlayersAnswers }
+        public enum Action { EnterGame, SendAnswer, PickBestAnswer, WaitForBestAnswer, ProceedToBestAnswer, ProceedToNextQuestion, LeaveGame, PickName, FirstRunSetup, BecameMaster }
 
         public static State InitialState => State.Idle;
 
@@ -16,8 +16,10 @@ namespace KrzyWro.CAH.Client.StateManagement
                 (State.Idle, Action.EnterGame) => State.EnteredAGame,
                 (State.Idle, Action.FirstRunSetup) => State.FirstRunNamePicking,
                 (State.EnteredAGame, Action.ProceedToNextQuestion) => State.PickingAnswer,
+                (State.PickingAnswer, Action.BecameMaster) => State.MasterWaitingForPlayersAnswers,
                 (State.PickingAnswer, Action.SendAnswer) => State.WaitingForOtherPlayersAnswers,
-                (State.WaitingForOtherPlayersAnswers, Action.PickBestAnswer) => State.SelectingBestAnswer,
+                (State.PickingAnswer, Action.PickBestAnswer) => State.SelectingBestAnswer,
+                (State.MasterWaitingForPlayersAnswers, Action.PickBestAnswer) => State.SelectingBestAnswer,
                 (State.SelectingBestAnswer, Action.WaitForBestAnswer) => State.WaitingForBestAnswerSelection,
                 (State.WaitingForOtherPlayersAnswers, Action.WaitForBestAnswer) => State.WaitingForBestAnswerSelection,
                 (State.WaitingForBestAnswerSelection, Action.ProceedToBestAnswer) => State.ViewingBestAnswer,

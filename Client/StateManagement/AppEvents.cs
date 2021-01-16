@@ -15,6 +15,7 @@ namespace KrzyWro.CAH.Client.StateManagement
         private readonly AsyncEvent onSelectBestAnswer = new AsyncEvent();
         private readonly AsyncEvent onBestPick = new AsyncEvent();
         private readonly AsyncEvent onScoresArrival = new AsyncEvent();
+        private readonly AsyncEvent onGameEntryArrival = new AsyncEvent();
 
         public AsyncEvent StateChanged { get { return stateChanged; } set { } }
         public AsyncEvent PlayerNameChanged { get { return playerNameChanged; } set { } }
@@ -27,5 +28,6 @@ namespace KrzyWro.CAH.Client.StateManagement
         public AsyncEvent OnSelectBestAnswer { get { return onSelectBestAnswer; } set { } }
         public AsyncEvent OnBestPick { get { return onBestPick; } set { } }
         public AsyncEvent OnScoresArrival { get { return onScoresArrival; } set { } }
+        public AsyncEvent OnGameEntryArrival { get { return onGameEntryArrival; } set { } }
     }
 }
