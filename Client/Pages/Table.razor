@@ -1,0 +1,40 @@
+﻿@page "/table/{game:guid}"
+@implements IDisposable
+@inject AppState state
+@using KrzyWro.CAH.Client.Shared.Components
+
+@if (QuestionSetUp)
+{
+    <QuestionRow></QuestionRow>
+    <AnswersRow></AnswersRow>
+}
+
+@code {
+    [Parameter]
+    public Guid Game { get; set; }
+
+    private bool QuestionSetUp = false;
+
+    protected override async Task OnParametersSetAsync()
+    {
+
+        await state.InitTableHub(Game);
+        await base.OnParametersSetAsync();
+    }
+
+    private void OnQuestionArrival()
+    {
+        QuestionSetUp = true;
+        StateHasChanged();
+    }
+
+    protected override void OnInitialized()
+    {
+        state.Events.OnQuestionRetrival += OnQuestionArrival;
+    }
+
+    public void Dispose()
+    {
+        state.Events.OnQuestionRetrival -= OnQuestionArrival;
+    }
+}

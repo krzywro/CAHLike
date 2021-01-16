@@ -8,6 +8,7 @@ using Microsoft.Extensions.Hosting;
 using System.Linq;
 using KrzyWro.CAH.Server.Hubs;
 using KrzyWro.CAH.Server.Services;
+using KrzyWro.CAH.Shared.Contracts;
 
 namespace KrzyWro.CAH.Server
 {
@@ -35,7 +36,9 @@ namespace KrzyWro.CAH.Server
             //});
 
             services.AddDistributedMemoryCache();
+            services.AddScoped<IPlayerPoolService, PlayerPoolService>();
             services.AddScoped<IDeckService, DeckService>();
+            services.AddScoped<IGamesService, GamesService>();
             services.AddApplicationInsightsTelemetry();
         }
 
@@ -63,7 +66,9 @@ namespace KrzyWro.CAH.Server
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
-                endpoints.MapHub<PlayerHub>("/playerhub");
+                endpoints.MapHub<LobbyHub>(ILobbyHub.Path);
+                endpoints.MapHub<PlayerHub>(IPlayerHub.Path);
+                endpoints.MapHub<TableHub>(ITableHub.Path);
                 endpoints.MapFallbackToFile("index.html");
             });
         }

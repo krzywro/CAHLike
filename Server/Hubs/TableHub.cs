@@ -2,19 +2,23 @@
 using KrzyWro.CAH.Server.Services;
 using KrzyWro.CAH.Shared;
 using KrzyWro.CAH.Shared.Cards;
+using KrzyWro.CAH.Shared.Contracts;
 using KrzyWro.CAH.Shared.Contracts.ServerMessages.Table;
 using Microsoft.AspNetCore.SignalR;
 using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace KrzyWro.CAH.Server.Hubs
 {
-    public class TableHub : Hub
+    public class TableHub : Hub, ITableHub
     {
         private readonly IGamesService _gamesService;
         private readonly IPlayerPoolService _playerPoolService;
+        public static ConcurrentDictionary<Guid, HashSet<string>> PlayerToConnections = new ConcurrentDictionary<Guid, HashSet<string>>();
+        public static ConcurrentDictionary<string, Guid> ConnectionToPlayer = new ConcurrentDictionary<string, Guid>();
 
 
         public TableHub(IGamesService gamesService, IPlayerPoolService playerPoolService)
@@ -23,17 +27,25 @@ namespace KrzyWro.CAH.Server.Hubs
             _playerPoolService = playerPoolService;
         }
 
-        public async Task Join(Guid game)
+        public override async Task OnDisconnectedAsync(Exception exception)
         {
-            var player = await _playerPoolService.GetPlayer(Context.ConnectionId);
-            var playerName = await _playerPoolService.GetName(player);
+            ConnectionToPlayer.TryRemove(Context.ConnectionId, out var playerId);
+            PlayerToConnections.AddOrUpdate(playerId, x => new HashSet<string>(), (x, v) => { v.Remove(Context.ConnectionId); return v; });
+            await base.OnDisconnectedAsync(exception);
+        }
+
+        public async Task Join(Guid game, Guid playerId)
+        {
+            PlayerToConnections.AddOrUpdate(playerId, x => new HashSet<string>() { Context.ConnectionId }, (x, v) => { v.Add(Context.ConnectionId); return v; });
+            ConnectionToPlayer.AddOrUpdate(Context.ConnectionId, playerId, (x, v) => playerId);
+            var playerName = await _playerPoolService.GetName(playerId);
             var table = await _gamesService.Get(game);
             
             if (table.Players.Count == 0)
-                table.CurrentMaster = player;
+                table.CurrentMaster = playerId;
             
-            table.Players.Add(player);
-            table.Scores.AddOrUpdate(player, 0, (x, v) => v);
+            table.Players.Add(playerId);
+            table.Scores.AddOrUpdate(playerId, 0, (x, v) => v);
 
             var hand = new List<AnswerModel>();
             for (int i = 0; i < 10; i++)
@@ -41,7 +53,7 @@ namespace KrzyWro.CAH.Server.Hubs
                 table.AnswerDeck.TryPop(out var card);
                 hand.Add(card);
             }
-            table.Hands.AddOrUpdate(player, hand, (x, v) => v);
+            table.Hands.AddOrUpdate(playerId, hand, (x, v) => v);
             await Clients.Caller.SendMessageAsync<ITablePlayerJoined, string>(game, playerName);
             await SendScoresToAllClients(game);
         }
@@ -59,7 +71,7 @@ namespace KrzyWro.CAH.Server.Hubs
 
         public async Task RequestHand(Guid game)
         {
-            var player = await _playerPoolService.GetPlayer(Context.ConnectionId);
+            var player = ConnectionToPlayer[Context.ConnectionId];
             var table = await _gamesService.Get(game);
 
             if (table.CollectedAnswers.ContainsKey(player))
@@ -88,9 +100,9 @@ namespace KrzyWro.CAH.Server.Hubs
             }
         }
 
-        public async Task SendAnswers(Guid game, List<AnswerModel> answers)
+        public async Task SendPlayerAnswers(Guid game, List<AnswerModel> answers)
         {
-            var player = await _playerPoolService.GetPlayer(Context.ConnectionId);
+            var player = ConnectionToPlayer[Context.ConnectionId];
             var table = await _gamesService.Get(game);
 
             table.Hands.TryGetValue(player, out var playerHand);
@@ -101,7 +113,7 @@ namespace KrzyWro.CAH.Server.Hubs
 
             if (table.CollectedAnswers.Count < table.Players.Count - 1)
             {
-                var connections = await _playerPoolService.GetConnections(player);
+                var connections = PlayerToConnections[player];
                 foreach (var connection in connections)
                 {
                     await Clients.Client(connection).SendMessageAsync<ITablePlayerWaitForOtherPlayers, Guid>(game);
@@ -115,20 +127,20 @@ namespace KrzyWro.CAH.Server.Hubs
 
                 foreach (var otherPlayer in table.Players.Where(x => x != pickerId))
                 {
-                    foreach (var connection in await _playerPoolService.GetConnections(otherPlayer))
+                    foreach (var connection in PlayerToConnections[otherPlayer])
                     {
                         await Clients.Client(connection).SendMessageAsync<ITablePlayerWaitForSelection, List<List<AnswerModel>>>(game, collectedAnswersValues);
                     }
                 }
 
-                foreach (var connection in await _playerPoolService.GetConnections(pickerId))
+                foreach (var connection in PlayerToConnections[pickerId])
                 {
-                    await Clients.Caller.SendMessageAsync<ITableMasterRequestSelection, List<List<AnswerModel>>>(game, table.CollectedAnswers.Select(x => x.Value).ToList());
+                    await Clients.Client(connection).SendMessageAsync<ITableMasterRequestSelection, List<List<AnswerModel>>>(game, table.CollectedAnswers.Select(x => x.Value).ToList());
                 }
             }
         }
 
-        public async Task PickAnswer(Guid game, List<AnswerModel> answers)
+        public async Task SendMasterAnswers(Guid game, List<AnswerModel> answers)
         {
             var table = await _gamesService.Get(game);
             table.CurrentQuestion = table.QuestionDeck.Pop();
@@ -146,6 +158,16 @@ namespace KrzyWro.CAH.Server.Hubs
                 }
             }
 
+            table.PreviousMasters.Add(table.CurrentMaster);
+            var candidate = table.Players.Except(table.PreviousMasters).FirstOrDefault();
+            if (candidate == Guid.Empty)
+            {
+                table.PreviousMasters.Clear();
+                candidate = table.Players.First();
+            }
+            table.CurrentMaster = candidate;
+            table.CollectedAnswers.Clear();
+
             await Clients.All.SendMessageAsync<ITableSendBestAnswer, List<AnswerModel>, string>(game, answers, winnerName);
             await SendScoresToAllClients(game);
         }
@@ -160,7 +182,7 @@ namespace KrzyWro.CAH.Server.Hubs
             foreach (var entry in table.Scores.OrderByDescending(x => x.Value))
             {
                 var name = await _playerPoolService.GetName(entry.Key);
-                var online = await _playerPoolService.IsOnline(entry.Key);
+                var online = PlayerToConnections[entry.Key].Any();
                 scores.Add(new ScoreRow { Score = entry.Value, Online = online, PlayerName = name });
             }
 

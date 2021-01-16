@@ -1,5 +1,33 @@
 ﻿@page "/"
-@using KrzyWro.CAH.Client.Shared.Components
+@implements IDisposable
+@inject AppState state
+@inject NavigationManager NavigationManager
 
-<QuestionRow></QuestionRow>
-<AnswersRow></AnswersRow>
+<div class="row justify-content-center sticky-top">
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>Lista Gier</h1>
+            </div>
+        </div>
+        @foreach (var game in state.GameList)
+        {
+            <div class="row" @onclick="() => SelectGame(game.GameId)">
+                <div class="col-sm-12">
+                    @game.GameId
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@code {
+    protected void SelectGame(Guid game)
+    {
+        NavigationManager.NavigateTo($"table/{game}");
+    }
+
+    protected override void OnInitialized() => state.Events.OnGameEntryArrival += StateHasChanged;
+
+    public void Dispose() => state.Events.OnGameEntryArrival -= StateHasChanged;
+}
