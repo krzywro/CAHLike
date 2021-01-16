@@ -12,6 +12,7 @@ namespace KrzyWro.CAH.Client.StateManagement.TableState
         void OnConnected(Func<string, Task> action);
         void OnDisconnected(Func<Exception, Task> action);
 
+        void OnTableMasterNomination(Func<Task> action);
         void OnTableMasterRequestSelection(Func<List<List<AnswerModel>>, Task> action);
         void OnTablePlayerJoined(Func<string, Task> action);
         void OnTablePlayerRestoreSelectedAnswers(Func<List<AnswerModel>, Task> action);

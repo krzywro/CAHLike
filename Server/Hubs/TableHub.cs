@@ -43,7 +43,10 @@ namespace KrzyWro.CAH.Server.Hubs
             
             if (table.Players.Count == 0)
                 table.CurrentMaster = playerId;
-            
+
+            if (table.Players.Contains(playerId))
+                return;
+
             table.Players.Add(playerId);
             table.Scores.AddOrUpdate(playerId, 0, (x, v) => v);
 
@@ -80,9 +83,13 @@ namespace KrzyWro.CAH.Server.Hubs
                 await Clients.Caller.SendMessageAsync<ITablePlayerRestoreSelectedAnswers, List<AnswerModel>>(game, awaitingAnswers);
                 await Clients.Caller.SendMessageAsync<ITablePlayerWaitForOtherPlayers, Guid>(table.Id);
             }
+            else if (table.CurrentMaster == player && table.CollectedAnswers.Count > 0 && table.CollectedAnswers.Count == table.Players.Count - 1)
+            {
+                await Clients.Caller.SendMessageAsync<ITableMasterRequestSelection, List<List<AnswerModel>>>(game, table.CollectedAnswers.Select(x => x.Value).ToList());
+            }
             else if (table.CurrentMaster == player)
             {
-                await Clients.Caller.SendMessageAsync<ITablePlayerWaitForOtherPlayers, Guid>(table.Id);
+                await Clients.Caller.SendMessageAsync<ITableMasterNomination, Guid>(table.Id);
             }
             else
             {
@@ -105,8 +112,7 @@ namespace KrzyWro.CAH.Server.Hubs
             var player = ConnectionToPlayer[Context.ConnectionId];
             var table = await _gamesService.Get(game);
 
-            table.Hands.TryGetValue(player, out var playerHand);
-            playerHand = playerHand.Where(hand => !answers.Select(a => a.Id).Contains(hand.Id)).ToList();
+            table.Hands[player] = table.Hands[player].Where(hand => !answers.Select(a => a.Id).Contains(hand.Id)).ToList();
 
             table.CollectedAnswers.AddOrUpdate(player, answers, (x, v) => v);
 

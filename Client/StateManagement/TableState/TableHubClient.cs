@@ -36,6 +36,9 @@ namespace KrzyWro.CAH.Client.StateManagement.TableState
             return _hubConnection.StartAsync();
         }
 
+        public void OnTableMasterNomination(Func<Task> action) => _hubConnection.OnMessage<ITableMasterNomination, Guid>(
+             msgGame => msgGame == _game ? action() : Task.CompletedTask);
+
         public void OnTableMasterRequestSelection(Func<List<List<AnswerModel>>, Task> action) => _hubConnection.OnMessage<ITableMasterRequestSelection, Guid, List<List<AnswerModel>>>(
             (msgGame, payload) => msgGame == _game ? action(payload) : Task.CompletedTask);
 

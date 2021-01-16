@@ -11,6 +11,10 @@
         {
             <MyChoice></MyChoice>
         }
+        @if (state.CurrentState == Flow.State.MasterWaitingForPlayersAnswers)
+        {
+            <WaitingSpinner Text="Jesteś Mistrzem Gry w tej turze! Oczekiwanie na odpowiedzi graczy"></WaitingSpinner>
+        }
         @if (state.CurrentState == Flow.State.WaitingForOtherPlayersAnswers)
         {
             <WaitingSpinner Text="Oczekiwanie na pozostałych graczy"></WaitingSpinner>

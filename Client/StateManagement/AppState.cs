@@ -197,6 +197,11 @@ namespace KrzyWro.CAH.Client.StateManagement
 
             _tableHub.OnTablePlayerWaitForOtherPlayers(async () =>
             {
+                await Events.OnWaitForOtherPlayers.RaiseAsync();
+            });
+
+            _tableHub.OnTableMasterNomination(async () =>
+            {
                 CurrentState = CurrentState.ChangeState(Flow.Action.BecameMaster);
                 await Events.OnWaitForOtherPlayers.RaiseAsync();
             });
@@ -230,6 +235,7 @@ namespace KrzyWro.CAH.Client.StateManagement
             });
             _tableHub.OnTablePlayerRestoreSelectedAnswers(async hand =>
             {
+                CurrentState = CurrentState.ChangeState(Flow.Action.SendAnswer);
                 SelectedAnswers = hand;
                 await Events.OnHandRetrival.RaiseAsync();
             });
