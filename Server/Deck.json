@@ -1,176 +1,6193 @@
 {
   "Questions": [
     {
-      "AnswerCards": 1,
-      "Id": "e6d7dfdf-ff83-49df-931a-abf1ce80cf00",
-      "Text": "Co zmienia d\u0142ugo\u015B\u0107 gdy jest ciep\u0142o?"
+      "AnswerCards": 3,
+      "Id": "ac6f9d66-d27f-428b-8516-f14c76a2529f",
+      "Text": "... \u002B ... = ..."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "9bc56bae-687c-4963-a872-aed4078cf313",
+      "Text": "... Godziny zabawy. \u0141atwe w u\u017Cyciu. Perfekcyjne dla ..."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "f04d1080-470c-46e7-b08d-b909ecb56d0a",
+      "Text": "... by\u0142oby \u017Ca\u0142o\u015Bnie niekompletne bez ..."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "626f3f57-7abc-42ab-8f25-40996c9a93fb",
+      "Text": "... ju\u017C nigdy nie b\u0119dzie takie same po ..."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "34530b56-9af1-4fe6-a4b5-b17cfc00e486",
+      "Text": "... przeminie, ale ... przetrwa wiecznie."
     },
     {
       "AnswerCards": 1,
-      "Id": "7318179f-9c1e-4e36-8a6a-d42b2f0ac25e",
-      "Text": "Czego pragnie, ale nigdy nie poprze polityk?"
+      "Id": "878b1296-fe39-455e-bd11-e5f62b6d29f1",
+      "Text": "... Niesamowite w teorii, gorzej w praktyce."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "7c01cf70-8fe1-4ff0-aa6c-b477a52d329d",
+      "Text": "... to pierwszy krok do ..."
     },
     {
       "AnswerCards": 1,
-      "Id": "5471b98c-459d-40ff-9e91-e9c7653d524d",
-      "Text": "Co cieszy dopiero po opowiedzeniu kolegom?"
+      "Id": "404e6e83-e7eb-4666-ac83-424f6b9c95d2",
+      "Text": "...: Dla Ciebie, dla Rodziny."
     },
     {
       "AnswerCards": 1,
-      "Id": "b71e7bb8-23a4-49dd-8b76-2b05e55f3a84",
-      "Text": "Koszmarny sen. Wr\u00F3ci\u0142 z pracy, a w domu ..."
+      "Id": "1b661fdc-b0cf-410d-badf-e993c21fbb4b",
+      "Text": "...: dobry do ostatniej kropli."
     },
     {
       "AnswerCards": 1,
-      "Id": "c960d264-b9ef-45ef-8800-0e61d7e65d3c",
-      "Text": "Co zawsze przychodzi za p\u00F3\u017Ano?"
+      "Id": "58e94cf8-8c01-4574-b210-0be53a98d79b",
+      "Text": "...? Istnieje aplikacja, kt\u00F3ra to robi."
     },
     {
       "AnswerCards": 1,
-      "Id": "13ce9331-ca02-4d7a-b3f2-33ec70048c35",
-      "Text": "Co to jest: boli, ale kr\u0119ci?"
+      "Id": "34b03c7f-c6d7-43cb-a352-e501caea2225",
+      "Text": "... Pi\u0105tka stary!"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "c1156c8f-9e83-4b26-a43a-889809e79484",
+      "Text": "... Tak chc\u0119 umrze\u0107."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "aab13445-63f5-49ab-8a69-a66c92822f17",
+      "Text": "... To pu\u0142apka!"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "7b88bd21-d0e9-4806-ae5e-5f23e238d81a",
+      "Text": "... jest najlepszym narz\u0119dziem w szwajcarskim scyzoryku."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "41d3c053-f0dc-4e0c-887b-8d1bdc3a3a39",
+      "Text": "... jest pierwszym znakiem apokalipsy."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "7f646401-395b-46c3-bacd-14b985d19596",
+      "Text": "... to jest to co lubi\u0119 najbardziej."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "0d724ce6-446e-477f-801b-a5936ac357ed",
+      "Text": "... to rozwi\u0105zanie ka\u017Cdego problemu."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "84fa94c3-2adc-4424-b552-7e4e2a11cffa",
+      "Text": "... Osi\u0105gni\u0119cie odblokowane!"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "a1bcce3e-65d7-4673-8d4f-399f3b51f5e8",
+      "Text": "Aby przygotowa\u0107 si\u0119 do nadchodz\u0105cej roli, Andrzej Grabowski musia\u0142 wej\u015B\u0107 w \u015Bwiat ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "c300ffa0-58ac-47c1-82d5-9fa9667b1734",
+      "Text": "Antropologowie odkryli ostatnio staro\u017Cytne plemi\u0119 czcz\u0105ce ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "ff065883-30da-49ca-9b58-ef540e88e9c3",
+      "Text": "A \u00F3smego dnia B\u00F3g stworzy\u0142 ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "bb3f9946-449f-4a6c-b6a0-dde60661e13b",
+      "Text": "Ale zanim p\u00F3jd\u0119 chcia\u0142bym powiedzie\u0107 Ci: ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "e0057748-f364-477b-aa66-3e645ca88c39",
+      "Text": "Ala ma kota, a kot ma ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "ecf358c1-eeda-4a8f-a185-fa7665f81f7c",
+      "Text": "Biali ludzie lubi\u0105 ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "f3d474b4-9d9b-4944-bd0d-22d0319e5068",
+      "Text": "By przyci\u0105gn\u0105\u0107 wi\u0119cej go\u015Bci, Muzeum Narodowe otworzy\u0142o interaktywny eksponat z ..."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "400e0fa4-9892-44b3-bed5-38c6a170edc8",
+      "Text": "Baczcie, \u015Bmiertelnicy! Jam jest b\u00F3g ... i nie b\u0119d\u0119 tolerowa\u0142 ...!"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "347563ff-951f-41ae-9d62-38aac929e598",
+      "Text": "B\u0119d\u0105c w szkole \u015Bredniej nie mog\u0142em si\u0119 dopasowa\u0107 do otoczenia, dop\u00F3ki nie znalaz\u0142em klubu ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "35c21c09-d2d6-4cbe-9e06-7d62476cca36",
+      "Text": "Biega, krzyczy pan Hilary: \u0022Gdzie s\u0105 moje ... ?\u0022   "
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "f07ba783-7267-4746-bbc0-908e0cac928d",
+      "Text": "Bracia, nasza siedziba zosta\u0142a przej\u0119ta, a nasze dziwki wzi\u0119te doniewoli. Czas rozpocz\u0105\u0107 operacj\u0119 ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "5e6bfbde-bc94-474c-a833-ae9f9aa8d252",
+      "Text": "Badania wykazuj\u0105, \u017Ce myszy laboratoryjne pokonuj\u0105 labirynt 50% szybciej po kontakcie z ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "801cdadf-8162-4353-ac90-ec1dc4438f3a",
+      "Text": "Badanie opublikowane w Nature potwierdzi\u0142o, \u017Ce ... jest dobre dla Ciebie w ma\u0142ych dawkach."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "46d0a154-e256-4628-8f90-c43fcbadff1b",
+      "Text": "Bardzo mi przykro, ale regulamin zabrania ... pod prysznicem."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "25536b46-dee3-43b9-b8e4-968495674e89",
+      "Text": "Dowiedzia\u0142em si\u0119 na w\u0142asnej sk\u00F3rze, \u017Ce ... nie pocieszy przyjaciela w \u017Ca\u0142obie."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "48e7373a-c5d6-4ad0-9c1f-ad1459cbb54e",
+      "Text": "Dzisiaj w Faktach: Czego nie wiesz o ... a mog\u0142o by ci\u0119 zabi\u0107."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "41759797-fdae-4e59-a39c-473ca61d1178",
+      "Text": "Dzwo\u0144 do kancelarii prawniczej, poniewa\u017C nikt nie powinien tolerowa\u0107 ... w miejscu pracy."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "0b7e2d1d-8924-4727-8e16-0a4c511bb77f",
+      "Text": "Drogie Bravo, mam problem z ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "d0d41921-729b-4d51-8645-ffa16dfec3f1",
+      "Text": "Do teatr\u00F3w wchodzi musical o ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "4d7a3452-c8c3-4cc6-8350-6915c32b0a47",
+      "Text": "Dlaczego m\u00F3j kot jest taki smutny?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "a48ffe6c-cc2c-4446-a867-6c4ebc77e482",
+      "Text": "Dlaczego Niemcy napad\u0142y na Polsk\u0119 w 1939 roku?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "7d83e3ae-3f26-4726-90c4-d182637f610c",
+      "Text": "Dlaczego p\u0142aczesz dziewczynko?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "d110ab7d-154b-4d08-8a89-3e254d62b8a6",
+      "Text": "Dlaczego si\u0119 \u015Bmiej\u0119 i zdejmuj\u0119 swoje ubrania?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "b7937598-8996-4ab6-8aae-2157e5d2e66d",
+      "Text": "Dlaczego w Polsce jest tak wysokie bezrobocie?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "a7f0fbf6-d1e5-4ad4-bfa6-7e169d22ada1",
+      "Text": "Dlaczego Ziemia jest p\u0142aska?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "77ae478d-bcba-43d5-9c34-43fc78eebf1c",
+      "Text": "Dzisiejsz\u0105 zup\u0105 dnia jest zupa krem z ..."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "bc11b0b1-ddb1-42ab-8af4-c0c36021d566",
+      "Text": "A niechaj narodowie w\u017Cdy postronni znaj\u0105, i\u017C Polacy nie ... i sw\u00F3j ... maj\u0105."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "7dbe33db-c2d7-45a1-b363-b73f80eb7f23",
+      "Text": "Hej, kotku, chod\u017Amy do mnie, poka\u017C\u0119 ci ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "ce54bda8-e837-40bb-b871-c9c97f17142f",
+      "Text": "Hej chcecie wypr\u00F3bowa\u0107 now\u0105 gr\u0119? Jej nazwa to: ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "6a795d0b-d00b-46d4-a2b8-de7570f6264e",
+      "Text": "\u0141atwo jest Ci\u0119 kocha\u0107, poniewa\u017C jeste\u015B ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "94d4ade0-ae32-4107-b322-7712f9e69500",
+      "Text": "I wszystko by mi si\u0119 uda\u0142o gdyby nie ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "22e4fb13-c2e2-404c-a08d-91373bc9fed8",
+      "Text": "Kalambury zosta\u0142y dla mnie na zawsze zniszczone, kiedy moja mama musia\u0142a zaprezentowa\u0107 ..."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "7d56e3b3-8cb4-40f3-b0f8-93c5aee8a655",
+      "Text": "Ka\u017Cdy krok w kierunku ... przybli\u017Ca mnie do ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "6ad0e3fc-12e1-4f90-9253-c25634ef684f",
+      "Text": "Ilekro\u0107 spojrz\u0119 na moje \u0142\u00F3\u017Cko to przypomina mi si\u0119 ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "3a99b4b2-5e82-4ab5-a260-d79f462a35a5",
+      "Text": "Ilekro\u0107 Ci\u0119 widz\u0119 mam ochot\u0119 na ..."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "93dc88b2-14c5-4afd-94da-01d9fada6af9",
+      "Text": "Ksi\u0105\u017Cka miesi\u0105ca to \u0022... dla ... : historia o nadziei\u0022."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "d9f12c23-06eb-43aa-9673-fb5862337a4b",
+      "Text": "Krok 1: ..., Krok 2: ..., Krok 3: Profity"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "339958fb-46a8-4518-b31d-522baa1e9506",
+      "Text": "KGB przes\u0142uchuje wrogich agent\u00F3w poprzez wielokrotne poddawanie ich ..."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "0fb42404-4e91-4ee1-8af1-65b52e437b6d",
+      "Text": "Kochanie, wymy\u015Bli\u0142em now\u0105 scenk\u0119 do wypr\u00F3bowania dzi\u015B wieczorem! Mo\u017Cesz by\u0107 ..., a ja b\u0119d\u0119 ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "dd67e9a9-68a2-44ff-97e1-4690b0c7fa48",
+      "Text": "Ka\u017Cdej wigilii, m\u00F3j wujek si\u0119 upija i opowiada mi histori\u0119 o ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "7f30270a-3b34-49b5-8430-74277349e4fc",
+      "Text": "Kelner! Czy m\u00F3g\u0142by Pan zabra\u0107 t\u0119 zup\u0119? Smakuje jak ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "6b1fb249-6fbd-434f-ba7b-f4abdf8668a7",
+      "Text": "Kochanie Ci\u0119 jest proste, poniewa\u017C jeste\u015B ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "226a2774-27b4-4ded-8c68-1cef52991e77",
+      "Text": "Komputer! Wy\u015Bwietl ... na ekranie. Powi\u0119ksz!"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "8e1f0511-8e94-4cbe-ae60-0ebc81380bce",
+      "Text": "Lidl wprowadzi\u0142 szalon\u0105 promocje na ... Emeryci atakuj\u0105!"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "17662d48-8865-4957-bb7a-70e002c26095",
+      "Text": "Eureka! Kochanie mo\u017Cemy wyleczy\u0107 naszego syna geja za pomoc\u0105 ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "15ac5d21-1bf3-41e6-beaf-e921897c7895",
+      "Text": "Frytki najlepiej smakuj\u0105 z ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "36cb4af6-b315-46bc-8ace-217e9b1d8887",
+      "Text": "Kto zostanie nast\u0119pn\u0105 gwiazd\u0105 porno?"
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "482c4ec7-d76f-4013-8d0d-9e230f9fd0e7",
+      "Text": "Masz problemy z ... ? Wypr\u00F3buj ... !"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "58b7ef44-726e-4699-a4bf-c2b6d41080b7",
+      "Text": "Mi\u0119dzynarodowy "
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "6f36674f-45d7-4e9d-9e07-30ca14e57d75",
+      "Text": "Trybuna\u0142 uzna\u0142 ... za winnego ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "a9e76a90-6b01-4731-b5d8-ba64d97093d3",
+      "Text": "Moim nowym ulubionym gwiazdorem pornojest Janusz \u0022 ... \u0022 Trzepieko\u0144ski."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "1e512f87-62fe-4caf-af3e-430b1a32b5ee",
+      "Text": "Moja mama wkurzy\u0142a si\u0119, kiedy w\u0142\u0105czy\u0142a moj\u0105 histori\u0119 przegl\u0105dania i znalaz\u0142a ... .com"
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "1e856dd5-0b24-4911-9369-b194251dbde3",
+      "Text": "Moje \u017Cycie to b\u0142\u0119dne ko\u0142o ... oraz ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "72382ff3-f1ff-4d74-aff6-472dbc820a5b",
+      "Text": "M\u00F3j kraj, taki pi\u0119kny. S\u0142odka kraina ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "3fceb1e2-7f80-443f-b688-a224e2df0067",
+      "Text": "M\u00F3j nauczyciel wuefu zosta\u0142 wylany ze szko\u0142y za dodanie ... do toru przeszk\u00F3d."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "89828e44-3518-42fb-8c22-a6f4fbc1242a",
+      "Text": "M\u00F3j plan dominacji nad \u015Bwiatem zaczyna si\u0119 od ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "81cc0560-a7be-4737-8b4e-73650eee330f",
+      "Text": "M\u00F3wi wasz kapitan. Zapnijcie pasy i przygotujcie si\u0119 na ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "233437f9-755e-4842-aa1a-6af84b623fc6",
+      "Text": "Medycyna alternatywna zacz\u0119\u0142a docenia\u0107 w\u0142a\u015Bciwo\u015Bci lecznicze ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "8be41553-f4f7-48fe-b2fe-06256cdadfca",
+      "Text": "Mo\u017Ce to jej urok, a mo\u017Ce to ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "3ff143e0-9ddb-4651-90f2-b39f25261ef7",
+      "Text": "Mam szczer\u0105 nadziej\u0119, \u017Ce moja babcia nie zapyta ponownie o wyja\u015Bnienie ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "702dad24-1aa1-4268-9a50-60b09020cc19",
+      "Text": "Mo\u017Cesz w to nie uwierzy\u0107, ale jestem z przysz\u0142o\u015Bci! Musisz powstrzyma\u0107 ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "2dceec33-eb72-4628-8373-64b0f5812633",
+      "Text": "M\u0119\u017Cczy\u017Ani my\u015Bl\u0105 tylko o ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "46ed8275-0bbd-4a22-bf53-8956ffdf5011",
+      "Text": "Na co zawsze mo\u017Cna poderwa\u0107 lask\u0119?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "be569749-5588-4a21-92be-dfae85d180e6",
+      "Text": "Na \u017Cywo, tylko w Polsat Sport: cykl turniej\u00F3w ..."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "c47489f6-dd33-4fc7-b3af-a92d034063ec",
+      "Text": "Nagrod\u0119 za ... otrzymuje ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "5663c5fa-969e-4bec-94b9-3f1bd7e744ad",
+      "Text": "Nie wiem czym b\u0119dzie si\u0119 walczy\u0107 podczas trzeciej wojny \u015Bwiatowej, ale podczas czwartej wojny \u015Bwiatowej b\u0119dzie si\u0119 walczy\u0107 ..."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "5b5528fe-50ab-4178-9a37-cbd636ac60c7",
+      "Text": "Nigdy nie rozumia\u0142em ... dop\u00F3ki nie ..."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "db7f7965-2aab-4008-b0e7-1359daa0b615",
+      "Text": "Na pocz\u0105tku by\u0142 ... Wtedy B\u00F3g rzek\u0142, \u0022Niech si\u0119 stanie ...\u0022."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "ce06154d-8147-4f85-98c5-f638b2d53474",
+      "Text": "Najgorszy dzie\u0144 W \u017BYCIU. #..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "951fac6d-3107-4361-bab1-44c3b0845c9b",
+      "Text": "Nareszcie! Firma, kt\u00F3ra dostarcza ... prosto pod twoje drzwi."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "01cebe4d-6bb8-4488-b36b-414b2cc07903",
+      "Text": "Nauka nigdy nie wyja\u015Bni ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "bb93b9e1-b6ec-49dc-89e5-294e6b79dab0",
+      "Text": "Nauka nigdy nie wyja\u015Bni pochodzenia ..."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "d70b1333-e371-42aa-bcdd-822be7f2d056",
+      "Text": "Nie b\u0119dziesz \u017Cy\u0142 naprawd\u0119 dop\u00F3ki nie do\u015Bwiadczysz ... i ... w tym samym momencie."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "1b5b8b31-9adf-48cf-9fff-de693a7a58bc",
+      "Text": "Nie jestem taki jak wy. Jestem zbyt bogaty i zaj\u0119ty ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "9fde7e3b-7fe5-4c83-95bc-999a1d853200",
+      "Text": "Nie zadzieraj ze mn\u0105! W tym momencie jestem dos\u0142ownie ..."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "1f1a6cd9-3c6f-4f6b-903f-57b6ae04777f",
+      "Text": "Nowy, zajebisty, trzygodzinny film Michaela Baya stawia ... do walki przeciw ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "a6a39e15-e96c-4323-8075-44ccddc6e73c",
+      "Text": "Na co posz\u0142a moja pierwsza wyp\u0142ata?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "b1fad786-eab6-4ab5-8a10-66232c6a4460",
+      "Text": "Na ko\u0144cu to nie smok okaza\u0142 si\u0119 by\u0107 z\u0142ym, tylko ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "165c81fe-6f3a-4c0b-9e65-2945c1105aee",
+      "Text": "Na moim ulubionym zdj\u0119ciu stoj\u0119 z ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "27075d6c-4d74-4595-a5ac-cd414431f779",
+      "Text": "Nie zapomnij! Od tego tygodnia \u0022Lu\u017Ane Pi\u0105tki\u0022 zostan\u0105 zast\u0105pione przez \u0022... Pi\u0105tki.\u0022"
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "48be3075-2b4b-4eda-aff3-42cc9566ea34",
+      "Text": "Nigdy nie znale\u017Ali\u015Bmy ... , ale po drodze nauczyli\u015Bmy si\u0119 wiele o ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "c9968b35-db8a-44c0-91be-01d9e10a6f84",
+      "Text": "Niechciany prezent, kt\u00F3ry ci\u0105gle zmienia w\u0142a\u015Bciciela? "
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "6fb7be3a-50cd-44bd-892f-b50dc50efa67",
+      "Text": "Nowy film Krzysztofa Zanussiego opowiada histori\u0119 upo\u015Bledzonego dziecka pogodzonego z ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "b64a83a7-a000-4693-a72e-adf2667a636b",
+      "Text": "Na YouTube najbardziej lubi\u0119 ogl\u0105da\u0107 ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "b3972c8c-00e5-45da-b768-b6b5cd24059b",
+      "Text": "Najlepsze miejsce na randk\u0119 to ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "15661e35-ea57-40bf-bf45-5b6cdfcf1cc2",
+      "Text": "Najlepsze wakacje to ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "efc1b985-59f3-4f74-a2c2-221c2a7c987d",
+      "Text": "Najlepszy podryw zaczyna si\u0119 od s\u0142\u00F3w: ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "df2d0c73-eb79-4d1b-b7af-f2c22ae539f2",
+      "Text": "Najpierw kino, potem kolacja, a na ko\u0144cu ... ."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "9ae1845f-98bf-46b2-b0de-ef5f6d44bc8c",
+      "Text": "Nast\u0119pn\u0105 ksi\u0105\u017Ck\u0105 A. Sapkowskiego b\u0119dzie \u0022Wied\u017Amin: ...\u0022"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "55364395-aa33-4765-b8f6-b937f91fa344",
+      "Text": "Nauka nigdy nie wyja\u015Bni pocz\u0105tk\u00F3w ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "d6c13cb3-5910-48e6-bdc0-6d4f65847005",
+      "Text": "Nic nie powie \u0022Kocham Ci\u0119\u0022 jak ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "24b24fdc-c274-470b-bedc-f42fa1bd28ad",
+      "Text": "Nic nie przebije ... w \u0142\u00F3\u017Cku."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "36a1ba8e-f597-4b81-8b09-2ce77952b5bc",
+      "Text": "Nie mo\u017Cesz czeka\u0107 w niesko\u0144czono\u015B\u0107. Nadszed\u0142 czas, aby porozmawia\u0107 z twoim lekarzem o ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "7480432d-eddb-4ee2-ae4e-728d666bce12",
+      "Text": "Now\u0105 gwiazd\u0105 wyst\u0119puj\u0105c\u0105 podczas Eurowizji b\u0119dzie ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "55a9f0bc-472a-47e4-952e-a1804988becd",
+      "Text": "Nowo odkryty pierwiastek zawiera 25% czarnej materii i 75% ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "645a3603-1b49-4d38-ab06-395f121fce95",
+      "Text": "Nowo\u015B\u0107! Nasz p\u0142yn do higieny intymnej zawiera wyci\u0105g z ..."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "d8a2c2ad-cae0-4f0a-a896-e7673452924e",
+      "Text": "Od czasu ...  nie mog\u0119 spa\u0107 bez ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "a13e1f57-c758-4611-ac61-bbdd84f61e26",
+      "Text": "Okaza\u0142o si\u0119, \u017Ce ...-men nie by\u0142 bohaterem, kt\u00F3rego potrzebowali\u015Bmy."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "816a6e32-24cf-4854-9e6a-ae60d96a198e",
+      "Text": "Ona przez ca\u0142\u0105 noc lubi imprezowa\u0107. Ja przez ca\u0142\u0105 noc lubi\u0119 ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "c0118d09-858c-4aa6-8c58-b889d135b411",
+      "Text": "Co b\u0119dzie nast\u0119pn\u0105 zabawk\u0105 w zestawie Happy Meal\u00AE?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "f45be2f3-199e-4d1a-b1f5-190183a8f74b",
+      "Text": "Co b\u0119dzie nast\u0119pnym duetem superbohater\u00F3w?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "33e2224f-48ba-4bb2-91e2-de0f9317894d",
+      "Text": "Co Bogus\u0142aw Linda jad\u0142 na obiad?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "f492aa72-ffd8-4080-8aa1-a028a231884a",
+      "Text": "Co jest kolejn\u0105 modn\u0105 diet\u0105?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "9a21cb41-f857-42e2-adb5-7e81403b9250",
+      "Text": "Co jest moim narkotykiem?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "72a12c76-04d5-4674-81d8-bf447cce73e3",
+      "Text": "Co jest moj\u0105 supermoc\u0105?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "6420967b-44c0-4b6d-b766-17d60e9876c1",
+      "Text": "Co jest najbardziej chrupi\u0105ce?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "3c78e942-d625-49ba-a8ab-51c2ac947b95",
+      "Text": "Co jest najbardziej emo?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "c9ead905-2fc8-42cc-a69b-ea20131ec445",
+      "Text": "Co jest najlepszym przyjacielem kobiety?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "e65aaed0-81f2-4f7a-9f07-d31ba6412afb",
+      "Text": "Co pomaga Obamie si\u0119 wyluzowa\u0107?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "793c2b36-83c3-4882-96b8-eff4196e3c36",
+      "Text": "Co powoduje u mnie gazy?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "af3aaea0-a09a-4235-a87e-3b438b41db30",
+      "Text": "Co preferuje Janusz Korwin-Mikke?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "5317bbf9-a7e6-47e5-a636-ebc0eabb7ec6",
+      "Text": "Co przywioz\u0142em z Turcji?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "ab46974e-4e32-4d09-9745-f6661e41f5ba",
+      "Text": "Co sprowadz\u0119 z przysz\u0142o\u015Bci by przekona\u0107 ludzi, \u017Ce jestem pot\u0119\u017Cnym czarodziejem?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "8c57d922-d24b-48ff-ac1f-2a2f374a65f5",
+      "Text": "Co staje si\u0119 lepsze z wiekiem?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "bfcfe6b9-53df-43d6-a34d-8cc83972d703",
+      "Text": "Co tak pachnie?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "c9e444d0-fb9d-4439-92cb-04d4fe6eaeeb",
+      "Text": "Co to za d\u017Awi\u0119k?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "6a5eaa57-e928-451e-947e-e942bbd517c5",
+      "Text": "Co ukrywaj\u0105 przede mn\u0105 rodzice?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "b1f39e2f-2cc9-4d73-9302-4a7168421f79",
+      "Text": "Co USA wys\u0142a\u0142o dzieciom w Afganistanie?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "0e4ee2a9-8c1a-4698-9ffb-f8f8dd465f46",
+      "Text": "Co zako\u0144czy\u0142o m\u00F3j ostatni zwi\u0105zek?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "e5699bdf-c2ed-48b1-9a51-77b1f528df25",
+      "Text": "Co zawsze rozkr\u0119ca imprezy?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "67acbd9a-bad9-44b6-af03-3d2686455b22",
+      "Text": "Czego jest pe\u0142no w niebie?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "0241cc2e-c6bc-42bb-b561-45e711a29151",
+      "Text": "Czego nie chcieliby\u015Bcie znale\u017A\u0107 w chi\u0144skim \u017Carciu?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "6438b336-6819-4e23-bb5b-7f13db189f6d",
+      "Text": "Czego wstydzi si\u0119 Batman?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "673e9b88-0804-4762-804c-cdeb8a652d24",
+      "Text": "Czym \u015Bmierdz\u0105 starzy ludzie?"
+    },
+    {
+      "AnswerCards": 3,
+      "Id": "a1af18c0-ec85-4be1-b549-b09a203c9d57",
+      "Text": "Ch\u0142opy, jaki widzia\u0142em wczoraj szalony film! Zaczyna si\u0119 ..., potem jest troch\u0119 o ..., a ko\u0144czy si\u0119 ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "6f56553d-efb8-45f3-be92-1cb10f453145",
+      "Text": "Co doprowadzi\u0142o orgi\u0119 do zastoju? "
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "9ca9aff0-fe38-41ab-8061-4f46e14fffee",
+      "Text": "Co jest zabawne dop\u00F3ki nie stanie si\u0119 dziwne?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "db4c7d59-0177-4aee-afa9-aafa836a8ae3",
+      "Text": "Co masz do powiedzenia Janusz? To ju\u017C trzeci raz kiedy jeste\u015B u dyrektora za ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "d604a0ec-6563-4616-84f5-aca40761d6c7",
+      "Text": "Co powoduje niezr\u0119czn\u0105 sytuacj\u0119 w saunie?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "66e08695-0982-49ff-b61d-30f1b1096d09",
+      "Text": "Co robi Kamil Durczok jak zobaczy upierdolony st\u00F3\u0142?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "f9e54fa7-dce8-44e4-a61e-5c69fd8069dd",
+      "Text": "Co ubi\u0142o m\u00F3j wzw\u00F3d?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "f7572305-a43d-4433-a206-b1bed80d2d32",
+      "Text": "Co utrudnia \u017Cycie nudystom?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "b5be6f41-228e-4f0e-95b0-f01b74fd1083",
+      "Text": "Co wysz\u0142o z mojego ty\u0142ka kiedy robi\u0142em kup\u0119?"
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "5e2ec2a5-4a2d-4c04-b69a-0f07583601ef",
+      "Text": "C\u00F3\u017C, je\u017Celi ... jest dobre dla ..., to jest dobre i dla mnie."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "ce9a51f4-e337-4e80-830f-3b9bab9c7fa9",
+      "Text": "Czemu jestem taki sp\u0142ukany?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "f465feeb-400e-4394-be03-4bacb887d207",
+      "Text": "Cze\u015B\u0107 MTV! Mam na imi\u0119 Izka, mieszkam w Warszawie, kr\u0119ci mnie ..., i kocham si\u0119 dobrze bawi\u0107."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "2c4f52b2-ca67-4410-8d04-d742b974d2bb",
+      "Text": "Cz\u0142onkowie elity spo\u0142ecznej w Warszawie p\u0142ac\u0105 tysi\u0105ce z\u0142otych by tylko do\u015Bwiadczy\u0107 ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "92c912f3-69d0-4f06-ae38-02eabbece95b",
+      "Text": "Cz\u0142owieku, to jest g\u00F3wno prawda. Pieprzy\u0107 ...!"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "802a0583-53b7-4948-bf0e-60fdb1bf3912",
+      "Text": "Chc\u0119 umrze\u0107 ze \u015Bwiadomo\u015Bci\u0105, \u017Ce moja druga po\u0142\u00F3wka zorganizuje na moim pogrzebie ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "5557b899-0eef-4bd5-9010-bf671c0e1fe9",
+      "Text": "Chodz\u0105 plotki, \u017Ce w Watykanie istnieje sekretny pok\u00F3j do ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "96327816-318d-47e9-abd5-d42af39961d5",
+      "Text": "Chwa\u0142a Ci Panie Nasz, stw\u00F3rco wszech\u015Bwiata, kt\u00F3ry\u015B stworzy\u0142 nam ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "e3c72caf-a042-424e-a575-b9c28a79a24d",
+      "Text": "Co da\u0142em mojemu przyjacielowi na 18 urodziny?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "d744f394-422d-4a87-bad2-e85a3ccc6ff2",
+      "Text": "Co je prawdziwy student?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "5d19e86e-0b58-47d8-b179-ce0ebf64f192",
+      "Text": "Co jest moim najwi\u0119kszym atrybutem?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "67d4134f-2d07-4b47-8b47-7c28d6ea39ec",
+      "Text": "Co mam w lod\u00F3wce?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "919305f8-eeeb-41f4-b990-eaaadfb0f368",
+      "Text": "Co jest twoj\u0105 najwi\u0119ksz\u0105 s\u0142abo\u015Bci\u0105?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "ea2d3e39-1944-4481-bf9a-5bbc9e93542f",
+      "Text": "Co mnie ogrzewa podczas zimnej, naprawd\u0119 zimnej zimy?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "bdfbc0ae-2637-458a-b82c-8cf328103266",
+      "Text": "Co musia\u0142em zrobi\u0107, by dosta\u0107 \u015Bwiadectwo z paskiem?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "689dc578-5e01-4343-aeaa-5a2bbdd56576",
+      "Text": "Co przynios\u0142e\u015B ze sob\u0105 do pokazania?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "d64f173e-3d02-4de7-82b5-75e9f53efcbb",
+      "Text": "Co Rosja podarowa\u0142a dla Polski?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "4de5f985-c8c0-49b2-be74-f8af9c9d82eb",
+      "Text": "Co spowodowa\u0142o wielk\u0105 awantur\u0119 w moim domu?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "604c280a-07ca-4246-92eb-d0eacab59665",
+      "Text": "Co to za ostry smak?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "8568eb93-bd38-4966-a29a-7bcd8e5dd5d2",
+      "Text": "Co widz\u0119?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "f1c85c8b-03a8-475c-b502-4aec2aa5807e",
+      "Text": "Co zako\u0144czy problem rasizmu raz na zawsze?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "1e8093f3-8a92-4656-b36d-f42539abe9e1",
+      "Text": "Co znajduje si\u0119 w moim niezb\u0119dniku gwa\u0142ciciela?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "1445c669-4a30-4be3-bfb4-f989e0cd63f9",
+      "Text": "C\u00F3\u017C, je\u017Celi ... jest przest\u0119pstwem \u2013 aresztuj mnie!"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "c4c0d718-cff5-496f-a207-3829dd179811",
+      "Text": "Czterej pancerni i ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "f9aaad5e-bbe9-4e9b-afa0-2a1b82cf2908",
+      "Text": "Czym jest dla mnie mi\u0142o\u015B\u0107?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "275bbc41-5223-45db-91c3-10b3b5d05e5d",
+      "Text": "Czym si\u0119 objawia pi\u0119kno kobiet?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "89f4f348-1bc0-4660-a1f4-b59ad94400ba",
+      "Text": "Czym walcz\u0119 ze z\u0142em?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "998c6749-bec3-491c-b4ff-f568995ffd05",
+      "Text": "Gdy Faraon nie dawa\u0142 si\u0119 przekona\u0107, Moj\u017Cesz zes\u0142a\u0142 plag\u0119 ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "6ea40985-afff-4310-95f4-7426e48708b9",
+      "Text": "Gdy USA \u015Bciga\u0142o si\u0119 ze Zwi\u0105zkiem Radzieckim na ksi\u0119\u017Cyc, rz\u0105d Meksyku wyda\u0142 milion pesos na ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "4f593c1e-b31f-4575-a9ae-f38d883aa96c",
+      "Text": "Garnitur od Armaniego: 4000 z\u0142. Kolacja dla dwojga w TEJ restauracji: 1500 z\u0142. Wyraz jej twarzy kiedy zaskoczysz j\u0105 ...: bezcenny."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "e5359566-8636-4b73-8030-df543c49f89b",
+      "Text": "Gdy wszystko inne zawiedzie, zawsze mog\u0119 masturbowa\u0107 si\u0119 do ..."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "beb5ab88-bcd4-48ba-ba24-43b9f8f48868",
+      "Text": "Gdyby B\u00F3g nie chcia\u0142 aby\u015Bmy si\u0119 cieszyli z ... , nie dawa\u0142by nam ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "cb99ffb7-f54e-47b0-b6e3-da5c48f05499",
+      "Text": "G\u0142osowanie zako\u0144czone. Now\u0105 maskotk\u0105 klubow\u0105 jest ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "bdad5ade-5faf-4840-b475-bb628d67a5e6",
+      "Text": "Godzina 2:00 w mie\u015Bcie, kt\u00F3re nigdy nie \u015Bpi. Drzwi otwieraj\u0105 si\u0119, wchodzi ona. Podchodzi do mnie. Co\u015B w jej oczach m\u00F3wi mi, \u017Ce szuka ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "6d78affb-9b12-42b4-968f-952b5184354f",
+      "Text": "Gdy moja \u017Cona dowiedzia\u0142a si\u0119 \u017Ce j\u0105 zdradzi\u0142em, pokaza\u0142a mi ..."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "5106223a-0864-42a6-bb9d-52add51c9802",
+      "Text": "Gdy ostatnio wraca\u0142em z imprezy, zobaczy\u0142em jak ... kupuje od go\u015Bcia w kapturze ..."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "e788abda-1076-4f1b-860d-8f6947361cfe",
+      "Text": "Je\u015Bli nie mo\u017Cesz sobie poradzi\u0107 z ... , lepiej trzymaj si\u0119 z dala od ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "8f57e0b2-7a92-4b28-96ab-ef8b88a4a0d3",
+      "Text": "Jestem pewien, \u017Ce jestem teraz na  haju, bo jestem absolutnie zauroczony ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "bbc977fc-122b-4f2e-b1a0-f2133e67ce57",
+      "Text": "Japo\u0144czycy opracowali mniejsz\u0105, bardziej wydajn\u0105 wersj\u0119 ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "e16839f3-66f5-4af7-874c-94bb8e05df1b",
+      "Text": "Jak p\u00F3jdziesz ze mn\u0105 do \u0142\u00F3\u017Cka, to Ci poka\u017C\u0119 ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "1786e3e3-d939-47ef-ab7b-e16bf31b7a5f",
+      "Text": "Jak straci\u0142am swoje dziewictwo?"
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "88f0aa39-ab0c-4afe-bfe0-4dbb34393869",
+      "Text": "Jakie s\u0105 dwie karty w twojej r\u0119ce, kt\u00F3rych chcesz si\u0119 pozby\u0107?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "e9b9d9af-c3b9-4523-badc-f738bb7ad01f",
+      "Text": "Je\u017Celi za pierwszym razem Ci si\u0119 nie uda, spr\u00F3buj ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "b0798f15-0d44-4d7c-8438-8acaad548dce",
+      "Text": "Jak b\u0119d\u0119 premierem, to stworz\u0119 Ministerstwo ..."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "66f053ce-1c96-4205-aef2-0eb6d9cc5086",
+      "Text": "Jak by\u0142em na kwasie, to ... zmieni\u0142 si\u0119 w ..."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "7eb1b5b6-2317-47d8-932b-ccf6c546efb1",
+      "Text": "Jako moj\u0105 nast\u0119pn\u0105 sztuczk\u0119, wyci\u0105gn\u0119 ... z ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "a7d0a57a-7f88-4e00-bf33-ad6649f280c4",
+      "Text": "Ja nie wierz\u0119 w Boga, ja wierz\u0119 w ..."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "a282dd6b-5bd1-49aa-9855-7eb7cbcfca24",
+      "Text": "Jak do tego odpowiednio podejdziesz, ... to po prostu ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "76af1fac-afd1-48cf-8feb-b0f05d06df08",
+      "Text": "Jakiej nauczy\u0142bym podw\u0142adnych dyscypliny, gdybym by\u0142 kr\u00F3lem? "
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "af3a9825-1843-41bf-bb80-921018bf8093",
+      "Text": "Jak rekompensuj\u0119 mojego malutkiego penisa?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "cbeb07e9-6177-4684-a5d1-670d0519a637",
+      "Text": "Jaki temat wybra\u0142e\u015B na matur\u0119?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "5427d02b-fea6-42e1-b36c-716fad3b28f8",
+      "Text": "Jak b\u0119d\u0119 miliarderem, to wznios\u0119 50 metrowy pomnik na cze\u015B\u0107 ..."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "2494401d-9429-41c2-b55a-1a8f2b997baa",
+      "Text": "Pacjent ma :... To zapewne wynik: ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "75ace862-308e-41a7-a5e9-a3aa54885c8e",
+      "Text": "Pieni\u0105dze nie mog\u0105 kupi\u0107 mi mi\u0142o\u015Bci, ale za to mog\u0105 mi kupi\u0107 ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "2d83147c-445f-4fe8-aa23-793b719363ee",
+      "Text": "Pi\u0119\u0107 etap\u00F3w \u017Ca\u0142oby: zaprzeczenie, gniew, bezradno\u015B\u0107, ... , akceptacja."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "ca4e71a3-2d0b-4bdf-8edd-de8a868d3c47",
+      "Text": "Po miesi\u0105cach \u0107wicze\u0144 z ..., my\u015Bl\u0119, \u017Ce jestem gotowy do ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "c333990e-f1f8-453b-aeb1-5f85e9034be5",
+      "Text": "Po miesi\u0105cach dyskusji, walne zgromadzenie przeciwnik\u00F3w rz\u0105du zgodnie wnioskuje:  \u0022Wi\u0119cej ... !\u0022"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "11e5736f-61b6-4d2e-beb9-f57296bd4ff1",
+      "Text": "Podczas jego kryzysu wieku \u015Bredniego, m\u00F3j tata powa\u017Cnie zainteresowa\u0142 si\u0119 ...  "
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "16683278-d0a0-46fe-adde-f06b55019116",
+      "Text": "Pomocy, doktorze, mam ... w odbycie!"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "e8a193ec-5a27-492e-9c5a-3cbd3378285b",
+      "Text": "Proces leczenia rozpocz\u0105\u0142 si\u0119, gdy do\u0142\u0105czy\u0142em do grupy wsparcia dla ofiar ..."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "c09ef17c-8fff-4cc3-9b38-616f7f70de5b",
+      "Text": "Przed pojawieniem si\u0119 ... wszystko, co mieli\u015Bmy,to ..."
+    },
+    {
+      "AnswerCards": 3,
+      "Id": "63e1b81e-23c3-4d97-9464-13275c9bfd97",
+      "Text": "Przeszed\u0142em drog\u0119 z ... do ... Wszystko dzi\u0119ki ..."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "fdc3dae9-a14f-4dc6-a8e9-668d47e333e4",
+      "Text": "Przygoda. Romans. ... Prosto ze studia filmowego KADR, \u0022...\u0022."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "c00af90f-be8b-4558-95a7-ab5756adbdaa",
+      "Text": "Przygotuj si\u0119 na film tego lata! Jeden porz\u0105dny glina. Drugiego interesuje tylko ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "952d9610-bf3f-41df-a0d1-86e989ea25d3",
+      "Text": "Przykro mi prosz\u0119 pana, ale nie zezwalamy na ... w naszym klubie."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "bbe2590f-33cb-436a-9238-91ef3cb8cf9c",
+      "Text": "Picasso w czasie swoich tw\u00F3rczych eksperyment\u00F3w z uproszczeniem formy stworzy\u0142 setki obraz\u00F3w przedstawiaj\u0105cych ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "92863ff8-3844-4eda-9817-35e6a34feacd",
+      "Text": "Pije by zapomnie\u0107 o ..."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "e7113551-9805-446d-9895-b54bf16fd345",
+      "Text": "Plotka g\u0142osi, \u017Ce ulubionym daniem W\u0142adimira Putina jest ... nadziewane ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "7e672927-de4a-438e-b2b1-99b8716394dd",
+      "Text": "Po wielkiej powodzi w 2010 roku, jako pomoc, polski rz\u0105d zorganizowa\u0142 powodzianom ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "aaa8c396-9a70-48ae-a0fa-c92059161b4e",
+      "Text": "Podczas lotu samolotem zabrania si\u0119 ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "4e7673b3-fc32-4854-86e2-79f5699da39b",
+      "Text": "Przepraszam profesorze, ale nie mog\u0142em odrobi\u0107 pracy domowej przez ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "e1bdc641-62fd-4175-9ddb-1352e4aa8d04",
+      "Text": "Przez co ca\u0142y si\u0119 kleje?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "66b9f2ed-b93b-4a33-88fa-c4bf52b73d63",
+      "Text": "Przez co nie mog\u0119 spa\u0107 w nocy?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "eff8b592-4d11-4c0e-b84e-c5e6997b0757",
+      "Text": "Przez co wszystko mnie boli?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "1fdd26a4-180d-44ea-a34c-442cc8735dab",
+      "Text": "Przy pomocy czego polski rz\u0105d wspiera student\u00F3w z region\u00F3w wiejskich?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "35630eae-154f-4227-90c5-7bda57cd210f",
+      "Text": "PZPN zakaza\u0142 ... bowiem dawa\u0142o to graczom niesprawiedliw\u0105 przewag\u0119."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "28b78d9c-ad45-46b8-9d35-5e138244c538",
+      "Text": "Pami\u0119taj, nigdy nie \u0142\u0105cz ... z ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "f15de7b8-cc0d-4caa-88c3-36325504290d",
+      "Text": "Pani Prezydent, asteroida zmierza w stron\u0119 Ziemi i jedyna rzecz, kt\u00F3ra mo\u017Ce j\u0105 zatrzyma\u0107, to ..."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "9eaff97a-2e5d-4b03-8c63-550be5208d05",
+      "Text": "Po wizycie w ... zapad\u0142em na ..."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "48b22d4c-cc8d-4b26-af27-78ae22a76049",
+      "Text": "Podst\u0119pnie ukryty ... spowodowa\u0142 wypadek z ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "2a32a3a4-9615-445c-a7ff-4e8e413249fa",
+      "Text": "Polska marynarka wojenna zwodowa\u0142a lotniskowiec ORP \u0022...\u0022"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "bd60b404-c4de-4083-92c3-baa04dc55f7e",
+      "Text": "Polska: \u0022... Europy\u0022"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "ac4176ce-c152-4de4-84c7-e7f4e1fd0d26",
+      "Text": "Polski rz\u0105d wprowadzi\u0142 nowy przedmiot szkolny, a jest nim ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "d43a925a-fe1a-401a-bf72-4de057ab01b4",
+      "Text": "Porozmawiaj ze swoim lekarzem o mo\u017Cliwych skutkach ubocznych stosowania ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "cc1fe1c7-a6ea-4a82-ae40-82dc67236ab8",
+      "Text": "Potem ksi\u0119\u017Cniczka poca\u0142owa\u0142a \u017Cab\u0119, kt\u00F3ra okaza\u0142a si\u0119 ..."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "c7218491-f526-4db3-b764-422e19a04555",
+      "Text": "Potrzebuj\u0119 Ci\u0119 jak ... potrzebuje ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "140f12ec-2416-4bd2-9748-e27afb2965e5",
+      "Text": "P\u00F3\u0142 wieku temu ludzie nie pomy\u015Bleliby \u017Ce ... uratuje \u015Bwiat."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "e4819928-9483-4aad-ac2e-a6f16c2d0261",
+      "Text": "Prawdziwego Polaka poznasz po ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "6c861861-6aad-426f-a09b-ba076204239a",
+      "Text": "Romantyczna kolacja ze \u015Bwiecami nie mo\u017Ce obej\u015B\u0107 si\u0119 bez ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "1bd7d3f0-800f-4522-ad39-5f430b437e49",
+      "Text": "Randka w ciemno by\u0142a okropna dop\u00F3ki nie odkryli\u015Bmy wsp\u00F3lnego zainteresowania: ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "40e9a455-9a63-471c-931f-33106e9fb29c",
+      "Text": "Prosz\u0119 Pana, nie mog\u0119 przyj\u0105\u0107 tej reklamacji! Maszyna do masa\u017Cu nie powinna by\u0107 u\u017Cywana do ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "cc08e0e1-48b0-414e-88b5-e6788f45b467",
+      "Text": "Sk\u0105d si\u0119 wzi\u0119\u0142a ta plama na mojej kanapie?"
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "4efca06a-ef14-4b1e-b132-b2ae7a24f1cd",
+      "Text": "S\u0142uchaj, synu. Je\u015Bli chcesz zaanga\u017Cowa\u0107 si\u0119 w ..., nie b\u0119d\u0119 ci\u0119 zatrzymywa\u0142. Po prostu trzymaj si\u0119 z daleka od ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "9a4db63d-7e75-465d-b3ec-d529f3ced3e1",
+      "Text": "Socjalistyczne rz\u0105dy Skandynawii zadeklarowa\u0142y, \u017Ce dost\u0119p do ... jest podstawowym prawem cz\u0142owieka."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "87bfe92c-e087-4eb8-9491-f66a7c28b1fe",
+      "Text": "Sp\u0119dzi\u0142em ca\u0142e moje \u017Cycie d\u0105\u017C\u0105c do ... , i wszystko leg\u0142o w gruzach przez ..."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "b33c7ce1-d7a1-4839-9065-ab9407b61778",
+      "Text": "Sta\u0142em si\u0119 ... , niszczycielem ... ."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "aef0fbe1-b96c-4d5e-bdf2-4cf00b6babc6",
+      "Text": "S\u0105 tylko dwie rzeczy pewne w \u017Cyciu: \u015Bmier\u0107 i ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "68edf0c4-2c10-42a0-981a-fef8f1c8d019",
+      "Text": "Sekretem udanego zwi\u0105zku jest rozmowa, rozmowa i jeszcze raz ..."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "88d0bbd1-5f9d-4f88-a312-929895f256f8",
+      "Text": "Seks bez u\u017Cycia ... jest jak ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "c682e1ef-67e2-49df-9c8d-a1b1dd3c7da5",
+      "Text": "Siostro! Tracimy puls prosz\u0119 poda\u0107 ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "5eafc646-7738-41ba-91ea-9eda1c117932",
+      "Text": "Sir, znale\u017Ali\u015Bmy Ci\u0119 nagiego i nieprzytomnego po drugiej stronie ulicy. Co pami\u0119tasz jako ostatnie?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "d3ff80c9-22b3-4244-8904-3bd0e6da435e",
+      "Text": "Strach wiedzie do gniewu. Gniew wiedzie do Nienawi\u015Bci. Nienawi\u015B\u0107 wiedzie do ..."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "5a060b99-7561-459b-b722-3835439d657f",
+      "Text": "Szanowni Pa\u0144stwo, z przykro\u015Bci\u0105 informujemy, \u017Ce urz\u0105d ... odrzuci\u0142 Wasz\u0105 pro\u015Bb\u0119 o ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "5cb1d401-6e21-457a-bba9-dba65aeae0f8",
+      "Text": "\u015Awiat nie istnia\u0142by bez ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "9acc857a-7afc-49a8-8391-f2a0fbb65995",
+      "Text": "To ptak! To samolot! Nie, to ...!"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "8859965e-6dda-4e8c-b315-1a8c631a4cb3",
+      "Text": "To czai si\u0119 w nocy. To \u0142aknie mi\u0119sa. Tego lata, nikt si\u0119 nie schowa przed ..."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "d542972e-57b7-4acb-a0d5-2d6d8b0b3011",
+      "Text": "Tegoroczny najgor\u0119tszy album to \u0022 ... \u0022 autorstwa ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "586c8683-7d48-4480-a468-72ea30f8c489",
+      "Text": "To jest rozkwit mojego \u017Cycia. Jestem m\u0142oda, seksowna i pe\u0142na ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "742eaef4-9d2d-42df-8266-b367d9404463",
+      "Text": "Tutaj Mietek z ksi\u0119gowo\u015Bci. Zauwa\u017Cyli\u015Bmy rachunek na 4000 z\u0142 za \u0022...\u0022 Mo\u017Cesz to wyja\u015Bni\u0107?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "ee16263b-c08b-45dc-b732-bf1b0dcc4cf2",
+      "Text": "Tw\u00F3j up\u00F3r jest godny pochwa\u0142y m\u00F3j drogi ksi\u0105\u017C\u0119. Ale me serce zdob\u0119dziesz tylko przy pomocy ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "822588d4-f44a-4b2f-a86c-0b9041aa3787",
+      "Text": "Ten, kto ma w\u0142adz\u0119 nad ... ma w\u0142adz\u0119 nad \u015Bwiatem."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "d3674762-9b00-4cf0-8eae-d0d23af7ec1f",
+      "Text": "Tak, to ja zabi\u0142em ... Pytacie jak? ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "70eb52db-9498-4a89-adb4-bd07203d0bff",
+      "Text": "To straszna szkoda, \u017Ce wszystkie dzieci w dzisiejszych czasach maj\u0105 do czynienia z ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "cd3cd02b-b4a0-4bd0-803c-4573e2b521a1",
+      "Text": "TV Mango prezentuje ..."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "69621c05-73a7-40f3-9bfc-7e037e866cb6",
+      "Text": "TVP Kultura przedstawia film dokumentalny pt. ... - nieznana historia ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "ef184ee6-55bb-4721-9d0a-05c1e099289a",
+      "Text": "Tatusiu, dlaczego mama p\u0142acze?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "dc756b28-c39a-4152-8f38-7902c35d81d3",
+      "Text": "Udana rozmowa kwalifikacyjna rozpoczyna si\u0119 mocnym u\u015Bciskiem d\u0142oni, a ko\u0144czy ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "78a39482-4aca-44cf-b4f1-bbbdc721abc8",
+      "Text": "W czasie seksu lubi\u0119 my\u015Ble\u0107 o ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "822b557f-357d-45c1-b67c-618bf25fe02a",
+      "Text": "W dzisiejszych czasach niegrzeczne dzieci zamiast r\u00F3zgi dostaj\u0105 pod choink\u0119 ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "b3ea65ae-3f75-4b68-a658-84ea8e3e3374",
+      "Text": "W jaki spos\u00F3b udaje mi si\u0119 utrzyma\u0107 m\u00F3j zwi\u0105zek?"
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "46cbf76b-8d80-42b9-b67c-2c448e243d18",
+      "Text": "W nowym filmie akcji Bruce Willis odkrywa, \u017Ce ... by\u0142 tak naprawd\u0119 ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "c82624e1-9228-42e1-8a18-5e55ef062bed",
+      "Text": "W nowym filmie Disneya Hannah Montana po raz pierwszy zmaga si\u0119 z ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "05833028-9892-43f2-b1e9-a322df0c0224",
+      "Text": "W nowym reality show MTV o\u015Bmiu celebryt\u00F3w wprowadza si\u0119 do domu z ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "b36d6c7f-3c26-4839-94a2-226b96301a8c",
+      "Text": "W ostatnich chwilach swego \u017Cycia Michael Jackson my\u015Bla\u0142 o ..."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "0cb405c9-ecab-4e6a-907e-82f0a28d5673",
+      "Text": "W \u015Bwiecie zniszczonym przez ... jedyn\u0105 nasz\u0105 nadziej\u0105 b\u0119dzie ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "e31006e5-4991-47e8-842c-5aa27a5c550e",
+      "Text": "W wi\u0119zieniu za 200 fajek dostaniesz ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "940431c1-e98e-4aa8-ab9a-a717e9ad4f7b",
+      "Text": "Wycieczka szkolna zosta\u0142a zrujnowana przez ..."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "2dfb0e53-ca2e-4cff-acbd-73287fd4b2c7",
+      "Text": "W ci\u0119\u017Ckiej sytuacji ... mo\u017Ce by\u0107 odpowiednim zamiennikiem dla ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "b9b6a022-565b-4437-9477-2458cdeb7860",
+      "Text": "W nast\u0119pnym odcinku \u0022Rozm\u00F3w w toku\u0022: Jak rozmawia\u0107 z dzieckiem o ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "4a2dd1be-7366-48fa-ae5a-ddf921a77bff",
+      "Text": "W nowym filmie akcji, Bogus\u0142aw Linda musi walczy\u0107 z ninjami oraz ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "0d78ecc8-ec0e-4720-9f54-509d0429cd01",
+      "Text": "W odleg\u0142ej przysz\u0142o\u015Bci, historycy zgodz\u0105 si\u0119, \u017Ce ... to pocz\u0105tek upadku Ameryki."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "22f43ee9-2e59-4299-a4a5-6ed8b4f3b0da",
+      "Text": "W przysz\u0142ym sezonie Szko\u0142y Przetrwania, Bear Grylls musi prze\u017Cy\u0107 w g\u0142\u0119bokiej Amazonii tylko z ... i jego rozumem."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "31c38ca2-5e94-4a57-804f-a6aa28092827",
+      "Text": "W ramach zawartej z nim umowy, Micha\u0142 Wi\u015Bniewski nie za\u015Bpiewa bez ... w jego garderobie."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "7dd53aaa-8bdd-41dd-9cf5-b59be06df195",
+      "Text": "W Rzymie kr\u0105\u017C\u0105 pog\u0142oski, \u017Ce w Watykanie znajduje si\u0119 tajny pok\u00F3j po\u015Bwi\u0119cony ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "2dc79588-a453-4c8b-b58a-3b4ec43ced91",
+      "Text": "W si\u00F3dmym kr\u0119gu piek\u0142a, grzesznicy musz\u0105 znosi\u0107 ...  przez ca\u0142\u0105 wieczno\u015B\u0107."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "25bcffb1-2101-454b-9464-d3dfdcfea1e7",
+      "Text": "W swoim li\u015Bcie po\u017Cegnalnym George Washington ostrzeg\u0142 przed niebezpiecze\u0144stwem kryj\u0105cym si\u0119 za ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "01a5d658-ff62-48b3-bd1f-d94673c12961",
+      "Text": "W swoim najnowszym i najtrudniejszym wyczynie, David Cooperfield musi uciec z ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "724d55c4-4599-47f2-be13-92eba8645a93",
+      "Text": "W swoim nowym albumie w\u0142asnej produkcji, Tede rapuje na d\u017Awi\u0119ki ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "13931b48-5bf6-4342-a070-29a4d12bfb3d",
+      "Text": "W swojej nowej kampanii turystycznej, miasto \u0141\u00F3d\u017A dumnie g\u0142osi, \u017Ce w ko\u0144cu wyeliminowano ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "5241c552-903e-4910-b8c4-b796646e56c1",
+      "Text": "W tym miesi\u0105cu w Cosmopolitan:  \u0022Urozmaici\u0107 swoje \u017Cycie seksualne, przynie\u015B ... do sypialni.\u0022"
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "052fe0b1-ec7b-4c0e-b830-98b517a721f9",
+      "Text": "W zamian za moj\u0105 dusz\u0119, Diabe\u0142 obieca\u0142 mi ..., ale wszystko, co dosta\u0142em to ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "4b9ff377-e497-4799-962a-87df3b7cfc1b",
+      "Text": "Widzieli\u015Bcie kobiet\u0119 z brod\u0105! Widzieli\u015Bcie pier\u015Bcie\u0144 ognia! A teraz, panie i panowie, nacieszcie swoje oczy ... !"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "017b2d1a-3d43-40fe-9319-806fdc230810",
+      "Text": "Wszyscy na ziemi\u0119! Nie chcemy nikogo skrzywdzi\u0107. Jeste\u015Bmy tu tylko po..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "6333b466-381d-416f-a4ab-59643400dd02",
+      "Text": "W dzisiejszych czasach dzieci maj\u0105 obsesj\u0119 na punkcie ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "21663548-7acc-4c5a-b7cb-20093b45293b",
+      "Text": "W co uczniowie bawi\u0105 si\u0119 podczas nudnych lekcji?"
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "799d11b4-0f83-44bd-8a37-09fdb451de74",
+      "Text": "W nast\u0119pnym wy\u015Bcigu udzia\u0142 bior\u0105 ... i ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "f9adeb74-821c-4692-bb24-92799a6fd28e",
+      "Text": "W tym kraju nie witamy si\u0119 lew\u0105 r\u0119k\u0105. Tej r\u0119ki u\u017Cywamy do ..."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "4340a939-a35f-4ad9-9d61-c7c40c01598f",
+      "Text": "Warszawska elita cz\u0119sto myli ... z ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "1fa6e4d4-05a6-4555-8bf5-e052c18b8f57",
+      "Text": "Wiesz kto jeszcze lubi\u0142 ...? Hitler."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "b804ca7c-ea62-475b-af0e-3099c2fcb475",
+      "Text": "Z czego rezygnuje w czasie postu?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "7d8b5e07-9bd3-4d60-9368-3f41355c9205",
+      "Text": "Za 1000 lat zamiast papierkowych pieni\u0119dzy b\u0119dziemy u\u017Cywa\u0107 ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "af0ede21-2468-42af-a11c-5f8d9e0e178c",
+      "Text": "Zanim Pana zabije, Panie Bond, musz\u0119 pokaza\u0107 Panu ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "e8792992-631a-41f6-bd4f-a2e0f2a7e41c",
+      "Text": "\u017Bycie Indian zosta\u0142o na zawsze odmienione, gdy bia\u0142y cz\u0142owiek pokaza\u0142 im ..."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "3748d9a2-487c-4c85-beb0-cf1f2eaf54d0",
+      "Text": "Z biegiem czasu i przy odpowiednich \u015Brodkach, ... zmieni si\u0119 w ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "2a349843-10d5-45c3-a386-4412c5e5c357",
+      "Text": "ZAJEBI\u015ACIE! Uwielbiam ...!"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "9bcb5ea2-9664-438b-ae64-6d856ffcd4ad",
+      "Text": "Zanim wystartuj\u0119 w wyborach, musz\u0119 zniszczy\u0107 wszystkie dowody mojego zaanga\u017Cowania w ..."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "4875fa15-9b13-4403-84b6-9dfe01c9e0c2",
+      "Text": "Zapomnij wszystko co wiedzia\u0142e\u015B o ..., poniewa\u017C teraz po\u0142\u0105czyli\u015Bmy to z ... !"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "6196b7ae-fd8a-48b4-82a7-46520fa8afec",
+      "Text": "Z powodu ... nie pami\u0119tam nic z ostatniej imprezy."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "01ddb13e-29e0-4ac3-88dc-4a5325e963cc",
+      "Text": "Za czas\u00F3w PRL rz\u0105d zakaza\u0142 ...  "
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "f4556a02-c0c5-48ff-b1fa-ce8687235789",
+      "Text": "Za jedyne 5 z\u0142 zafundujesz ... afryka\u0144skim dzieciom na ca\u0142y dzie\u0144."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "7f0afd4a-b537-4437-a88b-1007eeb626a8",
+      "Text": "Zamiast swojej wizyt\u00F3wki wr\u0119czam ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "de68b345-7887-4cdc-b756-82ce620cf7d6",
+      "Text": "Zostaje u Ciebie na noc. No wiesz,  Netflix i ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "f290ae40-3e9f-460f-adb2-790eda5c592a",
+      "Text": "\u017Bona to luksus, ... to konieczno\u015B\u0107."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "25118d88-0e65-4173-835a-12d76fdf562c",
+      "Text": "... mo\u017Cecie kupi\u0107 tylko w darkweb."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "4a5d5121-f8c6-48a6-87a1-da1288a71375",
+      "Text": "... by\u0142o ca\u0142kowicie warte traumy."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "a119259a-4a91-4322-b436-0e439a817113",
+      "Text": "Aby sta\u0107 si\u0119 prawdziwym wojownikiem Yanomamo, musisz udowodni\u0107, \u017Ce mo\u017Cesz si\u0119 oprze\u0107 ... bez krzyczenia."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "98849817-150b-4caa-8916-2d440bf9abbf",
+      "Text": "Alert Kalendarza Google: ... za 10 minut."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "b0e1d8fe-6a8b-4149-84b1-7ef0de68e936",
+      "Text": "Cho\u0107bym pr\u0105cie wsadzi\u0142 w blender, nie zrozumiem co to ...!"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "87097ac1-a7b8-42c6-9c66-b65423c4a451",
+      "Text": "Co jest najbardziej problematyczne?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "488d6d88-4345-4236-bc6c-7d02263f98f9",
+      "Text": "Co jest teraz tak wa\u017Cne, \u017Ce nie mo\u017Cesz zadzwoni\u0107 do swojej matki?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "47d616fc-a45e-4486-87f1-b4e438ac0ab8",
+      "Text": "Co nie istnieje?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "cedd5305-19dd-43a4-a776-8e67a691d015",
+      "Text": "Co powinno by\u0107 nielegalne?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "e83d3fd2-5694-4984-99c7-6470122107a5",
+      "Text": "Co zmieni\u0142o mnie w republikanina?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "cd38dc45-e3ca-46d9-a756-bd08314cbe68",
+      "Text": "Droga mamo i tato, Ob\u00F3z jest fajny. Wczoraj jeden ze starszych koleg\u00F3w nauczy\u0142 mnie ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "b2b09d2c-50a0-4acc-b9e1-c0ab6331231a",
+      "Text": "Drogie dzieci, dzisiaj nauczymy si\u0119 czego\u015B o ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "c0b72b7b-921d-41c9-b2cf-0827c8997b8a",
+      "Text": "Jak nazwa\u0142em mojego penisa?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "9f44008b-6be9-49ed-937b-eb73d2014bbe",
+      "Text": "Jak powiedzia\u0142 Teddy Roosevelt, czterema m\u0119skimi cnotami s\u0105 honor, wstrzemi\u0119\u017Aliwo\u015B\u0107, przemys\u0142 i ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "9e4dc345-70a5-40fa-b39e-1d61ebf224ea",
+      "Text": "Jako zado\u015B\u0107uczynienie za niewolnictwo wszyscy Afroamerykanie otrzymaj\u0105 ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "51fa445d-8891-4f61-8f80-07fef68743e2",
+      "Text": "Jestem dziwk\u0105, Jestem kochank\u0105, Jestem dzieckiem, Jestem ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "0dc2c927-d70f-457e-b8d2-c4f1b3e26822",
+      "Text": "Jeszcze jedna rzecz. Uwa\u017Caj na Big Joe\u0027a. M\u00F3wi\u0105, \u017Ce zabi\u0142 cz\u0142owieka przy u\u017Cyciu ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "3b132830-ad99-4e06-bd72-e2a9c59755d2",
+      "Text": "Kiedy przyby\u0142 do tego kraju, jedyne, co mia\u0142, to buty na nogach i ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "26eb6790-80a8-43db-9fc0-9db6214e9219",
+      "Text": "Legenda opowiada o ksi\u0119\u017Cniczce, kt\u00F3ra spa\u0142a od tysi\u0105ca lat i mo\u017Ce zosta\u0107 obudzona przez ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "2f5d069b-f799-4e95-842f-6d066a425466",
+      "Text": "LSD \u002B... = naprawd\u0119 z\u0142y czas."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "3fc49af6-2f92-4711-8379-72284f933d38",
+      "Text": "Maj\u0105c ju\u017C do\u015B\u0107 poezji i muzyki, nie\u015Bmiertelne elfy wype\u0142niaj\u0105 teraz dni ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "39888fa7-b98e-4dda-b39f-fe7b9d3ef334",
+      "Text": "Mam \u015Bcis\u0142\u0105 polityk\u0119. Pierwsza randka, kolacja. Druga randka, poca\u0142unek. Trzecia randka, ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "fc43403c-1364-4dde-9440-bfccdb2fa1e5",
+      "Text": "Nie pozwol\u0119 Ci zrujnowa\u0107 mojego \u015Blubu przez ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "4234c041-c39f-4ff5-904b-b0bfee85a5e8",
+      "Text": "Nie widzisz? \u017Bydzi stoj\u0105 za wszystkim - bankami, mediami, nawet ...!"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "ff28cd49-6e8c-44e5-b5d7-4c7d929a227b",
+      "Text": "Nikt nie spodziewa si\u0119 hiszpa\u0144skiej inkwizycji. Nasza g\u0142\u00F3wna bro\u0144 to strach, niespodzianka i ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "08dede9b-5fbb-42d9-8065-eb9121759f3a",
+      "Text": "O czym \u015Bpiewaj\u0105 te wieloryby?"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "2bbd18c9-a46f-4e5a-b2d7-b6eaf8884a93",
+      "Text": "Ona jest po prostu jednym z ch\u0142opak\u00F3w, wiesz? Lubi piwo, pi\u0142k\u0119 no\u017Cn\u0105 i ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "d7a13827-d797-4e1d-9dd3-88e484593a8a",
+      "Text": "Pewien m\u0105dry cz\u0142owiek powiedzia\u0142: \u0022Wszystko zale\u017Cy od seksu. Z wyj\u0105tkiem seksu. Seks zale\u017Cy od ... \u0022"
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "f7d39327-5694-4649-9935-734baf24f94c",
+      "Text": "Po zgonie w noc sylwestrow\u0105 obudzi\u0142 mnie ..."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "97333f3e-0aaa-4a0a-ba05-c9cc370586e3",
+      "Text": "Poniewa\u017C podoba\u0142o Ci si\u0119 ..., pomy\u015Bleli\u015Bmy, \u017Ce polubisz tak\u017Ce ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "2d44d341-3fe1-4f1a-b090-fc87b2b26071",
+      "Text": "Prosta matematyka: 1 \u002B 1 = 69, 2 \u002B 2 = ..."
+    },
+    {
+      "AnswerCards": 2,
+      "Id": "b9dc7f71-9aaa-4dc9-a491-5a37dbe448ac",
+      "Text": "Pr\u00F3buj\u0105c odtworzy\u0107 warunki tu\u017C po Wielkim Wybuchu, fizycy z LHC obserwuj\u0105 kolizje pomi\u0119dzy ... a ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "afc70527-ad22-4953-ac2f-1410a993dda7",
+      "Text": "Przed po\u0142kni\u0119ciem swojej dumy i pigu\u0142ki cyjankowej, Adolf szepn\u0105\u0142 do Evy: \u0022Przepraszam za ...\u0022."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "0f4eeefe-155a-4108-a211-13fe74e264b0",
+      "Text": "Przykro mi, prosz\u0119 pana, ale pana plan ubezpieczeniowy nie obejmuje obra\u017Ce\u0144 spowodowanych przez ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "be1c3fdf-892d-4f2d-b7ad-8e6302fcc8e8",
+      "Text": "Sze\u015B\u0107 rzeczy, na kt\u00F3re nigdy nie mog\u0142em sobie pozwoli\u0107: tlen, Facebook, czekolada, Netflix, przyjaciele i ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "2e6dbcd3-54a5-433e-becd-ec54d39a70e0",
+      "Text": "Sztuka to nie tylko obraz w dusznym muzeum. Sztuka jest \u017Cywa. Sztuka to ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "42e3f578-3fa5-4bd5-9c56-85431e574070",
+      "Text": "Ty m\u00F3wisz pomidor, Ja m\u00F3wi\u0119 ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "057de2ec-7883-452e-8ff7-1ba9dadb663a",
+      "Text": "W latach pi\u0119\u0107dziesi\u0105tych psychologowie zalecali ... jako lekarstwo na homoseksualizm."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "0006349e-45fe-43db-a787-3f16296a292c",
+      "Text": "Wybuch elektrowni w Czarnobylu zosta\u0142 wywo\u0142any aby ukry\u0107 ... przed Amerykanami."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "f496796c-6613-4262-aced-9df04277245f",
+      "Text": "Z jednorazowym podarunkiem w wysoko\u015Bci zaledwie 10 z\u0142 mo\u017Cesz ocali\u0107 to dziecko od ..."
+    },
+    {
+      "AnswerCards": 1,
+      "Id": "946b80d3-9f7b-46e0-87aa-dbb2bcf0daa1",
+      "Text": "Zaraz, przyjecha\u0142em tutaj, \u017Ceby kupi\u0107 skarpetki. Jak sko\u0144czy\u0142em z ...?"
     }
   ],
   "Answers": [
     {
-      "Id": "94089ad6-8bd4-4be5-bd00-3756d3ef959f",
-      "Text": "Poci\u0105g pe\u0142en s\u0142oik\u00F3w"
+      "Id": "1a24c3bc-c546-4d36-8b04-00343b88bfb5",
+      "Text": "10 000 wrzeszcz\u0105cych nastoletnich dziewcz\u0105t."
     },
     {
-      "Id": "b440d536-ec81-4809-8d49-324538abc0c8",
-      "Text": "Spe\u0142nienie w wyniku duszenia"
+      "Id": "d3436a08-bb05-4961-bf48-6315cea55c88",
+      "Text": "10 pi\u0142karzy z erekcj\u0105 walcz\u0105cych z tob\u0105 na pe\u0142nych obrotach."
     },
     {
-      "Id": "fcb53040-fcb2-40bb-b766-a74c839949a9",
-      "Text": "Flegmatyczny angielski d\u017Centelmen"
+      "Id": "788f8348-c695-49c9-9251-904c409c8690",
+      "Text": "200 lat niewoli."
     },
     {
-      "Id": "5e85d661-e41d-4d5e-8481-a7cf7e68d109",
-      "Text": "K\u0105piel przy \u015Bwiecach"
+      "Id": "f6ee8f96-1a74-471a-b990-1523a3e8f6f4",
+      "Text": "3,7 miliarda lat ewolucji."
     },
     {
-      "Id": "1a11b868-fafa-4319-ba5f-5759d372feb2",
-      "Text": "Kl\u0105twa stra\u017Caka"
+      "Id": "5f999f21-2970-4214-befb-6d834aa2879b",
+      "Text": "400 lat okrucie\u0144stw kolonialnych."
     },
     {
-      "Id": "a76a9d1b-b617-4225-a2e2-e42976503da5",
-      "Text": "Prokurator"
+      "Id": "ea307dfb-549d-48fe-8e6d-a7e79fc1ff0e",
+      "Text": "45 minut strzelania palcami."
     },
     {
-      "Id": "9cd3a803-332e-4e85-bd5a-76628bfe633f",
-      "Text": "Zbyt p\u00F3\u017Ana (cho\u0107 zdecydowana) interwencja"
+      "Id": "8b942e65-dfb5-4b3d-a3af-8276c4a6cb18",
+      "Text": "70 000 graczy poc\u0105cych si\u0119 i pierdz\u0105cych w szczelnej stalowej kopule."
     },
     {
-      "Id": "2fa8f0e6-6fa2-4933-8de2-c31493318c91",
-      "Text": "Muzyka marszowa"
+      "Id": "310748f1-132a-435b-96dd-8da9af03f78e",
+      "Text": "9000 dzieci, kt\u00F3re dzi\u015B umr\u0105 z g\u0142odu."
     },
     {
-      "Id": "1df595b2-8b6d-40ef-aca3-bedb2ff1b904",
-      "Text": "Ci\u0119\u017Cka praca"
+      "Id": "8cd9d5bd-0eb5-4a54-8ce5-cb6bc5e708e0",
+      "Text": "Aborcja murzynki u meksyka\u0144skiego lekarza cyborga."
     },
     {
-      "Id": "707016c3-78fe-4f65-afb3-b306cf2de38a",
-      "Text": "Tajemnicza wysypka"
+      "Id": "9d8a7129-7803-458f-b540-e4e167c0dcba",
+      "Text": "Adoptowanie dziecka tylko po to, \u017Ceby porzuci\u0107 je w galerii handlowej."
     },
     {
-      "Id": "c36b347a-c74b-445d-bdcb-2ab6952e274d",
-      "Text": "Zanudzenie na \u015Bmier\u0107"
+      "Id": "6d19e9d2-a4de-443d-9b6b-23fe448c9975",
+      "Text": "Alternatywny wszech\u015Bwiat, w kt\u00F3rym pude\u0142ka trzymaj\u0105 rzeczy wewn\u0105trz ludzi."
     },
     {
-      "Id": "5982bfc1-6b20-4cc6-8fe1-e3fc17089642",
-      "Text": "Pokuta dla nastolatka"
+      "Id": "28d25d93-ab09-4a45-8187-044dfb7c2c4d",
+      "Text": "Autobus, kt\u00F3ry eksploduje, je\u015Bli przekroczy 50 mil na godzin\u0119."
     },
     {
-      "Id": "643630bd-4d8d-4584-9936-ee22f4d055a0",
-      "Text": "Totalna wojna"
+      "Id": "eeac1ed5-491d-4dce-b4d4-172960dca3ad",
+      "Text": "Bia\u0142ystok."
     },
     {
-      "Id": "7668cca6-e031-49cb-8f4d-ecc43e9a0b51",
-      "Text": "Niep\u0142odno\u015B\u0107"
+      "Id": "d0ebebd2-7e1b-4fef-a2dd-7cc732b06158",
+      "Text": "Bitwa o jedzenie w domu starc\u00F3w."
     },
     {
-      "Id": "1f0aaa5d-81fb-4620-b655-ed1792c9e288",
-      "Text": "Kochanek"
+      "Id": "b3cc117d-d7c4-4add-b17d-5bcec3a82550",
+      "Text": "B\u00F3l g\u0142owy, kt\u00F3ry zdecydowanie jest rakiem."
     },
     {
-      "Id": "973859f2-2603-4ae8-902c-fb4b29694a70",
-      "Text": "Weso\u0142a wd\u00F3wka"
+      "Id": "23b02fe6-507a-46ba-bb33-e0a9e1d5e1c8",
+      "Text": "B\u00F3l istnienia."
     },
     {
-      "Id": "207fb39d-c22f-4b39-91e7-a6e894d1d7d1",
-      "Text": "Opalone blondynki"
+      "Id": "2873dcb5-8836-43c5-89ab-b1f3e3931eb3",
+      "Text": "Brak ocala\u0142ych."
     },
     {
-      "Id": "5cd01f79-5c8f-47f3-9f97-5471ecedccde",
-      "Text": "Trening asertywno\u015Bci"
+      "Id": "ac669b5d-0e15-40f6-b24c-9b11fbcfb09f",
+      "Text": "Bro\u0144 grawitacyjna."
     },
     {
-      "Id": "6e089a75-b2aa-4e56-8de3-c9f9694fc43f",
-      "Text": "Rodzinny wyjazd na wie\u015B"
+      "Id": "16236401-9044-4935-a25a-5291e2cb492c",
+      "Text": "Brzydkie kole\u017Canki."
     },
     {
-      "Id": "a4b71cf6-5316-49ca-af09-94106bb1d8dd",
-      "Text": "Jej niezupe\u0142nie niewinne hobby"
+      "Id": "0890f088-3766-448d-9331-53678b613ab1",
+      "Text": "Budy\u0144."
     },
     {
-      "Id": "ddc7b5c8-9f0f-4248-916f-63d67500b3fc",
-      "Text": "Cysterna w ogniu"
+      "Id": "c2792ae6-4e99-4ec5-91fc-e6092388896b",
+      "Text": "Buty na rzepy."
     },
     {
-      "Id": "e412f34c-c22f-4095-add1-8b46b4489cec",
-      "Text": "Dworzec"
+      "Id": "d33fa476-2bf3-472b-b834-ff79dfc60008",
+      "Text": "Bycie emocjonalnie i fizycznie zdominowanym przez Gordona Ramsaya."
     },
     {
-      "Id": "f730971b-e712-4f4a-ab40-db52b6f4bd3e",
-      "Text": "Masa\u017C st\u00F3p"
+      "Id": "f4ac13bf-f0a9-4e8f-8952-f2589c2a8a70",
+      "Text": "Bycie peda\u0142em za kas\u0119."
     },
     {
-      "Id": "953c0e6c-7aff-490f-97b3-6e82d51ca57b",
-      "Text": "Unikalny talent"
+      "Id": "89d0ce69-a525-4ac1-b258-03ce05e1f261",
+      "Text": "Ca\u0142a kupa w moim ciele."
     },
     {
-      "Id": "7e96475d-2422-48b6-9daa-52b1621e85dc",
-      "Text": "Zwolnienie dyscyplinarne"
+      "Id": "7c4ea1ef-ee20-4eae-b80a-fda2dd6a308b",
+      "Text": "Ca\u0142a ta ciecz w moich ustach."
     },
     {
-      "Id": "0d25b6ac-d50b-4979-951f-6544f33b4022",
-      "Text": "Marne usprawiedliwienie"
+      "Id": "8756a162-c8ab-46f7-9d9e-2fad58d027db",
+      "Text": "Ceny paliw."
     },
     {
-      "Id": "164daf7b-5a2a-4eda-bc6f-d15ae1358235",
-      "Text": "Obce przeciwcia\u0142a"
+      "Id": "56cdd755-f7f0-4a54-a6f0-ad1cd7f667b6",
+      "Text": "Charyzmatyczny gej."
     },
     {
-      "Id": "cb8cd2ac-fb84-4bcf-b3c4-e2730c31b6ec",
-      "Text": "Przera\u017Cenie rodzic\u00F3w"
+      "Id": "b9dccff5-8195-4d16-850b-6995ef9ab515",
+      "Text": "Ch\u0119do\u017Cenie trupa."
     },
     {
-      "Id": "f495e0b6-8145-41c2-a611-fa634366b4f1",
-      "Text": "Wsp\u00F3\u0142\u017Cycie przed \u015Blubem"
+      "Id": "7c56d507-7585-45b0-90cf-4e79fbf92b07",
+      "Text": "Choroba umys\u0142owa."
     },
     {
-      "Id": "eea288cc-7da4-4bab-81ea-efa3b09be6ce",
-      "Text": "Te\u015Bciowa"
+      "Id": "05f20e59-cdab-4014-a7da-01687e0dd9dd",
+      "Text": "Cia\u0142o 46-letniego m\u0119\u017Cczyzny."
     },
     {
-      "Id": "74c6c189-62bf-46fb-9b88-9c7d018baea4",
-      "Text": "Tajfun"
+      "Id": "2294d0b5-3c40-4765-b818-c3ed6788c89e",
+      "Text": "Ciche dni."
     },
     {
-      "Id": "76f6e97f-285c-4116-97b5-bfb97b3d20e4",
-      "Text": "Kurczak z ro\u017Cna"
+      "Id": "103c68f8-f17e-46c4-afe9-da914d50910e",
+      "Text": "Co to znaczy by\u0107 \u017Byd\u00F3wk\u0105 we wsp\u00F3\u0142czesnym spo\u0142ecze\u0144stwie."
     },
     {
-      "Id": "43b868b3-d2f8-4d9a-84cb-586585954ac9",
-      "Text": "Potajemne spotkanie"
+      "Id": "ee72fcb3-983b-40b9-94e1-136a188e37b1",
+      "Text": "Czarna \u015Bmier\u0107."
     },
     {
-      "Id": "496a9ce0-08ac-4e99-98e6-704e06eeca46",
-      "Text": "Pranie m\u00F3zgu"
+      "Id": "c0d4d6fd-198c-431b-9450-5656797e9f2b",
+      "Text": "Czarna twarz."
     },
     {
-      "Id": "a3ae8df2-5f60-4338-846e-10829b09173a",
-      "Text": "Spanie na wycieraczce"
+      "Id": "1d5adfb3-0484-4e0d-b4ff-9ab12171bfcd",
+      "Text": "Czekolada na moim penisie."
+    },
+    {
+      "Id": "c1d717eb-0da2-400f-ad93-bea60a6d44cb",
+      "Text": "Cz\u0142owiek w kszta\u0142cie pude\u0142ka."
+    },
+    {
+      "Id": "49c5b722-c69d-4cf1-af71-6493158e0b13",
+      "Text": "Cz\u0142owiek, kt\u00F3ry jest tak fajny, \u017Ce je\u017Adzi na motocyklu."
+    },
+    {
+      "Id": "9d4c9341-f74f-4d17-8b29-285f813d725b",
+      "Text": "Czternastolatka karmi\u0105ca piersi\u0105."
+    },
+    {
+      "Id": "c07b7aef-dae8-4bb4-ae1b-92eef1107007",
+      "Text": "Czytanie ca\u0142ej ksi\u0105\u017Cki."
+    },
+    {
+      "Id": "4ecbd644-451e-474a-8e3a-8cb6bc073cb1",
+      "Text": "Czytanie ca\u0142ej umowy licencyjnej u\u017Cytkownika ko\u0144cowego."
+    },
+    {
+      "Id": "919d8392-5da8-480a-8328-d8b1eedda2d7",
+      "Text": "Deskorolka na peda\u0142y."
+    },
+    {
+      "Id": "e4e9af3c-3040-4715-b58f-171ead4755a7",
+      "Text": "D\u0142ugie spotkanie biznesowe bez wyra\u017Anego celu."
+    },
+    {
+      "Id": "fccccc75-2d3a-4e12-8208-f05b36880943",
+      "Text": "Dobrowolny seks ze swoim ojcem."
+    },
+    {
+      "Id": "b5aac75d-aa8c-423f-8439-9c9d85fdde7b",
+      "Text": "Doktorat z socjologii."
+    },
+    {
+      "Id": "2fa6d536-027c-4b80-a50a-326c11cffc7e",
+      "Text": "Dopasowanie do swojej mamy na Tinderze."
+    },
+    {
+      "Id": "3bf1d658-bc8e-45b2-be46-8784bbd26158",
+      "Text": "Drift \u0142odzi\u0105 podwodn\u0105."
+    },
+    {
+      "Id": "5ec920ed-cb3b-427f-a7ca-8a113af3013e",
+      "Text": "Drobne k\u0142opoty ziemskiej szlachty."
+    },
+    {
+      "Id": "9bab5cce-cff0-47c9-95c9-4449beab4457",
+      "Text": "Druidzi."
+    },
+    {
+      "Id": "4b672293-914e-44c0-8bd1-22282e210e58",
+      "Text": "Dwa pieprz\u0105ce si\u0119 ze sob\u0105 wieloryby."
+    },
+    {
+      "Id": "0574da5c-e7a9-4a31-9435-4cec807e9b44",
+      "Text": "Dwadzie\u015Bcia cheerleaderek \u015Bmiej\u0105cych si\u0119 z twojego ma\u0142ego penisa."
+    },
+    {
+      "Id": "2d7bbe78-f46d-468c-a025-d6546aef1a5b",
+      "Text": "Dwie pi\u0119kne \u015Bwiniowate siostry."
+    },
+    {
+      "Id": "e85d4e5e-e283-456c-ab76-deb29d18a175",
+      "Text": "Dziekanat."
+    },
+    {
+      "Id": "e85c34a2-22a6-41aa-8257-3cb1ac9b165f",
+      "Text": "Dziesi\u0119cina."
+    },
+    {
+      "Id": "d75bdc35-cdc5-4df0-ba4f-86fc4e1a3f58",
+      "Text": "Dziewiczy w\u0105s."
+    },
+    {
+      "Id": "7b5714b0-6f78-45b0-b6a4-dd26387a9e3a",
+      "Text": "Ebola."
+    },
+    {
+      "Id": "6c3bd1ed-e5e6-4e6d-a11a-7b70341b2274",
+      "Text": "Egzemplarz Mein Kampf z autografem Adolfa Hitlera nale\u017C\u0105cy do Donalda Trumpa."
+    },
+    {
+      "Id": "603b429b-4bf1-403b-9642-d9ad4db31301",
+      "Text": "Ewentualny muzu\u0142manin."
+    },
+    {
+      "Id": "0ec95fde-1f46-45e2-b5d2-36c264a5c30f",
+      "Text": "Ewolucja labiryntowej pochwy."
+    },
+    {
+      "Id": "c0f50449-b471-4255-abda-1549194697be",
+      "Text": "Fajne, zwi\u0105zane nastolatki z rakiem."
+    },
+    {
+      "Id": "e5a3f400-3e65-4f83-9054-9d1522707638",
+      "Text": "Fantazja ka\u017Cdego cz\u0142owieka: idealnie cylindryczna pochwa."
+    },
+    {
+      "Id": "6f12d6f3-8ae9-4ace-b7a2-258643cdc7e1",
+      "Text": "Futurystyczne sporty \u015Bmierci."
+    },
+    {
+      "Id": "0dc96d17-5050-4f8e-b6e5-25c025ac219e",
+      "Text": "Gejowski czarnoksi\u0119\u017Cnik, kt\u00F3ry zmienia wszystkich w homoseksualist\u00F3w."
+    },
+    {
+      "Id": "4a81fdd5-5a0c-4c43-b082-40995da7f6fc",
+      "Text": "Gender."
+    },
+    {
+      "Id": "12d8a785-30d5-45ee-9820-96f2fd496b7a",
+      "Text": "Genetyczne predyspozycje do alkoholizmu."
+    },
+    {
+      "Id": "85dbbd77-d7a4-4a76-8247-13558ebe34d9",
+      "Text": "Ghoul."
+    },
+    {
+      "Id": "bce4331e-1108-417d-993b-8942ad612fc0",
+      "Text": "Granie w tetris cia\u0142ami zamro\u017Conych dziadk\u00F3w."
+    },
+    {
+      "Id": "1c99dd6b-5458-4100-a9b8-467b9420e3b5",
+      "Text": "Grube dziewczyny w legginsach."
+    },
+    {
+      "Id": "a30124be-80c7-4a1d-8e2f-6d4d4a98713f",
+      "Text": "Hawajska bogini Kapo i jej lataj\u0105ca odpinana pochwa."
+    },
+    {
+      "Id": "133318dc-ce71-43a3-89ff-de82cd657958",
+      "Text": "Hipsterstwo."
+    },
+    {
+      "Id": "3c2feb60-2367-401a-b169-740bbe06309a",
+      "Text": "Hiszpa\u0144ska inkwizycja."
+    },
+    {
+      "Id": "4a36c1d9-0f3b-479f-aa3d-8e19d6aa7ef3",
+      "Text": "Hot-dog, kt\u00F3rego w\u0142o\u017Cy\u0142am do mojej pochwy dziesi\u0119\u0107 dni temu."
+    },
+    {
+      "Id": "183bd0c7-327e-431f-a08b-b2e4e2e4b371",
+      "Text": "III wojna \u015Bwiatowa."
+    },
+    {
+      "Id": "8923b83f-6990-45f4-93e1-830c4944f139",
+      "Text": "Ilo\u015B\u0107 ma\u0142ych marchewek, kt\u00F3r\u0105 mog\u0119 zmie\u015Bci\u0107 w dupie."
+    },
+    {
+      "Id": "03cb43b8-755e-43af-a14f-7205f5f9cadf",
+      "Text": "Imieniny u cioci."
+    },
+    {
+      "Id": "c398dc30-5bee-4371-b92c-d0cfce17a9ef",
+      "Text": "Jagodzianki z truskawkami."
+    },
+    {
+      "Id": "11b03d55-9a6b-4bab-8694-e9c2991eaf84",
+      "Text": "Jakie\u015B pieprzone sol\u00F3wki na gitarze."
+    },
+    {
+      "Id": "cd823a0e-2c28-4bb0-b957-bc0dc491fe01",
+      "Text": "Jaki\u015B skoncentrowany ob\u00F3z dla ludzi."
+    },
+    {
+      "Id": "39bc097d-6d17-4637-aa5a-9e0fcfc1c226",
+      "Text": "Jeb!"
+    },
+    {
+      "Id": "81c1e962-618a-42a2-9828-d7dbe4e76d70",
+      "Text": "Jedna niezapomniana noc nami\u0119tno\u015Bci."
+    },
+    {
+      "Id": "430acb22-b6d3-482e-9e27-ec45789295ad",
+      "Text": "Kanapka z chlebem."
+    },
+    {
+      "Id": "1249d0b0-ef5a-45cb-b309-73aaa7efc9e9",
+      "Text": "Karta \u0022Wychodzisz wolny z wi\u0119zienia\u0022"
+    },
+    {
+      "Id": "581713c2-2385-45cb-b88a-788af244ece9",
+      "Text": "Kawa\u0142ki g\u00F3wnianych kartek \u015Bwi\u0105tecznych bez pieni\u0119dzy."
+    },
+    {
+      "Id": "6ddad18f-3541-4daf-9add-99727db36920",
+      "Text": "K\u0105panie si\u0119 nago w ksi\u0119\u017Cycowym gaju."
+    },
+    {
+      "Id": "68ecfa48-0850-465a-adfb-68c89f942f97",
+      "Text": "Kie\u0142basa \u015Bl\u0105ska."
+    },
+    {
+      "Id": "7e55bc5d-942f-4edc-9340-605696782939",
+      "Text": "Kisiel."
+    },
+    {
+      "Id": "bdc7def9-037b-4d93-b335-fd42f44fa9f9",
+      "Text": "Klonowanie Hitlera."
+    },
+    {
+      "Id": "4b91e962-488b-46c3-87a4-2c0f2fe463df",
+      "Text": "Kobieta za kierownic\u0105."
+    },
+    {
+      "Id": "18549e6a-5c49-482a-bd96-e01a1367d948",
+      "Text": "Kolejny g\u00F3wniany rok."
+    },
+    {
+      "Id": "73288206-4083-483c-8d1b-bf8c1e8a82f0",
+      "Text": "Komentarze na Youtube."
+    },
+    {
+      "Id": "8cddb050-450e-47fe-9320-b284104b3a5c",
+      "Text": "Kopanie tunelu do Chin."
+    },
+    {
+      "Id": "8825e8fe-4dd7-4e1b-b46a-2e7ed2cf770e",
+      "Text": "Kosmiczny rasizm."
+    },
+    {
+      "Id": "6501c594-5561-4b2d-87d6-2eb9df180e74",
+      "Text": "Kosmiczny robak, kt\u00F3ry po\u017Cera planety, imieniem Rachel."
+    },
+    {
+      "Id": "0ff5f10e-a1c0-4468-9254-038b8ce8a71d",
+      "Text": "Kozy krzycz\u0105ce jak ludzie."
+    },
+    {
+      "Id": "47196191-5bdd-4362-bae4-918a5bd69eaf",
+      "Text": "Krampus, austriacki bo\u017Conarodzeniowy potw\u00F3r."
+    },
+    {
+      "Id": "990c539d-182b-4740-82de-0c82cdfc8c81",
+      "Text": "Krasnolud, kt\u00F3ry nie pozostawi Ci\u0119 w spokoju, dop\u00F3ki nie por\u00F3wnasz rozmiaru penisa."
+    },
+    {
+      "Id": "defd523c-69af-4e33-8172-9d0c90dc1607",
+      "Text": "Krem nie\u015Bmiertelno\u015Bci."
+    },
+    {
+      "Id": "f4380f12-7f73-4183-82fd-d829fa401da4",
+      "Text": "Kukurydza."
+    },
+    {
+      "Id": "36f77b16-7cc6-434d-98e1-7a8d07143b19",
+      "Text": "Kupowanie wirtualnych ubra\u0144 dla rodziny Sims\u00F3w zamiast prawdziwych ubra\u0144 dla prawdziwej rodziny."
+    },
+    {
+      "Id": "2ffe470d-ff04-4358-896a-8a0c830f71ba",
+      "Text": "Kwakanie jak kaczka zamiast u\u017Cywania przekonuj\u0105cej argumentacji."
+    },
+    {
+      "Id": "9a69bd41-9caf-414f-8234-57befab9e814",
+      "Text": "\u0141owienie \u017Cywego \u0142ososia w usta."
+    },
+    {
+      "Id": "43761810-911a-4dcb-8e8b-04f2aa54d99f",
+      "Text": "Magiczny tablet zawieraj\u0105cy \u015Bwiat nieograniczonej pornografii."
+    },
+    {
+      "Id": "38c8499f-eb48-4920-b08b-024e6596ce37",
+      "Text": "Makao na \u015Bmier\u0107 i \u017Cycie."
+    },
+    {
+      "Id": "f13ad838-34c8-4531-924d-c00970e311fa",
+      "Text": "Malej\u0105ca czysto\u015B\u0107 bia\u0142ej rasy."
+    },
+    {
+      "Id": "8f076ab8-2dd4-44e8-887a-7e65d473a750",
+      "Text": "Male\u0144kie, zrogowacia\u0142e r\u0119ce chi\u0144skich dzieci, kt\u00F3re stworzy\u0142y t\u0119 kart\u0119."
+    },
+    {
+      "Id": "1fd311dc-c069-42e0-b623-cd8c64e9e416",
+      "Text": "Ma\u0142e, zje\u0142cza\u0142e dziewcz\u0119ce pierdy."
+    },
+    {
+      "Id": "5ed9c848-2d2c-4554-af19-0279bbf95e04",
+      "Text": "Ma\u0142y stra\u017Cak, kt\u00F3ry gasi drobne ogniska."
+    },
+    {
+      "Id": "b4d0d8c4-aa05-4802-9e46-9237d8d8f5ce",
+      "Text": "Masoni."
+    },
+    {
+      "Id": "e2b7f8af-8c01-4791-99db-186250362dee",
+      "Text": "M\u0119skie spojrzenie. "
+    },
+    {
+      "Id": "19c8a289-f007-42d1-b57c-0fedde30ca8e",
+      "Text": "Milion aligator\u00F3w."
+    },
+    {
+      "Id": "f9500133-9862-42d7-8f0b-891b86140eb4",
+      "Text": "Modny tryb dla nudyst\u00F3w Super Mario World."
+    },
+    {
+      "Id": "e75328b5-8f44-44f1-88a2-34e3f467c558",
+      "Text": "Moja skomplikowana historia, o kt\u00F3rej wkr\u00F3tce si\u0119 dowiesz."
+    },
+    {
+      "Id": "6af3e87e-218d-4332-917a-2e30b9252871",
+      "Text": "Moment, w kt\u00F3rym feministki maj\u0105 racj\u0119."
+    },
+    {
+      "Id": "30620c9e-d17e-4072-ae3e-7412c80aa632",
+      "Text": "Morfeusz."
+    },
+    {
+      "Id": "64b37bec-b053-4de1-b370-53bad903924f",
+      "Text": "M\u00F3j dziadek na pla\u017Cy nudyst\u00F3w."
+    },
+    {
+      "Id": "e43ea307-cd71-414b-9e80-ab8dc7ea0fb2",
+      "Text": "M\u00F3j penis w twoich ustach."
+    },
+    {
+      "Id": "f1dbb3bd-b3bf-4bf2-9f11-b8880d79fb10",
+      "Text": "M\u00F3j uprzywilejowany bia\u0142y penis."
+    },
+    {
+      "Id": "5fb5aaa3-530d-466a-9757-15e14b28cab2",
+      "Text": "Mulat, albinos, komar i moje libido."
+    },
+    {
+      "Id": "b821c8ba-2e0f-44ab-94af-adb4f15b4056",
+      "Text": "Muzyka rockowa i seks przedma\u0142\u017Ce\u0144ski."
+    },
+    {
+      "Id": "f8077f19-de2a-4029-b32f-1db12be0f06e",
+      "Text": "Nag\u0142a i niechciana poezja ze slums\u00F3w."
+    },
+    {
+      "Id": "efe83f38-d9b7-4905-9acd-c77f2bd57746",
+      "Text": "Nag\u0142a utrata penisa."
+    },
+    {
+      "Id": "b117b149-89a7-4f96-a3d7-11484a0d7b4d",
+      "Text": "Najgor\u0119tsze MILF w Dallas."
+    },
+    {
+      "Id": "942c3d53-deb8-42a5-ab9a-824078627f3b",
+      "Text": "Nawiedzaj\u0105ce spojrzenie irackiego dziecka."
+    },
+    {
+      "Id": "6afe4c8d-e19b-437c-b587-8bb5ffeae9ed",
+      "Text": "Nie spa\u0107, zwiedza\u0107, ZAPIERDALA\u0106!!!"
+    },
+    {
+      "Id": "7c1513e8-daa3-4b32-a6f7-1f3a9c3bab0b",
+      "Text": "Niedopita flaszka."
+    },
+    {
+      "Id": "b9faebee-24a1-4cf7-bae0-f2d2fa0b2591",
+      "Text": "Niemiecka gra planszowa, w kt\u00F3rej naje\u017Cd\u017Casz Polsk\u0119."
+    },
+    {
+      "Id": "f424bb30-d38c-49f0-888c-f0c8c6bd5614",
+      "Text": "Niepokalane pocz\u0119cie."
+    },
+    {
+      "Id": "81fafc13-c7e1-401a-8260-c711ff7e181f",
+      "Text": "Niepokalany odbyt Kr\u00F3lowej El\u017Cbiety."
+    },
+    {
+      "Id": "9eb1fe1e-ed74-4b3b-a2d8-a05dc5199ff4",
+      "Text": "Nieprzerwana historia imperializmu i wyzysku."
+    },
+    {
+      "Id": "0a45fd04-e391-4219-9552-fd745f88cf31",
+      "Text": "Nies\u0142yszalne krzyki marchewek."
+    },
+    {
+      "Id": "3586858b-3043-4910-ae6e-a29bc0eef865",
+      "Text": "Niezwyk\u0142e zabawki, kt\u00F3re sprawiaj\u0105, \u017Ce dzieci nie odczuwaj\u0105 \u017Cadnych emocji."
+    },
+    {
+      "Id": "0f3fe677-e455-4491-9882-b2db3847f2c9",
+      "Text": "Obalenie demokratycznie wybranego rz\u0105du Chile."
+    },
+    {
+      "Id": "87a08dfd-c9ac-46a8-b969-9ef14aa6e920",
+      "Text": "Obudzenie si\u0119 w \u015Brodku tornada."
+    },
+    {
+      "Id": "911e0f18-55fa-40f8-92ba-110619f2fb76",
+      "Text": "Ocet."
+    },
+    {
+      "Id": "7b3b2b51-2d77-4ebb-bfe4-47d62661c3c3",
+      "Text": "Odblokowanie nowej pozycji seksualnej."
+    },
+    {
+      "Id": "8ab99777-445b-4047-ac97-aad7ec6ece73",
+      "Text": "Odcinanie flamingom n\u00F3g przy u\u017Cyciu no\u017Cyc ogrodowych."
+    },
+    {
+      "Id": "80894449-2c3a-454f-8952-58e8b3853c87",
+      "Text": "Odkrycie, \u017Ce moim celem w \u017Cyciu jest zabijanie ludzi i uprawianie seksu z ich cia\u0142ami."
+    },
+    {
+      "Id": "8b75fb87-ecd1-482c-913f-a51e212db088",
+      "Text": "Ods\u0142oni\u0119cie mojego masywnego koguta."
+    },
+    {
+      "Id": "327a28c6-efe6-4b61-85d9-eed51b9c4e1f",
+      "Text": "Odwa\u017Cna kontynuacja tego rasistowskiego komentarza."
+    },
+    {
+      "Id": "95af8a22-6854-419d-aba5-7092e25033c3",
+      "Text": "Ojciec i syn walcz\u0105cy ze sob\u0105 o resztki chleba."
+    },
+    {
+      "Id": "3f6cdd9a-1984-4564-b66c-549f6c78e20f",
+      "Text": "Olbrzymi mechaniczny ptak z tragiczn\u0105 histori\u0105."
+    },
+    {
+      "Id": "60331b25-10d8-4a7c-a719-4d40b7b17892",
+      "Text": "Osi\u0105gni\u0119cie sukcesu reprodukcyjnego."
+    },
+    {
+      "Id": "6d225447-2635-43f7-93b6-4f31d102a070",
+      "Text": "Otwarto\u015B\u0107 na nowe perspektywy Holocaustu."
+    },
+    {
+      "Id": "55063d0b-8c45-4668-ba53-c7137d383737",
+      "Text": "Patrzenie na spalon\u0105 wiosk\u0119 i zamordowanych mieszka\u0144c\u00F3w."
+    },
+    {
+      "Id": "26b24f5d-d0b6-4f28-81d0-4c3bd0c62656",
+      "Text": "Pe\u0142na si\u0142a ameryka\u0144skiego wojska."
+    },
+    {
+      "Id": "b4d2f4b0-e8da-470e-a700-b29f7e17a7b9",
+      "Text": "Pe\u0142na szacunku dyskusja na temat rasy i p\u0142ci w Internecie."
+    },
+    {
+      "Id": "5eb8128e-02a4-428f-b4d6-56ea18e8c51d",
+      "Text": "Penis tak du\u017Cy i tak czarny, \u017Ce nawet \u015Bwiat\u0142o nie jest w stanie uciec."
+    },
+    {
+      "Id": "c778e316-fa4c-4743-bb75-068e1208e547",
+      "Text": "Pepsi w butelce po Coca-Coli."
+    },
+    {
+      "Id": "42d250a3-4d09-47b7-a991-536bf77c37a5",
+      "Text": "Picie moczu, aby prze\u017Cy\u0107."
+    },
+    {
+      "Id": "9a66173d-8ba3-4410-beeb-e28ca8bc57d3",
+      "Text": "Pierwsze zjedzenie przez psa."
+    },
+    {
+      "Id": "c7cd2c09-a033-4b78-a925-02213bbf81a2",
+      "Text": "Pizza rano, pizza wieczorem, pizza w porze kolacji."
+    },
+    {
+      "Id": "122b71e4-ea16-4947-ac17-81ce242ae223",
+      "Text": "P\u0142acz, sranie i jedzenie spaghetti."
+    },
+    {
+      "Id": "2dfef04f-009f-461f-ad93-529e6ad31954",
+      "Text": "P\u0142on\u0105cy wrak Mi\u0119dzynarodowej Stacji Kosmicznej."
+    },
+    {
+      "Id": "671e3423-43d9-47b1-9375-a523c053563d",
+      "Text": "Podgl\u0105danie ludzi uprawiaj\u0105cych seks w samochodach zaparkowanych w miejscach publicznych."
+    },
+    {
+      "Id": "b626f874-3d9f-47e9-8da6-d23b772987a9",
+      "Text": "Pogodzenie teorii kwant\u00F3w z og\u00F3ln\u0105 teori\u0105 wzgl\u0119dno\u015Bci."
+    },
+    {
+      "Id": "dc4e912d-707d-4d7d-beb3-4d373e07e4ac",
+      "Text": "Policjanci z ma\u0142ego miasteczka z karabinami M-4."
+    },
+    {
+      "Id": "d88adff4-0590-415b-851e-8796f63f996a",
+      "Text": "Pope\u0142nianie samob\u00F3jstwa w starym wiejskim bufecie."
+    },
+    {
+      "Id": "58adf142-83ca-4cab-81a1-23cb73c34d1c",
+      "Text": "Poprawno\u015B\u0107 polityczna."
+    },
+    {
+      "Id": "857ab4e4-f2d7-4887-9b5c-1f3f3786c82d",
+      "Text": "Powolne przesuwanie si\u0119 w stron\u0119 og\u00F3rka."
+    },
+    {
+      "Id": "27261764-170a-45b9-b2e5-219f7efb06a7",
+      "Text": "Pozbycie si\u0119 dziewictwa na w\u0142asn\u0105 r\u0119k\u0119."
+    },
+    {
+      "Id": "4e7a760e-c801-4efa-a134-23633e380f98",
+      "Text": "Przedwczesny wytrysk jak totalny przegryw."
+    },
+    {
+      "Id": "5075f1eb-617d-4203-97c8-4d57adde18ac",
+      "Text": "Przekazywanie pieni\u0119dzy i danych osobowych nieznajomym przez Internet."
+    },
+    {
+      "Id": "bb10a816-3367-4268-a032-2928bd142b51",
+      "Text": "Przeniesienie skazanych do Australii."
+    },
+    {
+      "Id": "d575afb7-3415-4e1f-a9a1-e22487fc6968",
+      "Text": "Przera\u017Cone, grube dziecko, kt\u00F3re nie wyjdzie z krzak\u00F3w."
+    },
+    {
+      "Id": "3d118423-cdd7-4a92-8d64-f98c39a46e64",
+      "Text": "Prze\u017Cyte do\u015Bwiadczenie Afroamerykan\u00F3w."
+    },
+    {
+      "Id": "d5291365-24f1-4c7d-b733-5311df94be5b",
+      "Text": "Przyp\u0142yw cukierk\u00F3w."
+    },
+    {
+      "Id": "edb57633-ccb9-4cdc-8f83-33747110df5d",
+      "Text": "Przywracanie Niemiec do dawnej \u015Bwietno\u015Bci."
+    },
+    {
+      "Id": "dab2b322-d68b-4104-8ee9-ea05b87325d0",
+      "Text": "Radom."
+    },
+    {
+      "Id": "a10684d1-9962-4bf7-b587-c3501785c853",
+      "Text": "Robienie g\u00F3wna podczas biegania z pe\u0142n\u0105 pr\u0119dko\u015Bci\u0105."
+    },
+    {
+      "Id": "e7aacd09-6e92-47b1-8adb-7ed92efdfc23",
+      "Text": "Roboty, kt\u00F3re po prostu chc\u0105 si\u0119 bawi\u0107."
+    },
+    {
+      "Id": "d8466a8b-e0d7-4075-91f8-b2c66659fcd1",
+      "Text": "Role filmowe dla aktorek powy\u017Cej 40 lat."
+    },
+    {
+      "Id": "5bf501bb-57a5-4a24-9850-c0956ea9e3b5",
+      "Text": "Rosyjska ruletka pistoletem maszynowym."
+    },
+    {
+      "Id": "88214929-ee9a-4502-a69c-e0b855c6d5c9",
+      "Text": "Rozpoczynanie g\u00F3wnianego protestu."
+    },
+    {
+      "Id": "4d12ce44-bdf7-480e-b36f-a1d65dc257ef",
+      "Text": "Rozrywanie psa na p\u00F3\u0142."
+    },
+    {
+      "Id": "b0ccaa33-16c2-4fde-8bcb-d9dd5e22ae07",
+      "Text": "Rozwijanie drugorz\u0119dnych cech p\u0142ciowych."
+    },
+    {
+      "Id": "48eb862b-3837-46e8-9496-8e4ee522df88",
+      "Text": "Skarpety."
+    },
+    {
+      "Id": "59442db6-b456-4517-9ba6-46f04ae1e961",
+      "Text": "Sk\u0142adanie CV do burdelu."
+    },
+    {
+      "Id": "c5d85b36-0eae-48da-82c9-c709767fd9e8",
+      "Text": "Smak o\u0142owiowej farby."
+    },
+    {
+      "Id": "fcf20bb6-aef6-418c-9afa-f80de099e64c",
+      "Text": "Sowa."
+    },
+    {
+      "Id": "48f3f9bc-bb68-481b-a719-10cbad8b4a30",
+      "Text": "Spider-man sk\u0142adaj\u0105cy setki jajeczek w ciele Kirsten Dunst."
+    },
+    {
+      "Id": "53bda1ae-26b9-40ce-94b4-82ef2be11ad3",
+      "Text": "Spo\u0142eczno\u015B\u0107 LGBT."
+    },
+    {
+      "Id": "218f2ab7-d66f-44ba-81e9-ca1767ac2552",
+      "Text": "Sproszkowany p\u0142\u00F3d."
+    },
+    {
+      "Id": "ac72b218-9cca-44f3-ba81-dd42c13e812f",
+      "Text": "Sraczka."
+    },
+    {
+      "Id": "747bd17c-7e33-4441-8efd-94b9d70e1c66",
+      "Text": "Sranie po pod\u0142odze jak z\u0142a, bardzo z\u0142a dziewczyna."
+    },
+    {
+      "Id": "7d8b6fa9-a521-4133-9e0a-a63ebea78bb1",
+      "Text": "Ssanie mleka prosto z wymion krowy."
+    },
+    {
+      "Id": "1383e6b6-5bc2-420b-b29e-9cbd744012e2",
+      "Text": "Ssanie penisa prezydenta."
+    },
+    {
+      "Id": "edd76f19-9f34-43c2-99d6-1a282f208ec2",
+      "Text": "Ssanie sobie nawzajem penis\u00F3w przez wiele godzin."
+    },
+    {
+      "Id": "5cb01912-fd09-47a6-a6d7-193e524cf135",
+      "Text": "Staro\u017Cytna ate\u0144ska m\u0119ska dziwka."
+    },
+    {
+      "Id": "2e5bad33-96ad-481f-a777-995bceed21be",
+      "Text": "Stowarzyszenie Amator\u00F3w Nieletnich Cia\u0142."
+    },
+    {
+      "Id": "571e7fea-5479-4ecf-8dc9-b44e29e9abdd",
+      "Text": "Striptiz na stypie."
+    },
+    {
+      "Id": "e4a20fb0-2cb1-4d39-8925-0033ad83ffa9",
+      "Text": "Stwardnienie rozsiane."
+    },
+    {
+      "Id": "87a12e1f-3d27-492c-95a3-f0d431984588",
+      "Text": "Stworzenie stworzone z penis\u00F3w, kt\u00F3re musz\u0105 nieustannie si\u0119 pobudza\u0107, aby prze\u017Cy\u0107."
+    },
+    {
+      "Id": "b999120f-8306-4f7d-be2c-d9f4c3025cd1",
+      "Text": "Szaleniec, kt\u00F3ry mieszka w budce policyjnej i porywa kobiety."
+    },
+    {
+      "Id": "b249be7a-f214-4220-8996-8b9d66322e28",
+      "Text": "Szalony orgazm odbytu."
+    },
+    {
+      "Id": "f9bbe633-7b28-49cf-be6e-da564f179426",
+      "Text": "Szczepionka na bezdomno\u015B\u0107."
+    },
+    {
+      "Id": "4e4055f5-9f7e-4566-b24e-75bf5f008fd3",
+      "Text": "\u015Aci\u0105ganie na te\u015Bcie ci\u0105\u017Cowym."
+    },
+    {
+      "Id": "5c350dff-6e4c-4ff1-afbd-d3df062011c6",
+      "Text": "\u015Awiadomo\u015B\u0107, \u017Ce jest ju\u017C za p\u00F3\u017Ano by przerwa\u0107 seks z koniem."
+    },
+    {
+      "Id": "11f4d7e1-37d2-485e-a32b-4716764aec0b",
+      "Text": "\u015Awiatowe Centrum Bada\u0144 nad Zag\u0142ad\u0105 \u017Byd\u00F3w."
+    },
+    {
+      "Id": "a6ab42cc-deaf-4dd7-b15c-12e51f8ff040",
+      "Text": "Ta niesamowita nowa rzecz o nazwie LSD."
+    },
+    {
+      "Id": "b54b8508-265e-45cd-9863-5b3d406c2267",
+      "Text": "Ta\u0144czenie makareny na polu minowym."
+    },
+    {
+      "Id": "bf6850e1-ea3c-493f-8ad8-6572ddd31a85",
+      "Text": "Teoria p\u0142askiej Ziemi."
+    },
+    {
+      "Id": "166a1540-79b2-4b57-a4e2-2f9fe3ce03a0",
+      "Text": "Texas."
+    },
+    {
+      "Id": "2b839099-ac0d-4733-9396-e8d58c17029f",
+      "Text": "Trzy cycki."
+    },
+    {
+      "Id": "25987db8-f268-4a12-926a-f5fb039cbe60",
+      "Text": "Trzyletnia sperma w pude\u0142ku po butach."
+    },
+    {
+      "Id": "15f220c5-0b98-47ef-a494-90c2687457ba",
+      "Text": "Twarz pe\u0142na spermy konia."
+    },
+    {
+      "Id": "68e49baf-ccbb-4218-9fd1-a63ab9521e50",
+      "Text": "Ty chory zwyrolu."
+    },
+    {
+      "Id": "9ccacee5-c55d-4b52-baaf-8a9b53534ccc",
+      "Text": "Ub\u00F3j borsuk\u00F3w."
+    },
+    {
+      "Id": "1d19189b-e170-45d0-a3a1-9d5ec853a091",
+      "Text": "Udawanie bycia normalnym ch\u0142opakiem, gdy tak naprawd\u0119 jest si\u0119 bogiem paj\u0105k\u00F3w."
+    },
+    {
+      "Id": "23180b79-75a8-4ffa-bd08-23126cea9b22",
+      "Text": "Udawanie, \u017Ce jest si\u0119 czarnym."
+    },
+    {
+      "Id": "82c2fea1-9f54-4f0c-98d7-fe2c5b5546cf",
+      "Text": "Udzia\u0142."
+    },
+    {
+      "Id": "e2286ccc-14b7-423a-9bc2-9b3f0604b676",
+      "Text": "Ujemne IQ."
+    },
+    {
+      "Id": "d8628eb3-539e-452e-baa6-1194094a4103",
+      "Text": "Ukrywanie si\u0119 przed nazistami."
+    },
+    {
+      "Id": "fc83c5a5-5741-4c21-8677-7507f69996ee",
+      "Text": "Uprawianie seksu z m\u0119\u017Cczyzn\u0105, a nast\u0119pnie zjedzenie jego m\u00F3zgu."
+    },
+    {
+      "Id": "2ffeb0a4-362e-46c0-a822-95b6cf086aa5",
+      "Text": "Uran."
+    },
+    {
+      "Id": "016705eb-4626-445b-b573-8b8b80d8d186",
+      "Text": "U\u017Cywanie gazu pieprzowego jako dezodorantu."
+    },
+    {
+      "Id": "d3a207b2-c265-4f33-a7b0-832299b195b0",
+      "Text": "U\u017Cywanie kar\u0142\u00F3w jako pod\u0142okietnik\u00F3w."
+    },
+    {
+      "Id": "ca2cb7a1-949d-4f15-a3ff-c23d84bb3cdc",
+      "Text": "W pe\u0142ni ubrana posta\u0107 kobiety w grze wideo."
+    },
+    {
+      "Id": "7187d473-5ac2-44a3-9d6b-d38d64155dbb",
+      "Text": "Warszawa."
+    },
+    {
+      "Id": "909af950-b9ee-4e18-b862-f2641b7e9caf",
+      "Text": "Wczo\u0142ganie si\u0119 do waginy."
+    },
+    {
+      "Id": "8ef0b108-1c0b-4ab7-b1d4-672218df1588",
+      "Text": "Wesele w McDonald\u0027s."
+    },
+    {
+      "Id": "084b34c7-009d-47a7-a349-ea31d979bd81",
+      "Text": "Weso\u0142e rob\u00F3tki lodziarskie."
+    },
+    {
+      "Id": "e5399504-d7f1-4074-a44b-0fe818871ba5",
+      "Text": "W\u0119drowanie po pustyni przez 40 lat."
+    },
+    {
+      "Id": "ee8b6bf2-ced7-4038-ae2a-f16f6a673968",
+      "Text": "Wi\u0119\u017A mi\u0119dzy kobiet\u0105 a jej koniem."
+    },
+    {
+      "Id": "79683f13-0835-477c-9087-daf6adc52ce6",
+      "Text": "Wk\u0142adanie palca w odbyt."
+    },
+    {
+      "Id": "9ba46774-eacc-4535-b632-2002bc0f1fe4",
+      "Text": "Wojownicy sprawiedliwo\u015Bci spo\u0142ecznej z miotaczami ognia wsp\u00F3\u0142czucia."
+    },
+    {
+      "Id": "72df80b5-1e93-4b3c-a444-5ab911b3db3e",
+      "Text": "Worek marynarski pe\u0142en jaszczurek."
+    },
+    {
+      "Id": "a7c40180-84ad-421f-9ee5-6060747f6f4c",
+      "Text": "Wra\u017Cliwy europejski fotograf, kt\u00F3ry pieprzy moj\u0105 \u017Con\u0119."
+    },
+    {
+      "Id": "f62cf970-c8c5-485f-ad3b-a29c92ccfbb8",
+      "Text": "W\u015Bcieklizna."
+    },
+    {
+      "Id": "1349c208-927c-4380-8a3a-c694d823b20d",
+      "Text": "Wychowanie tr\u00F3jki dzieci na minimalnym wynagrodzeniu."
+    },
+    {
+      "Id": "58876272-ebd5-4fe9-a22b-a4f27aec9c78",
+      "Text": "Wykorzystanie cudownej mocy atomu do uboju 200 000 Japo\u0144czyk\u00F3w."
+    },
+    {
+      "Id": "ba21a4ed-5f47-443a-80a0-88e8b03e7e98",
+      "Text": "Wype\u0142nianie odbytu m\u0119\u017Cczyzny betonem."
+    },
+    {
+      "Id": "28d6dfc9-8865-447c-871f-031611775c1d",
+      "Text": "Wyprzeda\u017C w sieroci\u0144cu."
+    },
+    {
+      "Id": "dd920da7-1021-49d9-a6d9-a9d129a1734d",
+      "Text": "Zabawne i interesuj\u0105ce fakty dotycz\u0105ce ska\u0142."
+    },
+    {
+      "Id": "b34d57e3-1967-4432-9abc-6a023c4331dd",
+      "Text": "Zakazane czekoladki ojca."
+    },
+    {
+      "Id": "fc4730f7-1f46-43b8-935d-8e5273a61d87",
+      "Text": "Zak\u0142adanie g\u0142\u00F3wnej religii \u015Bwiata."
+    },
+    {
+      "Id": "d3dbe651-9b80-478a-b75d-8252ad3a6999",
+      "Text": "Zakopywanie mojego jedynego syna."
+    },
+    {
+      "Id": "af56ba42-7e9a-4853-b980-e89d6deac8d1",
+      "Text": "Zaoranie tej dupy jak hodowca kukurydzy swoje pole z Nowej Anglii."
+    },
+    {
+      "Id": "4a67d380-c0b1-4d85-9aa9-2daec62dc242",
+      "Text": "Zapominanie imienia babci."
+    },
+    {
+      "Id": "24cd5104-192d-4a3d-94ce-ec07e055018b",
+      "Text": "Zara\u017Cenie si\u0119 ci\u0105\u017C\u0105."
+    },
+    {
+      "Id": "b2b7cd38-c832-4cb0-b9c8-abfd6c76f224",
+      "Text": "Zatrucie tlenkiem w\u0119gla."
+    },
+    {
+      "Id": "95748d8f-a53f-4940-9db7-1d10a85b6498",
+      "Text": "Zdawanie na prawo jazdy czo\u0142giem."
+    },
+    {
+      "Id": "2cfe4831-1302-459e-9f77-e2dbe5f125db",
+      "Text": "Zdelegalizowanie islamu."
+    },
+    {
+      "Id": "b8a4bed3-313a-4a64-9eac-399593069830",
+      "Text": "Zdrajca rasy."
+    },
+    {
+      "Id": "58e448de-9b25-4695-8fd7-ac0e0e1be2e5",
+      "Text": "Zima nuklearna."
+    },
+    {
+      "Id": "39cc1731-a93b-4f17-891b-fa1f2ff64a37",
+      "Text": "Z\u0142apanie choroby wenerycznej podczas masturbacji."
+    },
+    {
+      "Id": "5dae3270-1ed7-48d4-87ab-4fafa5ca5207",
+      "Text": "Zobaczenie babci nago."
+    },
+    {
+      "Id": "0e0e654e-4191-4d1f-adcb-a7b58a7fac9f",
+      "Text": "Zombie z tragiczn\u0105 histori\u0105."
+    },
+    {
+      "Id": "961c2985-798d-444d-8e7c-b787b7a2a6b5",
+      "Text": "Zorganizowane oddzia\u0142y Moherowych Beret\u00F3w."
+    },
+    {
+      "Id": "9ef0677d-2476-4eec-b42b-0a98fe691387",
+      "Text": "Zwalnianie pracownik\u00F3w za pomoc\u0105 katapulty."
+    },
+    {
+      "Id": "d1452655-3ebf-4a0f-911e-68643bfd5312",
+      "Text": "\u017B\u00F3\u0142ty \u015Bnieg."
+    },
+    {
+      "Id": "cdd38284-2284-4379-90bb-2d435bbf57a9",
+      "Text": "\u017Byletki w cukierkach."
+    },
+    {
+      "Id": "d7cfc6bb-15c1-43bd-bdfc-46d22c41f6b5",
+      "Text": "40-latek na rolkach."
+    },
+    {
+      "Id": "614bee36-13d0-4d43-858f-6db12e0c457c",
+      "Text": "2 girls 1 cup."
+    },
+    {
+      "Id": "56f8912f-9091-477a-b859-45a2971a462c",
+      "Text": "72 dziewice."
+    },
+    {
+      "Id": "7b01cc16-4577-44bb-9109-f50f517291c1",
+      "Text": "10 niesamowitych fakt\u00F3w o odbycie."
+    },
+    {
+      "Id": "caa5ec8a-b6c2-41a1-8cd9-63bf9cfb7595",
+      "Text": "11.09.2001."
+    },
+    {
+      "Id": "4f3fb1ea-d97c-4e6b-8d04-47c9410b89e7",
+      "Text": "24-godzinna relacja na \u017Cywo."
+    },
+    {
+      "Id": "b8270750-b87a-44a2-b49c-9f4ddfb419dc",
+      "Text": "4chan."
+    },
+    {
+      "Id": "70ac6b56-d914-4d80-8284-b5bd7048ce33",
+      "Text": "55-litrowa beczka lubrykantu."
+    },
+    {
+      "Id": "97504cce-edd3-42c8-bc48-99e7d3e38283",
+      "Text": "50,000 Volt\u00F3w przy\u0142o\u017Cone do sutk\u00F3w. "
+    },
+    {
+      "Id": "62559190-e1b2-4e59-b49d-3eaa4ed14929",
+      "Text": "8 gram\u00F3w s\u0142odkiej meksyka\u0144skiej czarnej heroiny."
+    },
+    {
+      "Id": "ad6e3796-e33e-4ef5-9e83-0150819bee50",
+      "Text": "( \u0361\u00B0 \u035C\u0296 \u0361\u00B0)"
+    },
+    {
+      "Id": "57f0bfb3-a74a-4587-ad53-3c144c9bcb5c",
+      "Text": "10 milion\u00F3w \u017Cyd\u00F3w i jeden dentysta."
+    },
+    {
+      "Id": "12224ef8-c644-4f8b-b408-58e4d1e04a41",
+      "Text": "Adidas."
+    },
+    {
+      "Id": "be9002f2-973d-4ac8-8053-de6989a3ff54",
+      "Text": "Afryka\u0144skie dzieci."
+    },
+    {
+      "Id": "1d72efd3-81c2-44d4-8860-1d16ce6a32e1",
+      "Text": "AIDS."
+    },
+    {
+      "Id": "0f209119-7187-4b7c-a494-cbd61d038704",
+      "Text": "Aktywne s\u0142uchanie."
+    },
+    {
+      "Id": "edcde6a9-cdd8-4ec2-91e8-9f6216bf81f7",
+      "Text": "Anna Mucha."
+    },
+    {
+      "Id": "fcc73685-d7fa-4e83-a3d7-dbfc2f8b5e35",
+      "Text": "Arnold    "
+    },
+    {
+      "Id": "cbed2e42-decb-48c6-a13d-5a2f432c39c6",
+      "Text": "Schwarzenegger."
+    },
+    {
+      "Id": "fd569db2-f1b2-4fcd-8780-0697747dcbb8",
+      "Text": "Auschwitz."
+    },
+    {
+      "Id": "523a2ccc-149f-424f-be54-4ee523c308be",
+      "Text": "Arachnofobia."
+    },
+    {
+      "Id": "e5bf31c3-642d-4a8a-896d-d8aed0252cbf",
+      "Text": "Adolf Hitler."
+    },
+    {
+      "Id": "21d6f713-f15e-4afd-bd45-c3b128fe7eb2",
+      "Text": "Awansowanie na nast\u0119pny poziom."
+    },
+    {
+      "Id": "f0cca230-cf0f-4a09-bb04-76d6d29e7341",
+      "Text": "Apetyczni ch\u0142opcy niewolnicy."
+    },
+    {
+      "Id": "6a1a553f-f3ba-4330-9104-b4468cb4562e",
+      "Text": "Alba\u0144ski pastuch."
+    },
+    {
+      "Id": "a7eb17c2-7dc1-4ccb-8571-c9479edfc22c",
+      "Text": "Armia szkielet\u00F3w."
+    },
+    {
+      "Id": "415e8db2-ffe0-4f3e-b36a-7bbe7e6b0701",
+      "Text": "Afryka."
+    },
+    {
+      "Id": "1e2f1f2f-5eaf-44a4-a203-60869465b506",
+      "Text": "Alkoholowy zesp\u00F3\u0142 p\u0142odowy."
+    },
+    {
+      "Id": "3c2fd21a-aeec-4bf2-8e64-d6f54bc91d9f",
+      "Text": "Alimenty."
+    },
+    {
+      "Id": "e77a4345-1ec3-4902-814f-9e6e0001ab52",
+      "Text": "Ali Baba i czterdziestu rozb\u00F3jnik\u00F3w."
+    },
+    {
+      "Id": "a0004f84-2d42-43a1-9327-9237f5949f7c",
+      "Text": "Alkoholizm."
+    },
+    {
+      "Id": "82196ffc-2838-4c70-87de-29aca3181ec2",
+      "Text": "Ameryka\u0144scy gladiatorzy."
+    },
+    {
+      "Id": "f854538a-bb4d-451d-9d83-257f72624eae",
+      "Text": "Ameryka\u0144ski sen."
+    },
+    {
+      "Id": "75063c9b-8241-416b-a5ef-b65b74eabc49",
+      "Text": "Ataki dinozaur\u00F3w."
+    },
+    {
+      "Id": "71ed153f-a77e-4ae9-99c9-8b4af9bcda27",
+      "Text": "Amputanci."
+    },
+    {
+      "Id": "b3253718-c9de-4402-908c-21df4a104149",
+      "Text": "Andrzej Grabowski."
+    },
+    {
+      "Id": "53927779-9f5d-47ed-a9fc-1e83039a45fe",
+      "Text": "Autokanibalizm."
+    },
+    {
+      "Id": "b65a7679-7dcf-4f51-b562-569f0dd086f8",
+      "Text": "Adam S\u0142odowy."
+    },
+    {
+      "Id": "7bfbed2c-1a44-4015-b913-4f768d843092",
+      "Text": "Amisze."
+    },
+    {
+      "Id": "783564be-1899-4f33-8b37-8f94d5215c6a",
+      "Text": "Alternatywna historia w kt\u00F3rej Hitler by\u0142 gejem, ale nadal zabi\u0142 tych wszystkich ludzi."
+    },
+    {
+      "Id": "1af4df13-d4de-4482-9e62-54fd730534eb",
+      "Text": "Geje z innej planety."
+    },
+    {
+      "Id": "6271e9f8-9e9a-4fbd-ba0c-85ff689e2c0d",
+      "Text": "Genetycznie zaprojektowani super \u017Co\u0142nierze."
+    },
+    {
+      "Id": "a622760e-1d8e-4868-8494-89de90498aa7",
+      "Text": "Gigantyczna sperma z kosmosu."
+    },
+    {
+      "Id": "bc99f33e-6d45-4b79-b93f-487a39fbd269",
+      "Text": "G\u0142upi penis mojego ch\u0142opaka. "
+    },
+    {
+      "Id": "e4b53dd4-c433-42fa-bd6d-8fa274e7487a",
+      "Text": "G\u0142upia, pieprzona twarz mojego ojca."
+    },
+    {
+      "Id": "ec2dda86-a272-46ad-a2a8-fdc46eec8ceb",
+      "Text": "Google."
+    },
+    {
+      "Id": "ffbfb250-9ce1-4bd4-a0f4-5be495aa3b58",
+      "Text": "Gor\u0105czka disco."
+    },
+    {
+      "Id": "f07bc9e1-82bd-436d-9051-e17d44a8b1c5",
+      "Text": "Gospodarka."
+    },
+    {
+      "Id": "9b5b0673-7076-40fd-8e41-04b4445da806",
+      "Text": "G\u00F3wno prawda."
+    },
+    {
+      "Id": "1c069a44-248e-479e-97b8-ec4f8d2373aa",
+      "Text": "Gramatyczni nazi\u015Bci, kt\u00F3rzy r\u00F3wnie\u017C s\u0105 zwyk\u0142ymi nazistami.    "
+    },
+    {
+      "Id": "cbf526ef-db3e-4b05-88cc-04bfe1c68399",
+      "Text": "Grupa ludzi uprawiaj\u0105cych seks na \u0142y\u017Ceczk\u0119."
+    },
+    {
+      "Id": "c1e5720d-ade8-41c2-b3c0-29e85112354c",
+      "Text": "Gu\u0142agi."
+    },
+    {
+      "Id": "5e21c6a4-2b4a-4e3c-9534-ae65fe42d35f",
+      "Text": "Gadanie g\u0142upot."
+    },
+    {
+      "Id": "1fbd8a8d-97d5-4be8-a193-779792c4ac95",
+      "Text": "Gandhi."
+    },
+    {
+      "Id": "0d62bc86-7c02-4935-8afe-e481a62e386a",
+      "Text": "G\u0105bka pe\u0142na kocich sik\u00F3w."
+    },
+    {
+      "Id": "07c3aaaf-c5b0-4022-a498-a99740b8c950",
+      "Text": "Gej party."
+    },
+    {
+      "Id": "5d3380b4-746f-41e7-b19c-c7600aefa3e0",
+      "Text": "Geje."
+    },
+    {
+      "Id": "54acf7cd-ba92-44f9-b4e2-d82934b8e732",
+      "Text": "Genera\u0142 Wojciech Jaruzelski."
+    },
+    {
+      "Id": "96c5d564-32b9-41f5-b26b-0be6b2736c20",
+      "Text": "G\u0119si."
+    },
+    {
+      "Id": "c273f54e-a96e-4b70-970b-fe9276700d7b",
+      "Text": "Globalne "
+    },
+    {
+      "Id": "c0676628-13e0-4557-a319-fc3854bfcdcd",
+      "Text": "ocieplenie."
+    },
+    {
+      "Id": "60a19e3f-765a-4eb9-b33e-8f2bec1b80e5",
+      "Text": "G\u0142\u0119boko upo\u015Bledzeni."
+    },
+    {
+      "Id": "64bf04b5-1eb4-4b62-8d78-1e2c3ce96464",
+      "Text": "G\u0142os Krystyny Czub\u00F3wny."
+    },
+    {
+      "Id": "c66f1bda-22d9-4d3d-8e95-60d3e869ce97",
+      "Text": "G\u0142\u00F3d."
+    },
+    {
+      "Id": "fe324a7e-6a57-4b30-8dfe-3f8673edecc2",
+      "Text": "Gobliny."
+    },
+    {
+      "Id": "aa8da3f9-6573-4bce-a3c9-37050c4167a8",
+      "Text": "Guz m\u00F3zgu."
+    },
+    {
+      "Id": "b07cb589-ced8-4a29-af91-4108732b0e55",
+      "Text": "Gwa\u0142t na randce."
+    },
+    {
+      "Id": "a7a5a261-259b-4dc2-8c0c-d6fd90ac433f",
+      "Text": "Gwa\u0142towna pow\u00F3d\u017A."
+    },
+    {
+      "Id": "2f52e590-5f1b-4803-84a2-b8faf10c8d8b",
+      "Text": "Gwiazdy Porno."
+    },
+    {
+      "Id": "a951c8d8-504a-4dba-8b94-75b16b928378",
+      "Text": "Gwa\u0142t zbiorowy."
+    },
+    {
+      "Id": "b80a80e1-1325-4bb7-b84e-acd40d116dc7",
+      "Text": "Granie na komputerze w chowanego."
+    },
+    {
+      "Id": "825d56bc-3c42-474b-93f5-22102dba886c",
+      "Text": "Gra o tron."
+    },
+    {
+      "Id": "b6db5fe0-fa07-4e8d-bfd7-fba7b17619bd",
+      "Text": "Ga\u0142\u0105\u017A."
+    },
+    {
+      "Id": "c7733ee7-023f-44b8-847e-52cb30f05220",
+      "Text": "Grupa idiot\u00F3w graj\u0105cych w gr\u0119 karcian\u0105, zamiast rozmawiaj\u0105cych ze sob\u0105 jak normalni ludzie."
+    },
+    {
+      "Id": "d1a551a3-7217-4896-8959-1cb3b756463b",
+      "Text": "Ja."
+    },
+    {
+      "Id": "e4195609-3826-44ce-82de-4db4874f397a",
+      "Text": "Jak niesamowity jestem."
+    },
+    {
+      "Id": "028bad1a-6751-4540-bb8c-b00b555bfd48",
+      "Text": "Jaki\u015B fagas z gitar\u0105 akustyczn\u0105."
+    },
+    {
+      "Id": "40b05a86-4625-4385-8f70-d1175ab3f475",
+      "Text": "Jaki\u015B tam Azjata."
+    },
+    {
+      "Id": "989a4ec4-e581-4a48-8c74-684c8f336c71",
+      "Text": "Janusz."
+    },
+    {
+      "Id": "e42b4cd3-9097-4ef6-8e1a-f040195b6ee9",
+      "Text": "Jaros\u0142aw Boberek."
+    },
+    {
+      "Id": "ca6549da-a13e-4155-98af-1dab6377ac0d",
+      "Text": "Jeden, by wszystkimi rz\u0105dzi\u0107."
+    },
+    {
+      "Id": "e8fd973d-86b5-4ad9-8db7-8368980932a4",
+      "Text": "Jedzenie albinosa."
+    },
+    {
+      "Id": "2161444b-06c0-4858-bc42-101dba89d9cd",
+      "Text": "Jedzenie w\u0105s\u00F3w Chucka Norrisa aby zdoby\u0107 jego umiej\u0119tno\u015Bci."
+    },
+    {
+      "Id": "b6e3e89c-d241-49c0-9071-717c19e3e6e3",
+      "Text": "Jeszcze jedna dawka morfiny.   "
+    },
+    {
+      "Id": "45fa976d-301f-49e8-831d-a70d600f958a",
+      "Text": "J\u0119zyk."
+    },
+    {
+      "Id": "ddb6fba5-f014-4b13-b3de-a7a0360f9958",
+      "Text": "Jadalna bielizna."
+    },
+    {
+      "Id": "172a7135-cc52-4fa5-ac9c-a2a3c929927c",
+      "Text": "Janusz Korwin-Mikke. "
+    },
+    {
+      "Id": "f791e3b8-96c1-4f65-aff1-34f32022ca8d",
+      "Text": "Jaros\u0142aw Kaczy\u0144ski."
+    },
+    {
+      "Id": "5909ce94-806e-4131-af53-bd7d67acd32b",
+      "Text": "J\u0105dra."
+    },
+    {
+      "Id": "56950960-a215-4ec8-b096-1baed3d83f6d",
+      "Text": "Jej wysoko\u015B\u0107, Kr\u00F3lowa El\u017Cbieta II."
+    },
+    {
+      "Id": "d637b4c3-ce50-4536-8cd7-e1c77761be02",
+      "Text": "Jezioro \u0142ab\u0119dzie."
+    },
+    {
+      "Id": "73ea6777-ad3d-4325-86ab-8688aa508a76",
+      "Text": "Jessica, bejbi pliss dont brejk maj hart..."
+    },
+    {
+      "Id": "2db2c56b-10e8-4727-b858-d332aa4ffb69",
+      "Text": "J\u00F3zef Pi\u0142sudski."
+    },
+    {
+      "Id": "28873138-6637-49ab-9400-a65b056a0390",
+      "Text": "Justin Bieber."
+    },
+    {
+      "Id": "71a5db46-38f7-48e8-a2e0-6cdd6007933e",
+      "Text": "Jezus jest odpowiedzi\u0105 na ka\u017Cde pytanie."
+    },
+    {
+      "Id": "144f3a4f-25ea-48de-9c32-ac1d536b491c",
+      "Text": "Jazz."
+    },
+    {
+      "Id": "916bb2e6-90b4-4f25-bf07-5b66aea35875",
+      "Text": "Jak bardzo jestem zajebisty."
+    },
+    {
+      "Id": "74d89c7f-d99d-47f7-b48b-2792aa257fec",
+      "Text": "Darmowe pr\u00F3bki."
+    },
+    {
+      "Id": "16fcd6dc-34d0-4cbd-9571-3431fdbb0530",
+      "Text": "Darth Vader."
+    },
+    {
+      "Id": "9cefd2e7-c99b-4ecf-8d5c-6edacdb72178",
+      "Text": "Dawanie z siebie 110%."
+    },
+    {
+      "Id": "21b022a7-a150-45b7-8721-696160faf7c8",
+      "Text": "Delikatne pieszczoty wewn\u0119trznej cz\u0119\u015Bci uda."
+    },
+    {
+      "Id": "cfd9c05f-de5b-4181-b610-e64cf192578b",
+      "Text": "Dezodorant AXE."
+    },
+    {
+      "Id": "6fde3621-62b3-4cfa-9609-81b003589018",
+      "Text": "D\u0142ug publiczny."
+    },
+    {
+      "Id": "fb723fb6-4d0e-4ea6-9b25-ce9d8b5424fa",
+      "Text": "Dokarmianie Magdy Gessler."
+    },
+    {
+      "Id": "104ec94d-5cb7-432a-b8c8-79c3f747e46a",
+      "Text": "Dojrzewanie p\u0142ciowe."
+    },
+    {
+      "Id": "106c622c-1f31-497e-bd13-2cb68c539b45",
+      "Text": "Dok\u0142adnie to czego si\u0119 spodziewasz."
+    },
+    {
+      "Id": "d9592012-d7b1-487b-9fe3-3f80ff7509d8",
+      "Text": "Donald Tusk."
+    },
+    {
+      "Id": "a793d67c-41b8-4897-876c-17cd06e0412f",
+      "Text": "Dro\u017Cd\u017Ce."
+    },
+    {
+      "Id": "d5fca7f8-d879-4d51-b083-806c7eb2bf3c",
+      "Text": "Duchy."
+    },
+    {
+      "Id": "fef98e59-2fc1-4e35-a1fe-f3570d49999b",
+      "Text": "Dw\u00F3ch kar\u0142\u00F3w sraj\u0105cych do wiadra."
+    },
+    {
+      "Id": "6b7d2231-cfc3-4d83-8c58-8b1e5c39bd11",
+      "Text": "Dzieci na smyczy."
+    },
+    {
+      "Id": "7e8d796c-0ee7-4809-b0f8-8a78e33b299b",
+      "Text": "Dzieci z rakiem odbytu."
+    },
+    {
+      "Id": "2afa92c4-e48d-4212-a21f-2409e33e97ac",
+      "Text": "Dzieci."
+    },
+    {
+      "Id": "1834fe67-6130-49c5-825d-d876b29822ee",
+      "Text": "Dzieci\u0119ce konkursy pi\u0119kno\u015Bci."
+    },
+    {
+      "Id": "07bdb510-b904-4135-b5cb-1dc0d25efdf6",
+      "Text": "Dziurawa prezerwatywa. "
+    },
+    {
+      "Id": "a960af2f-5e78-4334-8686-d28aa86777a7",
+      "Text": "Dziurawe r\u0119ce."
+    },
+    {
+      "Id": "50e72603-a69a-487d-b588-290ff19bffb3",
+      "Text": "Darmowe lody, jo\u0142."
+    },
+    {
+      "Id": "896db5c1-afd2-4639-a822-75069caba0fc",
+      "Text": "Darmowy lodzik. "
+    },
+    {
+      "Id": "969a9ee1-7b5e-4191-bc02-bc4622cbf258",
+      "Text": "Dennis Rozrabiaka."
+    },
+    {
+      "Id": "ba471b5b-3c2e-4097-b44c-1080b89fd011",
+      "Text": "Depresja."
+    },
+    {
+      "Id": "29013c35-07d6-41c9-b4ed-15ca0e391916",
+      "Text": "DNA Czyngis Chana."
+    },
+    {
+      "Id": "f63a68f2-4f5f-456b-94e7-ad60e31e188b",
+      "Text": "Dopalony egzoszkielet."
+    },
+    {
+      "Id": "eda51e41-dce9-4d7b-8a20-001cbfbc7075",
+      "Text": "Dopracowana krytyka."
+    },
+    {
+      "Id": "57e33911-1a5f-45eb-bd69-e5f3a136e224",
+      "Text": "Dos\u0142ownie jedzenie g\u00F3wna."
+    },
+    {
+      "Id": "d7485c0d-9cb6-498c-9803-655fd30a8699",
+      "Text": "Drugie terminy."
+    },
+    {
+      "Id": "c5a8b07b-9ab7-4bd3-8761-c11bd0a5c432",
+      "Text": "Dru\u017Cyna pier\u015Bcienia."
+    },
+    {
+      "Id": "e6db23c4-5f51-42de-8b20-df5f5f70ee5d",
+      "Text": "Dru\u017Cyna prawnik\u00F3w."
+    },
+    {
+      "Id": "f03da1e9-26d0-4694-b2a5-75a83b94feaa",
+      "Text": "Duch Ojca Chrzestnego."
+    },
+    {
+      "Id": "90600107-5313-41fb-8540-7193f99b5baf",
+      "Text": "Dzie\u0144, w kt\u00F3rym ptaki zaatakowa\u0142y."
+    },
+    {
+      "Id": "eb15c5d5-4142-4b84-9158-0e324d9dc4fd",
+      "Text": "Dziewczyny, kt\u00F3re wiecznie SMSuj\u0105."
+    },
+    {
+      "Id": "1bb58562-4dd8-4b14-808b-c83c9cf74ad7",
+      "Text": "D\u017Cafar."
+    },
+    {
+      "Id": "c35e0ad6-0ceb-4244-8968-1307e4cf7523",
+      "Text": "Dobre pytanie, te\u017C chcia\u0142bym to wiedzie\u0107. "
+    },
+    {
+      "Id": "1fde5373-1390-4c09-8d20-8721e5067ef3",
+      "Text": "Do widzenia."
+    },
+    {
+      "Id": "c8db4926-8658-46c4-b6da-b20ceed79472",
+      "Text": "Donald Trump."
+    },
+    {
+      "Id": "2f8870f5-19a2-445e-8643-2bb52af4154b",
+      "Text": "Dentysta."
+    },
+    {
+      "Id": "b05d6c3b-e7a7-4501-8a63-695a609229f5",
+      "Text": "Drzewa."
+    },
+    {
+      "Id": "a3125c3b-5836-403b-b7e3-6f45f00b412d",
+      "Text": "Dupna katastrofa."
+    },
+    {
+      "Id": "870115ea-ad6e-452b-8ef5-7426ff6e23a4",
+      "Text": "Du\u017Co, du\u017Co aborcji."
+    },
+    {
+      "Id": "d0ca4303-f3f1-4276-a4ed-8744b3bf4fe9",
+      "Text": "Danie wegetaria\u0144skie."
+    },
+    {
+      "Id": "3c4c6209-5088-48b5-99f3-b5ae880fe3b1",
+      "Text": "Emocje."
+    },
+    {
+      "Id": "5fe83c8a-5f9a-4153-8edb-6f42896a4c25",
+      "Text": "Feminizm."
+    },
+    {
+      "Id": "90e128eb-c393-4645-bf09-7aa43e2e4628",
+      "Text": "Estrogen."
+    },
+    {
+      "Id": "72359083-2498-4355-83c4-22d8a78253f8",
+      "Text": "Euphoria\u2122 Calvina Kleina."
+    },
+    {
+      "Id": "0f314b73-30c5-41a6-b64c-9543227188b5",
+      "Text": "Ejakulacja \u017Cywymi pszczo\u0142ami, a pszczo\u0142y s\u0105 w\u015Bciek\u0142e."
+    },
+    {
+      "Id": "3116527f-7efe-4123-8dbe-a19aa7b0f62c",
+      "Text": "Erekcja starszych pan\u00F3w."
+    },
+    {
+      "Id": "daae371e-faec-472b-a03d-fb6c0e1de544",
+      "Text": "Eutanazja."
+    },
+    {
+      "Id": "1eea3ea5-e457-4711-98e2-991838529e68",
+      "Text": "Esmeralda - moja najpi\u0119kniejsza c\u00F3reczka."
+    },
+    {
+      "Id": "efdfd6f3-3f32-4987-a650-c16d71f1e1c1",
+      "Text": "Fantazje o drwalach."
+    },
+    {
+      "Id": "46a384af-ba45-4558-ac2b-2d05d96d18f1",
+      "Text": "Finalista kangura."
+    },
+    {
+      "Id": "0854cb2b-62fe-4922-897a-4df002e96671",
+      "Text": "Fundacja Polsat dzieciom."
+    },
+    {
+      "Id": "767f7a27-848e-47d9-94e4-208c8ba011a8",
+      "Text": "Faszerowanie twarzy dziecka cukrem pudrem dop\u00F3ki nie b\u0119dzie mu si\u0119 to podoba\u0142o."
+    },
+    {
+      "Id": "082b4307-72a6-4a1f-92bf-3ba9213929e9",
+      "Text": "Fisting."
+    },
+    {
+      "Id": "bde1e2e7-22b0-48dc-b6a8-7fa432805f70",
+      "Text": "Foch. I chuj."
+    },
+    {
+      "Id": "f776412d-42d4-4d72-9fce-e25b77af1ad3",
+      "Text": "Babcia."
+    },
+    {
+      "Id": "1b58ba59-6f20-48f7-8bf3-995f7312862e",
+      "Text": "Baby z nosa."
+    },
+    {
+      "Id": "c4b59e97-49d3-4ff2-99ae-90e7ecddc1ea",
+      "Text": "Bakteria \u017Cywi\u0105ca si\u0119 mi\u0119sem."
+    },
+    {
+      "Id": "3b54a15c-bb92-4ca5-ad90-be7fc2f76082",
+      "Text": "BATMAN!!!"
+    },
+    {
+      "Id": "9c7c01a2-5133-451e-b6bd-4703fe86ce5f",
+      "Text": "Bezchmurne niebo i \u015Bwiec\u0105ce s\u0142o\u0144ce."
+    },
+    {
+      "Id": "b3a6b7c8-2088-4d05-9ccf-d3a244741106",
+      "Text": "Bezczelno\u015B\u0107."
+    },
+    {
+      "Id": "6f54aa65-5bd6-4e28-9cff-a8948b60c60f",
+      "Text": "Bezdomni."
+    },
+    {
+      "Id": "9ff0c1e3-022e-4149-adbf-96a8fe03cad8",
+      "Text": "Biali ludzie."
+    },
+    {
+      "Id": "d4737fb2-ef22-44f5-9200-612f1fe80cd0",
+      "Text": "Biblia."
+    },
+    {
+      "Id": "2a267309-60c4-4aac-9580-d4088a3d4568",
+      "Text": "Biedni ludzie.     "
+    },
+    {
+      "Id": "783c1288-df06-4367-b8e5-cc14ad3efd1c",
+      "Text": "Bogactwo."
+    },
+    {
+      "Id": "fa6f3a01-e2b9-4a72-91d3-e486789e3e53",
+      "Text": "Borys Szyc."
+    },
+    {
+      "Id": "656463e3-08e4-4509-a14c-fde9c0773a28",
+      "Text": "B\u00F3g."
+    },
+    {
+      "Id": "6fd9406c-be8f-4c81-a7da-b8d7292b8e17",
+      "Text": "Britney Spears w wieku 55 lat."
+    },
+    {
+      "Id": "0fdb7a16-eceb-434c-9b22-65583ab30279",
+      "Text": "Bycie bajecznie pi\u0119knym."
+    },
+    {
+      "Id": "a87e59ed-e89c-41ba-935d-a0a4ab945264",
+      "Text": "Bycie chujem w stosunku do dzieci."
+    },
+    {
+      "Id": "bcd5886e-bf9b-4c10-8396-1051d74c2bf3",
+      "Text": "Bycie naprawd\u0119 mocno spalonym."
+    },
+    {
+      "Id": "88c26fc5-ab65-46ae-ad49-e5752518ef88",
+      "Text": "Bycie pierdolonym czarodziejem."
+    },
+    {
+      "Id": "c75c1aaf-227d-4c23-bc6e-1245f91f491b",
+      "Text": "Bycie tak z\u0142ym, \u017Ce a\u017C ci staje."
+    },
+    {
+      "Id": "3f246cb3-46a5-4cdc-983c-063b649b5881",
+      "Text": "Bycie zmarginalizowanym."
+    },
+    {
+      "Id": "f1b00c07-5e92-424b-922e-490c2997a777",
+      "Text": "Beznadziejna ilo\u015B\u0107 paj\u0105k\u00F3w."
+    },
+    {
+      "Id": "5bbe03b4-f51f-4b65-9a69-06ba623cd928",
+      "Text": "Bezpieczne s\u0142owo."
+    },
+    {
+      "Id": "f6efe465-dfeb-462e-9695-641752363608",
+      "Text": "Bezwarunkowe pos\u0142usze\u0144stwo."
+    },
+    {
+      "Id": "f18fbe28-19da-41ff-aafb-0c6af2522228",
+      "Text": "Bia\u0142a po\u0142owa Baracka Obamy."
+    },
+    {
+      "Id": "fdb8fb69-502f-4cd1-b2e3-e1409dad12d7",
+      "Text": "Bicie \u017Cony."
+    },
+    {
+      "Id": "f78d25b5-7450-4e01-bfdf-0066782cf387",
+      "Text": "Biczowanie niepos\u0142usznego niewolnika."
+    },
+    {
+      "Id": "e719a81e-0413-49bb-8b6a-8dcc8e4d2bb1",
+      "Text": "Bieganie nago po centrum handlowym, sikanie i sranie wsz\u0119dzie."
+    },
+    {
+      "Id": "c445ee05-fd6b-4f52-ad8e-f99c2603d696",
+      "Text": "Biegunka rozpryskowa w gaciach."
+    },
+    {
+      "Id": "95cf89db-7ee2-4af1-8a1f-37a76296c861",
+      "Text": "Bilet w jedn\u0105 stron\u0119 do Sosnowca."
+    },
+    {
+      "Id": "48519095-49cf-44d2-af0e-130ebbe0032c",
+      "Text": "B\u0142yszcz\u0105cy kamie\u0144, kt\u00F3ry jest dowodem mojej mi\u0142o\u015Bci."
+    },
+    {
+      "Id": "5cecfacd-f92a-4c6b-89e2-dc22351879b5",
+      "Text": "Borys, radziecki M\u0142ot Mi\u0142o\u015Bci."
+    },
+    {
+      "Id": "237cbfc5-23d5-433c-ad68-c6ecb84457c7",
+      "Text": "Brak umiej\u0119tno\u015Bci zak\u0142adania powa\u017Cnych zwi\u0105zk\u00F3w."
+    },
+    {
+      "Id": "4ca7951f-9f3c-4797-81d4-133215b92906",
+      "Text": "Brak wspomagania reszty spo\u0142ecze\u0144stwa w jaki\u015B znacz\u0105cy spos\u00F3b."
+    },
+    {
+      "Id": "d563037f-a9a1-4990-91b9-7d40cfd8d5d2",
+      "Text": "Bycie dinozaurem."
+    },
+    {
+      "Id": "496be937-af42-4a85-817b-40e3360c615b",
+      "Text": "Bycie dziewi\u0119ciolatkiem."
+    },
+    {
+      "Id": "df345ac1-4649-41cd-a022-511fc35c5fed",
+      "Text": "Bycie martwym przez jaki\u015B czas."
+    },
+    {
+      "Id": "7e3f380d-b815-47e5-9aff-b8678c0ca200",
+      "Text": "Bycie na ostrej fazie po grzybkach halucynkach."
+    },
+    {
+      "Id": "74913a3b-d481-47f1-adb3-6530dc8347a6",
+      "Text": "Bycie niesamowitym w \u0142\u00F3\u017Cku."
+    },
+    {
+      "Id": "e4d3c9c6-6825-471c-8174-f4ed79a36ab1",
+      "Text": "Bycie porwanym przez Piotrusia Pana."
+    },
+    {
+      "Id": "ac25685c-2281-4b19-9b27-8cc58ab3adaf",
+      "Text": "Bycie postrzelonym, na serio."
+    },
+    {
+      "Id": "32934504-1e28-4fb5-96db-35742865fc9b",
+      "Text": "Bycie sparali\u017Cowanym od ramion w d\u00F3\u0142."
+    },
+    {
+      "Id": "c88f6386-054b-41d7-a5c5-c258643740cc",
+      "Text": "Bycie wielbionym jako jedyny, prawdziwy B\u00F3g."
+    },
+    {
+      "Id": "adcf5db4-2247-478d-b2d8-cc3a72ace5e3",
+      "Text": "Bycie zaj\u0119tym doros\u0142ym z wieloma wa\u017Cnymi rzeczami do zrobienia."
+    },
+    {
+      "Id": "9ef1d5d2-fbb2-4a95-8b29-35b5251e6cba",
+      "Text": "B\u00F3g tak chcia\u0142."
+    },
+    {
+      "Id": "60693172-bd85-4ed7-b2f6-c6ff03a1a31f",
+      "Text": "Bycie z\u0142apanym przez policj\u0119 i wrzuconym do wi\u0119zienia."
+    },
+    {
+      "Id": "5e0384cb-c569-4c19-8343-8ed8acad36bd",
+      "Text": "Bycie przeokropn\u0105 matk\u0105."
+    },
+    {
+      "Id": "94c2d249-f605-4883-834a-ca038cf6d0f0",
+      "Text": "Beyonce."
+    },
+    {
+      "Id": "ee806ad5-4876-4c6a-8096-6324fed6958d",
+      "Text": "Bohater bez \u017Cadnych umiej\u0119tno\u015Bci."
+    },
+    {
+      "Id": "50db0fcc-ede1-43b0-84f1-bd642877cdbe",
+      "Text": "Hasanie."
+    },
+    {
+      "Id": "1c94ad95-515e-40d3-83be-2e9b1917f533",
+      "Text": "Homoerotyczna scena gry w siatk\u00F3wk\u0119."
+    },
+    {
+      "Id": "95ec5e24-48bd-4f34-94dc-73310db33c5a",
+      "Text": "Hot-dogi za 1z\u0142."
+    },
+    {
+      "Id": "2b13ec61-3fda-4602-af53-e68ca9b6a9e7",
+      "Text": "Huragan Katrina."
+    },
+    {
+      "Id": "42592964-5906-4120-b1f2-16d34d09d664",
+      "Text": "ISIS."
+    },
+    {
+      "Id": "60f48780-3099-4ba4-bcc8-1657258f9647",
+      "Text": "Hipsterzy."
+    },
+    {
+      "Id": "87b84e53-83e2-4bd3-858e-7f2844699df5",
+      "Text": "Hipsterzy paleni w imi\u0119 staro\u017Cytnego niebia\u0144skiego po\u0142\u0105czenia do gwiezdnej pr\u0105dnicy w maszynerii nocy."
+    },
+    {
+      "Id": "fd30ab18-0745-45f1-8dee-0be9cb99e12f",
+      "Text": "Igraszki."
+    },
+    {
+      "Id": "e0bcf41c-13ea-48ea-b080-e792710f1cb2",
+      "Text": "Imprezowi cyganie."
+    },
+    {
+      "Id": "d5ecf194-9534-4acc-af6c-75e01815c84e",
+      "Text": "Istnienie."
+    },
+    {
+      "Id": "7d768430-3870-4812-8f88-2a7e2c8260be",
+      "Text": "Ca\u0142a dru\u017Cyna p\u0142ywacka."
+    },
+    {
+      "Id": "d665b0e6-e645-455f-a82b-f057ed74042d",
+      "Text": "Ca\u0142kowicie nowy rodzaj porno."
+    },
+    {
+      "Id": "d23e38cb-83f2-4f9c-b58b-383a763796ad",
+      "Text": "Ca\u0142y Internet."
+    },
+    {
+      "Id": "95e55615-d738-442f-b66e-5ee0e4adfef9",
+      "Text": "Chi\u0144skie porno bajki."
+    },
+    {
+      "Id": "d7d622f6-66ed-4ed6-a377-8b8c4f5e122c",
+      "Text": "Cholerne promocje."
+    },
+    {
+      "Id": "d414f2e0-3f11-4766-90a8-fb7d25b0ff3b",
+      "Text": "Chytra Baba z Radomia."
+    },
+    {
+      "Id": "7385a93b-a4d5-46e1-812f-b121b28c99f5",
+      "Text": "Cholerne hemoroidy."
+    },
+    {
+      "Id": "b5174a39-a4cb-4a4e-b24d-08a528756a66",
+      "Text": "Chy\u017Ce osi\u0105ganie orgazmu."
+    },
+    {
+      "Id": "477bfa61-3461-42b8-88f4-e08137bbc086",
+      "Text": "Cia\u0142o ludzkie. "
+    },
+    {
+      "Id": "f9c0d575-c930-431d-98b5-57a446109dc3",
+      "Text": "Ciep\u0142y, aksamitny seks pacynek."
+    },
+    {
+      "Id": "2272800b-9b6b-4552-862c-1706e478f96c",
+      "Text": "Ciosy nunczakiem."
+    },
+    {
+      "Id": "a95a234c-9a9c-4715-a2ad-65f78a673366",
+      "Text": "Co zrobi\u0142by Jezus."
+    },
+    {
+      "Id": "7ec32e0b-8606-4cd1-af77-5de3be0612f0",
+      "Text": "Co\u015B naprawd\u0119 popierdolonego."
+    },
+    {
+      "Id": "ae4ec83b-56f7-4177-a950-1bf72c344ec6",
+      "Text": "Co\u015B w rodzaju cz\u0142owieka-ptaka."
+    },
+    {
+      "Id": "04a8efd3-b46c-47d7-a7e4-2a030f51586c",
+      "Text": "Cukierkowe szale\u0144stwo."
+    },
+    {
+      "Id": "747c7b94-3ca5-4174-af18-3fbb45ac3dbe",
+      "Text": "Cycory nie z tego \u015Bwiata."
+    },
+    {
+      "Id": "d2f830bf-0f1a-4722-8028-5980e70fb7dd",
+      "Text": "Czarnuch."
+    },
+    {
+      "Id": "e4f46293-99ed-4d14-8d2e-19773dbe52b2",
+      "Text": "Czarnosk\u00F3ry wampir."
+    },
+    {
+      "Id": "7fac00f5-e59c-49f5-a8b0-1063d0c3f85f",
+      "Text": "Czarna po\u0142owa Baracka Obamy."
+    },
+    {
+      "Id": "414cfce4-20ba-4bdc-8c6e-6ef5112f988f",
+      "Text": "Cycuszki."
+    },
+    {
+      "Id": "7f7052a7-198a-4ed9-a448-7fce08072401",
+      "Text": "Czarny 20-letni m\u0119\u017Cczyzna, ostatnio widziany w bluzie z kapturem."
+    },
+    {
+      "Id": "e0c06f6f-ad20-458a-b12a-072ccedbf681",
+      "Text": "Czarny Power Ranger."
+    },
+    {
+      "Id": "bcb2d683-a5e7-4629-a385-6b105aff52e5",
+      "Text": "Czkawka."
+    },
+    {
+      "Id": "c12ff971-0a13-4515-9e15-78e4a8a312fe",
+      "Text": "Czosnkowy oddech."
+    },
+    {
+      "Id": "3a0e55a1-3ebd-4cb0-aec0-2c0b986fe8b7",
+      "Text": "Cztery ramiona Vishnu."
+    },
+    {
+      "Id": "6c559d02-b324-41f9-a3c1-bdc971c55a23",
+      "Text": "Centaury."
+    },
+    {
+      "Id": "46444b4e-91e5-4d8e-9750-b57cb30916f0",
+      "Text": "Cezary Pazura."
+    },
+    {
+      "Id": "61e6c2e4-ac07-471d-b077-dbfccdc468ad",
+      "Text": "Charyzma."
+    },
+    {
+      "Id": "660ed5ed-deeb-4867-bc50-6a7d9df68b31",
+      "Text": "Chi\u0144ska dru\u017Cyna gimnastyczna."
+    },
+    {
+      "Id": "6d966a32-45d5-4a44-9af1-401dba9a1047",
+      "Text": "Chocapic."
+    },
+    {
+      "Id": "fb9d9777-a2f6-40df-9642-069a82c15e5a",
+      "Text": "Chwytaj\u0105ce za serce sierotki."
+    },
+    {
+      "Id": "222feab7-1860-4fd1-92b7-01e25cb7505f",
+      "Text": "Ci\u0119\u017Cko pracuj\u0105cy cygan."
+    },
+    {
+      "Id": "148b4cb8-4f50-43c9-8eae-252f3b440d6c",
+      "Text": "Cud porodu."
+    },
+    {
+      "Id": "bef5d1cb-b5f1-42ca-8944-fa81b6241771",
+      "Text": "Cios podbr\u00F3dkowy."
+    },
+    {
+      "Id": "530869d2-cfec-49d0-84ff-3d4b293e3212",
+      "Text": "Cybernetyczne ulepszenia."
+    },
+    {
+      "Id": "81da7827-64db-446e-9fb9-781146fc41ca",
+      "Text": "Cyga\u0144ska kl\u0105twa."
+    },
+    {
+      "Id": "3b0e418b-4a50-4650-8017-4b86f3fcf4f6",
+      "Text": "Czas dla siebie."
+    },
+    {
+      "Id": "21357f4c-2b6b-4d59-840f-d98cb729bd18",
+      "Text": "Czekanie do \u015Blubu."
+    },
+    {
+      "Id": "58b29641-f321-4b3c-bdc7-704362275d71",
+      "Text": "Czyngis-chan."
+    },
+    {
+      "Id": "e7b1ba5b-e707-4410-a9e8-20b2e62b2d91",
+      "Text": "Czystki etniczne."
+    },
+    {
+      "Id": "39376ae3-30f9-4a0b-815a-71905ef3b722",
+      "Text": "Cios poni\u017Cej pasa."
+    },
+    {
+      "Id": "bc780866-9559-48fd-a5d8-ab664588f3b3",
+      "Text": "Cokolwiek sobie \u017Cyczysz, Mamusiu."
+    },
+    {
+      "Id": "19aa8172-14f0-4dbc-8197-e5c392c4dc46",
+      "Text": "Chiny."
+    },
+    {
+      "Id": "7b643613-f49b-4902-b80b-99330673957b",
+      "Text": "Czarnosk\u00F3ry przyjaciel."
+    },
+    {
+      "Id": "9ba51fe2-b64f-4d5f-b048-828afdb5405d",
+      "Text": "Cheeki Breeki."
+    },
+    {
+      "Id": "1a66e92e-290d-48e3-a3f1-f1f94a5c6586",
+      "Text": "Chuj."
+    },
+    {
+      "Id": "76cee3f7-7817-48a6-8265-59a0f622f987",
+      "Text": "Obci\u0105ganie dla wszystkich."
+    },
+    {
+      "Id": "2f5cdc70-0334-4d85-8397-68baff11e07e",
+      "Text": "Oczy szalone od opium."
+    },
+    {
+      "Id": "7964c9e0-1586-44ec-9352-f5daa213e7fd",
+      "Text": "Odm\u0142adzaj\u0105ca Krzy\u015Bka Ibisza, szara, od\u017Cywcza papka."
+    },
+    {
+      "Id": "030306e3-a901-4d4d-9030-c4c0f7352efe",
+      "Text": "Odmro\u017Cenie moszny."
+    },
+    {
+      "Id": "2cb915d3-8eb1-455b-997d-617250845f8c",
+      "Text": "Odpowiednie zaj\u0119cie si\u0119 jej sutkami."
+    },
+    {
+      "Id": "c3bc4b7f-9e9a-4efa-946c-b643fee79a2d",
+      "Text": "Odpowiedzialne picie."
+    },
+    {
+      "Id": "385f357a-959f-4e67-8813-0e014324181f",
+      "Text": "Ogromne skandynawskie kobiety."
+    },
+    {
+      "Id": "2c7cf5eb-ef66-46d1-818b-ac8903068997",
+      "Text": "Opcje dla wegetarian."
+    },
+    {
+      "Id": "fb4a0b6d-3966-4054-a5f3-d0a82ec7223b",
+      "Text": "Op\u0119tanie."
+    },
+    {
+      "Id": "df4fa26b-4b60-4a05-8a3b-f0874feac89d",
+      "Text": "Orzeszki."
+    },
+    {
+      "Id": "9a33cd4b-d159-4761-851f-c68235f0874e",
+      "Text": "Osadzony na mieli\u017Anie wieloryb."
+    },
+    {
+      "Id": "b5e09386-d84f-4ff5-9b47-1f215f365beb",
+      "Text": "Ostre \u015Bwiat\u0142o dnia."
+    },
+    {
+      "Id": "ed163211-1ca1-49a8-9ba7-a88fc933b60c",
+      "Text": "O\u015Bmiu gejowskich w\u0142adc\u00F3w \u015Bwiata mody."
+    },
+    {
+      "Id": "92163e6d-fda5-4956-8731-6035d96b790d",
+      "Text": "Obci\u0105ganie w czasie jazdy autem."
+    },
+    {
+      "Id": "dc9cb5cf-b704-4f7d-9635-5cb5b0a3cfc7",
+      "Text": "Oblizywanie rzeczy, \u017Ceby oznaczy\u0107 je jako swoje."
+    },
+    {
+      "Id": "628e30d2-69a2-4c98-b603-810b8c2b0b71",
+      "Text": "Obowi\u0105zki ma\u0142\u017Ce\u0144skie."
+    },
+    {
+      "Id": "726d322e-c975-4d51-8b9f-80abe66de08a",
+      "Text": "Ob\u017Ceranie si\u0119 i wymiotowanie."
+    },
+    {
+      "Id": "bba7083d-dd0d-44b4-bb29-3f50000d11e8",
+      "Text": "Ocenzurowane bukkake."
+    },
+    {
+      "Id": "d79d54fb-4fc8-4557-b385-833402381a53",
+      "Text": "Ofiary w\u015Br\u00F3d cywili."
+    },
+    {
+      "Id": "cfda5945-f981-4c66-8116-f88a14cc125d",
+      "Text": "Okradanie grob\u00F3w."
+    },
+    {
+      "Id": "18748374-c262-4f9a-b14a-116cc03c90f1",
+      "Text": "Olaf Lubaszenko."
+    },
+    {
+      "Id": "15c2c3fa-440b-41be-acb0-02c2e7bb7687",
+      "Text": "Olbrzymie lizaki."
+    },
+    {
+      "Id": "69ded3fe-675a-4285-bbd7-4c9ddbf4c9ad",
+      "Text": "Olewanie problem\u00F3w trzeciego \u015Bwiata."
+    },
+    {
+      "Id": "6a7af870-43a5-4749-9255-41593d31ec0e",
+      "Text": "Opowiadanie dowcip\u00F3w o \u017Cydach w nieodpowiednim momencie."
+    },
+    {
+      "Id": "f5eabdb1-2761-4657-a967-9d21d09052a7",
+      "Text": "Opryszczka."
+    },
+    {
+      "Id": "799c6654-ce24-41e8-8094-a4c0af20ffcc",
+      "Text": "Oszukiwanie na olimpiadzie specjalnej."
+    },
+    {
+      "Id": "0fdc83e3-b9d6-43bc-88d9-26ee16f5d403",
+      "Text": "Oty\u0142o\u015B\u0107."
+    },
+    {
+      "Id": "83abc77a-acc4-453e-99c8-9120987ff3c1",
+      "Text": "Odporno\u015B\u0107 na wiedz\u0119."
+    },
+    {
+      "Id": "8a6683ab-54fe-4e8f-b797-a88f624a0917",
+      "Text": "Og\u00F3lne nie posiadanie zielonego poj\u0119cia co si\u0119 dzieje."
+    },
+    {
+      "Id": "93f05e4b-fed6-4a43-82e2-67033af68db0",
+      "Text": "Ogromna kolekcja dzieci\u0119cej pornografii."
+    },
+    {
+      "Id": "fa3007f1-2d04-49d0-8979-9a755513d365",
+      "Text": "Ogl\u0105danie jak umierasz."
+    },
+    {
+      "Id": "50c691d0-8916-4cb9-8d0e-c6121492fb2d",
+      "Text": "Niesymetryczne, sztuczne piersi. "
+    },
+    {
+      "Id": "8af4abfc-9a65-4304-a030-984e473894b3",
+      "Text": "Nadzieja."
+    },
+    {
+      "Id": "89888d87-657b-4772-9d7f-7c680f779cc6",
+      "Text": "Nag\u0142y zwrot akcji."
+    },
+    {
+      "Id": "9fc9152d-a51a-40c8-b51d-c36b7139b8e7",
+      "Text": "Nago\u015B\u0107."
+    },
+    {
+      "Id": "37c27c54-ae56-46b0-a2cb-9a8369a276ae",
+      "Text": "Napad w bramie."
+    },
+    {
+      "Id": "4e96acd3-2ea5-440e-899f-be0dc913e48d",
+      "Text": "Napi\u0119cie seksualne."
+    },
+    {
+      "Id": "6eee43df-75de-4d58-ac8b-df9b8ea1097f",
+      "Text": "Napletek."
+    },
+    {
+      "Id": "a5bc2ccc-4e44-4c5e-9c19-08c5e8171458",
+      "Text": "Naprawd\u0119 fajny kapelusz."
+    },
+    {
+      "Id": "8be9059a-4f26-4f20-a25e-a06b7d97529c",
+      "Text": "Naruszanie podstawowych praw cz\u0142owieka."
+    },
+    {
+      "Id": "4f4788d0-5fcb-4e95-9fd8-dca87020ed31",
+      "Text": "Nastawienie."
+    },
+    {
+      "Id": "b1ff107c-771f-4787-bb1c-a89860fb2529",
+      "Text": "Nastoletnie ci\u0105\u017Ce."
+    },
+    {
+      "Id": "daa52b34-6353-4f77-8251-083214457115",
+      "Text": "Naturalna selekcja."
+    },
+    {
+      "Id": "8c4700f1-cbc1-4b9c-a82b-c9c386a3dd13",
+      "Text": "Nelli Rokita."
+    },
+    {
+      "Id": "efa9764b-4696-4893-980c-5de73aab9771",
+      "Text": "Nekrofilia."
+    },
+    {
+      "Id": "b9e6dc54-037f-458b-8626-af5d87b0093c",
+      "Text": "Nazi\u015Bci."
+    },
+    {
+      "Id": "a0a4ed8e-2f23-4eb7-920d-2bf9a2cabca8",
+      "Text": "Nauka. "
+    },
+    {
+      "Id": "d08ec710-7a9f-4da0-8254-e400c5e9049d",
+      "Text": "Niemcy."
+    },
+    {
+      "Id": "7b77b1b8-6775-4487-af00-976d0f8e4a97",
+      "Text": "Niemieckie porno w lochach."
+    },
+    {
+      "Id": "715da458-5b19-492e-8059-9b77056eb9a3",
+      "Text": "Nieodwzajemniony seks oralny."
+    },
+    {
+      "Id": "2ab3a5a5-931b-4231-b457-05d02da1ddc6",
+      "Text": "Nierozmawianie z obcymi."
+    },
+    {
+      "Id": "48dc5465-77db-4339-bc8e-5aef353a7512",
+      "Text": "Niestosowne jod\u0142owanie."
+    },
+    {
+      "Id": "160c590b-2096-4958-8024-fa98ec3cf9b3",
+      "Text": "Niewyobra\u017Calna g\u0142upota."
+    },
+    {
+      "Id": "bfcdcd7e-5248-4331-af71-71d6a2345290",
+      "Text": "Niewyparzona buzia."
+    },
+    {
+      "Id": "e27551bf-05d5-4b7f-a2f3-a987d9585ae1",
+      "Text": "Noszenie bielizny na lewej stronie aby unikn\u0105\u0107 prania."
+    },
+    {
+      "Id": "bd98c3fe-3e50-426d-86e9-47465cd8f4d1",
+      "Text": "Na przyk\u0142ad palenie koki. "
+    },
+    {
+      "Id": "01e8a45a-5c26-4482-9af9-8f6cb3c953d6",
+      "Text": "Nadepni\u0119cie klocka LEGO. Bos\u0105 stop\u0105."
+    },
+    {
+      "Id": "f883c89c-c0ea-423b-9aa4-b593a98afbac",
+      "Text": "Nadmiernie bujne i zapuszczone w\u0142osy."
+    },
+    {
+      "Id": "03bb74b4-9f45-4f1a-8880-93c9f44832e6",
+      "Text": "Nag\u0142a przypad\u0142o\u015B\u0107 wybuchowego srania."
+    },
+    {
+      "Id": "04b73911-c7aa-4b49-a82b-d701a7f2e715",
+      "Text": "Najmniejszy cie\u0144 dowodu, \u017Ce B\u00F3g istnieje."
+    },
+    {
+      "Id": "6f71aeb5-ee1d-4f70-9704-e6b07b829232",
+      "Text": "Najwi\u0119ksze przeboje Krzysztofa Krawczyka."
+    },
+    {
+      "Id": "1b4c67cf-94c3-40c1-8721-fd1956cc995f",
+      "Text": "Nami\u0119tna latynoska kochanka."
+    },
+    {
+      "Id": "cc31ec8b-ac57-487f-8bd5-3382274f5e30",
+      "Text": "Nudny sex waginalny."
+    },
+    {
+      "Id": "9c7d27f8-1d35-43bc-b720-9fb178c8b64e",
+      "Text": "Napalony goblin i jego weso\u0142y penis."
+    },
+    {
+      "Id": "fd09201d-76d8-4f9c-af53-d4ab9dd121c3",
+      "Text": "Nape\u0142nianie ka\u017Cdego otworu cia\u0142a budyniem karmelowym."
+    },
+    {
+      "Id": "e8ecc0d1-005a-4139-8f35-a1483a187932",
+      "Text": "Narzekanie jak ma\u0142a dziwka."
+    },
+    {
+      "Id": "3322e81f-2f48-46dd-bf11-c28085a6c3b5",
+      "Text": "Nasmarowany olejkiem Rafa\u0142 Maserak."
+    },
+    {
+      "Id": "b77a8960-7f8f-4dee-9921-ef5ab57e07a8",
+      "Text": "Nic."
+    },
+    {
+      "Id": "9331d6f7-daec-4e97-8dfc-92ac4de543ac",
+      "Text": "Nie uprawienie seksu."
+    },
+    {
+      "Id": "f148b5df-ab08-4460-8133-798a3b9376c5",
+      "Text": "Nie wsadzanie g\u0142\u0119boko."
+    },
+    {
+      "Id": "8feb0b00-b7d9-4835-bd17-cd49910aa3a4",
+      "Text": "NIEEEEEEEEEEEE!!!"
+    },
+    {
+      "Id": "7f81cc87-2c3b-4deb-b808-e7e554bdbcb3",
+      "Text": "Nieograniczone zupy, sa\u0142atki i paluszki."
+    },
+    {
+      "Id": "0a350001-61b9-49bf-80b8-557f12b1ee25",
+      "Text": "Nieopisana samotno\u015B\u0107."
+    },
+    {
+      "Id": "e888cea3-a414-4e6a-8649-a0e889a7ef91",
+      "Text": "Niepohamowana ch\u0119\u0107 uduszenia w\u0142\u00F3cz\u0119gi."
+    },
+    {
+      "Id": "673bbc57-27db-4fee-b47e-a5c145340acd",
+      "Text": "Nieudane obrzezanie."
+    },
+    {
+      "Id": "8071b810-0f4c-4a23-bc0a-fbbef7669ba5",
+      "Text": "Niepowstrzymana fala ognistych mr\u00F3wek."
+    },
+    {
+      "Id": "17c642c0-be76-48bc-b706-52eb5a80f811",
+      "Text": "Niesamowity \u015Bwiat grzyb\u00F3w."
+    },
+    {
+      "Id": "60ab37e9-b855-4ef8-9554-3ee4e8740548",
+      "Text": "Niesprawny diabelski m\u0142yn tocz\u0105cy si\u0119 w stron\u0119 morza."
+    },
+    {
+      "Id": "edbceb7f-c242-4965-8da8-0e42aef60a82",
+      "Text": "Niezapomniana studni\u00F3wka."
+    },
+    {
+      "Id": "bb3f662a-3654-45f7-aa95-8540ac6ad8f0",
+      "Text": "Niejednoznaczny sarkazm."
+    },
+    {
+      "Id": "80f3f30a-d456-4412-8a29-c408d7b07d81",
+      "Text": "Nienasycona \u017C\u0105dza krwi."
+    },
+    {
+      "Id": "c45dc0aa-2ca7-4bf2-a936-b565f20ca59b",
+      "Text": "Niez\u0142a dupa!"
+    },
+    {
+      "Id": "86427862-01b8-4e92-a085-68598d0ff139",
+      "Text": "Nieznacznie chujowszy r\u00F3wnoleg\u0142y wszech\u015Bwiat."
+    },
+    {
+      "Id": "0f884719-b4ee-448d-960a-517bb428adb3",
+      "Text": "Niski poziom \u017Cycia."
+    },
+    {
+      "Id": "b23efac7-4785-4ab0-8291-4c355bca3a21",
+      "Text": "Noszenie okular\u00F3w i brzmienie m\u0105drze."
+    },
+    {
+      "Id": "a31087ac-163f-4c33-b6d5-d3c18da9b163",
+      "Text": "Noszenie o\u015Bmiornicy jako kapelusza."
+    },
+    {
+      "Id": "08d4e0cd-ea50-4354-a405-58bc3cb6d4d8",
+      "Text": "Nuda."
+    },
+    {
+      "Id": "8280f850-f45e-4f9a-929f-4b8b20c8cbeb",
+      "Text": "Nowa p\u0142yta Comy."
+    },
+    {
+      "Id": "4902185d-741b-4957-9244-0e0cbd7e45c4",
+      "Text": "Nowy ch\u0142opak mamy."
+    },
+    {
+      "Id": "c9660190-7fb4-4273-b21a-2282c3d90540",
+      "Text": "No ketchup, just sauce. "
+    },
+    {
+      "Id": "1cdd80d9-4cdd-4249-9f9d-88905b099351",
+      "Text": "Naboje."
+    },
+    {
+      "Id": "6cb57083-9a19-4798-a83d-b21c1377e62d",
+      "Text": "Nic nie znacz\u0105cy seks."
+    },
+    {
+      "Id": "1e0e9f03-34cd-4532-b52c-8fd1f7242953",
+      "Text": "Nie uprawianie seksu nigdy wi\u0119cej."
+    },
+    {
+      "Id": "0d08a703-7131-45c9-bcde-80612b8d3d38",
+      "Text": "Niesamowity czas picia i prowadzenia samochodu."
+    },
+    {
+      "Id": "ca6e711a-d1c5-4a49-b9fa-92326938b43d",
+      "Text": "Nasze dziecko."
+    },
+    {
+      "Id": "a5c30a0b-9b0f-44f2-b5b6-33990edee5b2",
+      "Text": "Niewyobra\u017Calna liczba paj\u0105k\u00F3w."
+    },
+    {
+      "Id": "9122bfde-938f-4bd8-8c17-cb80ae6613f6",
+      "Text": "Macanie."
+    },
+    {
+      "Id": "2f7e76fc-b672-4ba7-8bf7-a396fbdb5169",
+      "Text": "Moje pole."
+    },
+    {
+      "Id": "7d52d4ed-1da3-45a3-973a-8d6f102569fc",
+      "Text": "Mahomet (Chwa\u0142a mu po wieczne czasy)."
+    },
+    {
+      "Id": "4f8b7e53-cd90-4f4a-a66f-21377561acde",
+      "Text": "Malowanie palcami."
+    },
+    {
+      "Id": "0d74381c-d401-42b2-b575-3bf7be386349",
+      "Text": "Ma\u0142pa pal\u0105ca cygara."
+    },
+    {
+      "Id": "c17ad562-8eb9-4c6a-abe3-f33d0dfe8b6c",
+      "Text": "Martwe niemowl\u0119ta."
+    },
+    {
+      "Id": "e8f80bfa-6581-4897-8b38-37e3949428ba",
+      "Text": "Martwi rodzice."
+    },
+    {
+      "Id": "631ff735-454b-4bc9-be25-93d4279f53c7",
+      "Text": "Masturbacja."
+    },
+    {
+      "Id": "2738d8a9-2deb-4b29-b44d-ec3755f15e67",
+      "Text": "Menstruacja."
+    },
+    {
+      "Id": "36a4b2f0-8260-4316-a689-6bb3abe0f4a5",
+      "Text": "MechaHitler.     "
+    },
+    {
+      "Id": "ccd06aa0-3048-4ba1-98d0-a7994023e665",
+      "Text": "Mazurek."
+    },
+    {
+      "Id": "0d33c361-2c7a-43e0-acc1-1e176dbd9568",
+      "Text": "Materac z TV Mango."
+    },
+    {
+      "Id": "4f8fd30a-c626-4188-a932-c4cb47f5353a",
+      "Text": "M\u0119ska Pa\u0142a."
+    },
+    {
+      "Id": "925c47a1-cc08-44b8-8e8e-1934fdd7e04c",
+      "Text": "Metamfetamina."
+    },
+    {
+      "Id": "e5c4588f-8cd1-4617-9adf-eebb7e4dd494",
+      "Text": "M\u0119\u017Cczy\u017Ani. "
+    },
+    {
+      "Id": "fa321010-a917-4102-9275-19e2d9396431",
+      "Text": "Michael Jackson."
+    },
+    {
+      "Id": "2a08c3cf-e235-4132-b0bc-8380bf8ccf09",
+      "Text": "Mikro penis."
+    },
+    {
+      "Id": "dee261b0-5fe3-4a53-8570-eb7f1195fae7",
+      "Text": "Mim w trakcie zawa\u0142u."
+    },
+    {
+      "Id": "11c73e54-3330-40c1-8bf1-3baf874bdde9",
+      "Text": "Ministranci."
+    },
+    {
+      "Id": "c13d4dfc-900d-4d86-8503-ecaa29941e09",
+      "Text": "Minuta ciszy."
+    },
+    {
+      "Id": "3613bb72-f47c-4009-8ee1-0f49a95fb5b1",
+      "Text": "Miny l\u0105dowe."
+    },
+    {
+      "Id": "75ae05d8-ced2-4a7e-bf54-723a45cdbc26",
+      "Text": "Mleczarz."
+    },
+    {
+      "Id": "ffce39ec-b2b0-48cd-8838-50027bbd9798",
+      "Text": "Mleko w tubce."
+    },
+    {
+      "Id": "bffac936-97c9-4b4e-b475-c234cc0abd2d",
+      "Text": "M\u0142yn pe\u0142en trup\u00F3w."
+    },
+    {
+      "Id": "272811e6-e970-4df7-a76f-9637922d5788",
+      "Text": "Moc Jedi."
+    },
+    {
+      "Id": "54ec7700-1797-47e9-80d3-d210bec4c401",
+      "Text": "Mocne sztachni\u0119cie."
+    },
+    {
+      "Id": "814a3dd4-da8e-4428-aad4-3d62ddc26cdb",
+      "Text": "Moja dusza."
+    },
+    {
+      "Id": "1078df0e-7cd9-4674-8460-affae1719bc3",
+      "Text": "Moja dziewczyna."
+    },
+    {
+      "Id": "01178b8c-9df9-45ad-8958-1f3c8035edc3",
+      "Text": "Moja kolekcja nowoczesnych gad\u017Cet\u00F3w erotycznych."
+    },
+    {
+      "Id": "1d0e2431-0de9-4ff5-9e2e-0bfe5a77e771",
+      "Text": "Moja mama."
+    },
+    {
+      "Id": "5ef7242f-6b4d-410c-8f45-a09ca3d4a1f4",
+      "Text": "Moja pochwa."
+    },
+    {
+      "Id": "d242b113-291c-4460-86f2-3badca572b9f",
+      "Text": "Moje genitalia."
+    },
+    {
+      "Id": "b4de69f1-fc5e-46eb-abda-d8ca3706df66",
+      "Text": "Moje wewn\u0119trzne demony."
+    },
+    {
+      "Id": "4c34f7fa-1b4e-4376-8335-5e7b44bde9a0",
+      "Text": "Moje \u017Cycie seksualne."
+    },
+    {
+      "Id": "6e5fe2a0-f3c9-441d-a946-4587550269e2",
+      "Text": "Mokry b\u0105k."
+    },
+    {
+      "Id": "821a934d-9dcb-40bd-8755-ae660be5576b",
+      "Text": "Mordowanie, palenie, gwa\u0142cenie."
+    },
+    {
+      "Id": "547df465-a3ed-41f5-8de8-9bef8efdb6f2",
+      "Text": "Morze problem\u00F3w."
+    },
+    {
+      "Id": "c8435bbd-edd3-4869-a2cc-1f58ba171bc3",
+      "Text": "M\u00F3j ch\u0142opak."
+    },
+    {
+      "Id": "f32ac8ac-32d6-4171-80d2-9b7b4086b083",
+      "Text": "Murzyni."
+    },
+    {
+      "Id": "ef0ae465-373d-4d7f-9411-686150699d82",
+      "Text": "Magda Gessler."
+    },
+    {
+      "Id": "feebf023-918c-457c-8769-88851a47adce",
+      "Text": "Magiczna chmurka mi\u0142o\u015Bci hipisa."
+    },
+    {
+      "Id": "fcf8040d-3f4d-4c71-b2ff-10db2a17f479",
+      "Text": "Maksymalna penetracja."
+    },
+    {
+      "Id": "775f2706-e375-413a-ad72-fee91bc7efd3",
+      "Text": "Malutka, s\u0142abiutka r\u0105czka."
+    },
+    {
+      "Id": "cab1a469-5312-4f1c-9197-af869071975b",
+      "Text": "Malutkie sutki."
+    },
+    {
+      "Id": "2ab5a532-2b60-44ca-b0ad-1310af2ad386",
+      "Text": "Mama."
+    },
+    {
+      "Id": "78c9b9c4-ab51-4c0d-974e-096f5951438f",
+      "Text": "Ma\u0142\u017Ce."
+    },
+    {
+      "Id": "52ea100d-90f6-40fa-8f99-215d01bd1984",
+      "Text": "Ma\u0142py z AIDS."
+    },
+    {
+      "Id": "7547f039-b4ac-4e78-849f-24f58a58d744",
+      "Text": "M\u0119ski odbyt."
+    },
+    {
+      "Id": "cec11a6f-e120-476c-8abc-641f98cd3da5",
+      "Text": "M\u0119\u017Cczyzna w spodniach do jogi z kucykiem i kolczykami z pi\u00F3r."
+    },
+    {
+      "Id": "ddaa13ee-e7c2-4d97-be14-8954f2cd7cdf",
+      "Text": "Micha\u0142 Pir\u00F3g."
+    },
+    {
+      "Id": "da76a1b8-ab82-4abf-bbe4-b5076f376698",
+      "Text": "Mieszanie ras."
+    },
+    {
+      "Id": "6af03996-ae4d-418f-8ba3-3405e0325816",
+      "Text": "Mieszkanie w koszu na \u015Bmieci."
+    },
+    {
+      "Id": "b78884cf-18e0-4df7-87eb-78e8fef6ed90",
+      "Text": "Moja pierwsza miesi\u0105czka."
+    },
+    {
+      "Id": "ff6c4cfc-c3f3-4394-9b0c-cc5babde956a",
+      "Text": "Moja maczeta."
+    },
+    {
+      "Id": "01dbcf84-54f2-4531-b771-e782249fe5b1",
+      "Text": "Mi\u0119dzyrasowy u\u015Bcisk d\u0142oni."
+    },
+    {
+      "Id": "62207383-7d15-49c3-b3c8-eb216d4bd171",
+      "Text": "Mi\u0119dzyrasowe ma\u0142\u017Ce\u0144stwo."
+    },
+    {
+      "Id": "95460c62-acc6-4f31-b3cc-40a038900b1b",
+      "Text": "Moje pierwsze zab\u00F3jstwo."
+    },
+    {
+      "Id": "d18e0efe-5134-4efd-a5fe-c32a16b1d762",
+      "Text": "Moralna dwuznaczno\u015B\u0107."
+    },
+    {
+      "Id": "c4f1ad47-913b-4529-8fa4-3305b3bc9183",
+      "Text": "M\u00F3j bezwarto\u015Bciowy syn."
+    },
+    {
+      "Id": "b82d80d8-02f4-4376-be8c-fcb84d45d7b9",
+      "Text": "M\u00F3j loch seksu."
+    },
+    {
+      "Id": "4cab6ae6-59db-407f-ba1d-60c03f5b1292",
+      "Text": "M\u00F3j s\u0142uga, Czarek."
+    },
+    {
+      "Id": "0370b511-cf76-4d94-b9c0-f2a24cde9bc7",
+      "Text": "Muczenie."
+    },
+    {
+      "Id": "95e4a074-ecd1-46b5-8e59-03751911eb4a",
+      "Text": "My\u015Bli samob\u00F3jcze."
+    },
+    {
+      "Id": "b0fd61cd-77ba-4242-8ef0-692b61e57548",
+      "Text": "MUKA."
+    },
+    {
+      "Id": "cb5bbe7c-b188-4489-a70d-cfb767c0786c",
+      "Text": "Ma\u0142y palec u lewej stopy po prawej stronie."
+    },
+    {
+      "Id": "cff5a344-ead0-4a74-ae86-fcf9d807701b",
+      "Text": "Mieszanie M\u0026M-s\u00F3w I Skittles\u00F3w jak jaki\u015B swojego rodzaju psychopata."
+    },
+    {
+      "Id": "378ebe74-e601-410d-9ed1-bc9d40486b7b",
+      "Text": "My\u015Bli geja."
+    },
+    {
+      "Id": "0fc3dc5a-00bd-449c-944f-7d3e9f8521d3",
+      "Text": "Matematyka."
+    },
+    {
+      "Id": "23db8dfe-df63-445c-883b-324a9e57b35a",
+      "Text": "Lataj\u0105ce roboty, kt\u00F3re zabijaj\u0105 ludzi."
+    },
+    {
+      "Id": "a1598c00-8a06-46e8-8015-907b9dc74052",
+      "Text": "Lekkoatletyka."
+    },
+    {
+      "Id": "be3d3b84-eb40-419c-b292-66a0386c86e7",
+      "Text": "Liczenie ca\u0142ek na liczydle."
+    },
+    {
+      "Id": "6d33ffec-e22b-430c-8b67-d50d2ce8fbde",
+      "Text": "Loki, b\u00F3g szachraj."
+    },
+    {
+      "Id": "1d3625de-436e-4f33-bf2b-d45688d04964",
+      "Text": "Lady Gaga."
+    },
+    {
+      "Id": "4ac21013-1c01-417c-a395-d637f8be5095",
+      "Text": "Laktacja."
+    },
+    {
+      "Id": "493a1ae4-eab5-41af-b166-d2c33f06919c",
+      "Text": "Lech Wa\u0142\u0119sa."
+    },
+    {
+      "Id": "f7e8ae7a-4a64-4caa-8352-e44e9e0b99f0",
+      "Text": "Leczenie homoseksualizmu."
+    },
+    {
+      "Id": "964c4d3a-3bb8-455a-b1af-5306287985b1",
+      "Text": "Leki na ADHD. "
+    },
+    {
+      "Id": "ba35eb32-5c86-47d4-aac0-3163d53d8608",
+      "Text": "Liczne rany k\u0142ute."
+    },
+    {
+      "Id": "6193aed0-d4c2-4b42-b097-7a023219fe3d",
+      "Text": "Lobotomia szpikulcem do lodu."
+    },
+    {
+      "Id": "3bf3f335-5cf4-4dcd-b1f7-1c0dd1488dab",
+      "Text": "Ludzie zawsze psuj\u0105cy dobr\u0105 zabaw\u0119."
+    },
+    {
+      "Id": "03293206-f110-496f-98c7-97ab63daff68",
+      "Text": "Ludzka g\u0142upota."
+    },
+    {
+      "Id": "5c3fa9d1-59f9-492a-b21d-5bfd990c0a94",
+      "Text": "Ludzie z ksi\u0119\u017Cyca."
+    },
+    {
+      "Id": "003db602-9e63-47ea-84cc-fdaad38a869b",
+      "Text": "\u0141o\u017Cysko."
+    },
+    {
+      "Id": "1ae5872f-61b4-4300-8ac4-62a319860f46",
+      "Text": "\u0141agodny autyzm."
+    },
+    {
+      "Id": "96ee5b66-f55b-47fe-8714-fcecaf6689b4",
+      "Text": "\u0141askotanie moszny."
+    },
+    {
+      "Id": "d1480b4c-c576-4d8a-a3a5-a83539732650",
+      "Text": "\u0141ysy grubas z internet\u00F3w."
+    },
+    {
+      "Id": "71204481-5c04-4ae8-92e0-25b40bdfb23a",
+      "Text": "\u0141echtaczka."
+    },
+    {
+      "Id": "a9e780f6-ed3a-47f5-a13b-7643185e040f",
+      "Text": "Pac-man tryskaj\u0105cy sperm\u0105 w amoku."
+    },
+    {
+      "Id": "f94bc136-9d8e-4a83-9200-839775bffb3b",
+      "Text": "Paczka magicznych fasolek."
+    },
+    {
+      "Id": "225b4c57-6748-44a0-91bb-09423c9a317c",
+      "Text": "Palc\u00F3wka."
+    },
+    {
+      "Id": "530652b8-94dc-4574-8270-afed085c003a",
+      "Text": "Palenie si\u0119."
+    },
+    {
+      "Id": "4ce506f5-aec3-476c-8a88-a5ce0e65e803",
+      "Text": "Papie\u017C."
+    },
+    {
+      "Id": "ca52f754-5a9a-4de8-8292-c339f23c68e0",
+      "Text": "Paplanie."
+    },
+    {
+      "Id": "eca47ffa-e7be-4833-b20f-0a236e7b4c1e",
+      "Text": "Paradoks podr\u00F3\u017Cy w czasie."
+    },
+    {
+      "Id": "a8145b56-2805-459e-8495-eda78e17ece2",
+      "Text": "Parow\u00F3z Tomek."
+    },
+    {
+      "Id": "eef0789e-f022-4cec-b0b7-51fe721278f0",
+      "Text": "Pasywno-agresywne og\u0142oszenia."
+    },
+    {
+      "Id": "8daeca72-a4eb-4dda-8e3f-1c4480f31686",
+      "Text": "Pedofile."
+    },
+    {
+      "Id": "d5e4152f-8f73-488a-9150-5cfc8b60c826",
+      "Text": "Petting."
+    },
+    {
+      "Id": "96baeb22-5b8f-4f0f-b7b8-0dbf39ada411",
+      "Text": "Picie w samotno\u015Bci."
+    },
+    {
+      "Id": "32c5b6f3-311f-42bf-a9cc-bfb62b057597",
+      "Text": "Pieczenie odbytu."
+    },
+    {
+      "Id": "4da9d87c-5383-4a32-aedb-2c4e584ce180",
+      "Text": "Piercing genitali\u00F3w."
+    },
+    {
+      "Id": "16e590e7-5b73-4d0f-bdf2-ab2ef6879979",
+      "Text": "Pierdzenie i odchodzenie."
+    },
+    {
+      "Id": "9c187385-16c7-43f6-87cd-bb82c725888a",
+      "Text": "Pierdzenie pochw\u0105."
+    },
+    {
+      "Id": "eacfed79-45a7-4d6d-95ad-cc1af64d19a8",
+      "Text": "Pi\u0119kni ludzie."
+    },
+    {
+      "Id": "b6b6140a-1663-440a-a7d9-8f8b68c6bd42",
+      "Text": "Piloci kamikaze."
+    },
+    {
+      "Id": "07b91f81-7a76-45b5-a512-53db09ff32c9",
+      "Text": "Pi\u0142y \u0142a\u0144cuchowe zamiast r\u0105k."
+    },
+    {
+      "Id": "501bb69a-a48f-4b6a-871f-acb7c15eb9cd",
+      "Text": "Piotr Adamczyk."
+    },
+    {
+      "Id": "5c3e8918-8952-4c7c-95f2-d29e7eff85fa",
+      "Text": "PiS."
+    },
+    {
+      "Id": "d5e64e85-828d-415e-a75a-8a959cc1d867",
+      "Text": "P\u0142\u00F3d."
+    },
+    {
+      "Id": "ff643b1e-9d0e-44b6-a986-21102b9550f1",
+      "Text": "Pobudka na parkingu b\u0119d\u0105c na wp\u00F3\u0142 nagim."
+    },
+    {
+      "Id": "87bbd8c5-1203-49a2-b3dc-d53b9c28acdc",
+      "Text": "Pochwa Marii Czubaszek."
+    },
+    {
+      "Id": "e25eda1b-45c7-4a41-a4a0-1305852352ed",
+      "Text": "Podda\u0144stwo."
+    },
+    {
+      "Id": "22d2716a-8aa3-4059-bde6-db2691b9b6d6",
+      "Text": "Podrywanie dziewczyn w klinice aborcyjnej."
+    },
+    {
+      "Id": "b45c9e05-4aae-4787-8e04-666ad1112d79",
+      "Text": "Pok\u00F3j na \u015Bwiecie."
+    },
+    {
+      "Id": "a78961cf-393b-4d5c-b98c-77ae9fa75ce3",
+      "Text": "Policyjna przemoc."
+    },
+    {
+      "Id": "77097ed1-cc0f-4cd3-856b-730abdba4f6f",
+      "Text": "Popuszczenie w majtki."
+    },
+    {
+      "Id": "d502cdcd-e8fc-49a8-9dd0-9649760091f5",
+      "Text": "Porno z mackami."
+    },
+    {
+      "Id": "66405196-9246-40b3-bc59-b2599ea3fb2b",
+      "Text": "Potajemne drapanie si\u0119 po ty\u0142ku."
+    },
+    {
+      "Id": "e7602461-1914-4f6d-b3dc-a93f72aa2f06",
+      "Text": "Pot\u0119\u017Cne uda."
+    },
+    {
+      "Id": "0f7ba83a-988f-4ab6-87b1-81323cd11f74",
+      "Text": "Pracownicy dzia\u0142u obs\u0142ugi klienta."
+    },
+    {
+      "Id": "3c14189b-3bd4-4cdf-8ac3-2a52c056e34c",
+      "Text": "Prawdziwe znaczenie \u015Bwi\u0105t."
+    },
+    {
+      "Id": "1573fadc-01ea-4816-97af-f84294c8b094",
+      "Text": "Problemy z erekcj\u0105."
+    },
+    {
+      "Id": "4f6b6fee-8d9a-49be-b40b-ea5aef169351",
+      "Text": "Propaganda homoseksualna."
+    },
+    {
+      "Id": "f661ea41-9637-4852-ad00-a887ef9fdea3",
+      "Text": "Przeciwstawne kciuki."
+    },
+    {
+      "Id": "def0e0c0-7ecd-461c-b6b3-292887a91db7",
+      "Text": "Przekazywanie dalej niechcianych prezent\u00F3w."
+    },
+    {
+      "Id": "e75e6406-41d8-42f5-8aa6-19506a4115f3",
+      "Text": "Przera\u017Caj\u0105ce wypadki podczas laserowego usuwania w\u0142os\u00F3w."
+    },
+    {
+      "Id": "a096256c-ac7c-4277-ac8e-98db1f8654f4",
+      "Text": "Przyjaciele z bonusem."
+    },
+    {
+      "Id": "0351e796-f308-408f-8059-fc5a92fdfd9d",
+      "Text": "Przytulanie."
+    },
+    {
+      "Id": "16429331-10ac-400f-b103-730b236f4efd",
+      "Text": "Pszczo\u0142y."
+    },
+    {
+      "Id": "70e4b115-78af-44f6-9ab6-044bbe14d7b8",
+      "Text": "Ptaki nieloty."
+    },
+    {
+      "Id": "49ee1a64-448c-4efb-a317-424939d5c317",
+      "Text": "Pterodaktyle jaja."
+    },
+    {
+      "Id": "3898bef5-6af6-4d58-baec-9fbefc1158d6",
+      "Text": "Publiczne o\u015Bmieszenie."
+    },
+    {
+      "Id": "1f198a7d-77a9-4ccb-93bc-096605c14c95",
+      "Text": "Puszczanie oczek do starszych ludzi."
+    },
+    {
+      "Id": "c835925c-3c7c-4941-92af-ab0e0b07fb48",
+      "Text": "Pan Kleks."
+    },
+    {
+      "Id": "75170d5d-1661-4dc0-81d5-c3c03621d4bc",
+      "Text": "Pas tatusia."
+    },
+    {
+      "Id": "87f0ca20-4bd5-422e-8c2b-31e790a53ce7",
+      "Text": "Pe\u0142na micha sa\u0142atki ziemniaczanej."
+    },
+    {
+      "Id": "92155f63-df23-4385-a53c-0b88a168401e",
+      "Text": "Picie kilku Tiger\u00F3w pod rz\u0105d aby mie\u0107 energi\u0119 na ca\u0142y tydzie\u0144."
+    },
+    {
+      "Id": "ffe5c15f-74b3-4572-b4d0-f412b3137bc2",
+      "Text": "Pierd."
+    },
+    {
+      "Id": "f59b983e-c8e5-42a7-81d3-c2ef4d980c76",
+      "Text": "Pierogi."
+    },
+    {
+      "Id": "48809d63-6d14-4197-b1f1-119771969cdd",
+      "Text": "Pierre Dzoncy, kr\u00F3lewski przydupas."
+    },
+    {
+      "Id": "45f69faa-6c30-4953-92db-fe974bb4b0c0",
+      "Text": "Piniata pe\u0142na skorpion\u00F3w."
+    },
+    {
+      "Id": "20a4e357-ca04-4604-8493-d239cbb5c944",
+      "Text": "Piwne granaty."
+    },
+    {
+      "Id": "93033390-ba12-4185-b74c-c55cde981d0b",
+      "Text": "Pi\u017Cmo Daniela Olbrychskiego."
+    },
+    {
+      "Id": "23e81059-30cc-4f80-9539-c0f7a140f843",
+      "Text": "Pid\u017Cama Porno."
+    },
+    {
+      "Id": "8a319c65-1d01-4e30-a23f-c3b655f7529d",
+      "Text": "Pluton do produkcji broni atomowej."
+    },
+    {
+      "Id": "26e53141-94a9-40b7-bc87-9544369df5fc",
+      "Text": "Poca\u0142unek w usta."
+    },
+    {
+      "Id": "ff568191-6430-42dd-bbe0-6c2427cd8b6f",
+      "Text": "Pochwa b\u0119d\u0105ca portalem do innego wymiaru."
+    },
+    {
+      "Id": "0be445a7-b876-4bfb-91f6-84ddb7539382",
+      "Text": "Podskakiwanie."
+    },
+    {
+      "Id": "4d09cede-814d-43ba-90d8-fff0f288c095",
+      "Text": "Podstawowa ludzka przyzwoito\u015B\u0107."
+    },
+    {
+      "Id": "8e767f4a-ea18-4cfd-946b-27d0c17e3ce2",
+      "Text": "Podw\u00F3jna penetracja."
+    },
+    {
+      "Id": "798d3ab8-3be7-4d48-9f44-e43dcfb9cc7e",
+      "Text": "Policjant, kt\u00F3ry jednocze\u015Bnie jest psem."
+    },
+    {
+      "Id": "c54c56e8-e7f1-4057-b4fa-0adc527c75ce",
+      "Text": "Polityczne grz\u0119zawisko jakim jest Bliski Wsch\u00F3d."
+    },
+    {
+      "Id": "4a854ac3-6cee-41ff-a3d6-ffa82a069508",
+      "Text": "Pompowanie dziecka co dziewi\u0119\u0107 miesi\u0119cy."
+    },
+    {
+      "Id": "2ac98da5-1984-493c-a9dd-dbf418498dc6",
+      "Text": "Poni\u017Canie seksualne."
+    },
+    {
+      "Id": "fca81651-30e3-4d23-834b-58cd8120bc5a",
+      "Text": "Posiadanie penisa."
+    },
+    {
+      "Id": "c2b1d2b0-680d-4763-b867-2cdcfe229a7e",
+      "Text": "Powstanie z grobu."
+    },
+    {
+      "Id": "e7c15932-b524-4ce0-9a8a-ee572dff222f",
+      "Text": "Pot\u0119ga."
+    },
+    {
+      "Id": "3244c723-bb5d-4c0b-8ff6-611e42d0216e",
+      "Text": "Pow\u00F3d \u017Ceby nie pope\u0142nia\u0107 samob\u00F3jstwa."
+    },
+    {
+      "Id": "b0d58af8-4d54-49bb-9f7d-a150a950cda5",
+      "Text": "Posiadanie strzelb zamiast n\u00F3g."
+    },
+    {
+      "Id": "86cf531d-6051-4f56-b1b7-2063a5b81cdf",
+      "Text": "Problemy intymne."
+    },
+    {
+      "Id": "9e600ffd-b4bd-46f0-b698-15a8085a6a95",
+      "Text": "Prochy dziadka."
+    },
+    {
+      "Id": "3ed88ccd-6c97-4577-8963-20fcb77184be",
+      "Text": "Przemoc, przekle\u0144stwa i troch\u0119 erotyki."
+    },
+    {
+      "Id": "f2c7b18b-805b-465d-90e5-45e5c6b89b69",
+      "Text": "Po\u017Carcie \u017Cywcem przez Magd\u0119 Gessler."
+    },
+    {
+      "Id": "411f17a8-33c1-43c1-85d9-64fc4c3bf9aa",
+      "Text": "Prawdziwa jaszczurka, kt\u00F3ra strzela krwi\u0105 z oczu."
+    },
+    {
+      "Id": "5c3acb6d-5f3c-46aa-988c-b38a89d143f3",
+      "Text": "Prawie dawanie pieni\u0119dzy bezdomnym."
+    },
+    {
+      "Id": "8e2904c9-1071-4a1c-ae07-0258e351ba6c",
+      "Text": "Prezentacja w PowerPoint."
+    },
+    {
+      "Id": "7e2c25a2-93c5-4e56-b256-8c9e51c11924",
+      "Text": "Przemy\u015Blanie ka\u017Cdego zachowania \u017Ceby nie wyj\u015B\u0107 na homoseksualist\u0119."
+    },
+    {
+      "Id": "8567343b-181a-489b-948a-8d465a1a0041",
+      "Text": "Przepraszanie."
+    },
+    {
+      "Id": "39e4d28b-19a4-4e9f-a28e-95b3b288f8f2",
+      "Text": "Przerwa wakacyjna!"
+    },
+    {
+      "Id": "c1be44d9-3ba3-4140-a003-f270583cfd03",
+      "Text": "Przezwyci\u0119\u017Cenie swojego ojca."
+    },
+    {
+      "Id": "1ae65743-6f92-4bce-9aa4-f8278b8c82b6",
+      "Text": "Pierdzenie podczas uprawiania jogi."
+    },
+    {
+      "Id": "7c7ca4c2-9140-48b0-b436-804867a33902",
+      "Text": "Podzia\u0142 obowi\u0105zk\u00F3w."
+    },
+    {
+      "Id": "dfc50df9-f337-4a66-a3e3-faf80dd78f17",
+      "Text": "Ona zmywa, a ty dok\u0142adasz brudne talerze."
+    },
+    {
+      "Id": "cbede4be-6580-4245-9687-5b79fafe650c",
+      "Text": "Poka sow\u0119."
+    },
+    {
+      "Id": "c4bd2c2a-fe34-4bba-8e1c-56cb17925b7e",
+      "Text": "Podczas ostatniej Imprezy."
+    },
+    {
+      "Id": "f10406ee-95c4-4601-84f1-d4da4f29d3a4",
+      "Text": "Prawo do bycia idiot\u0105."
+    },
+    {
+      "Id": "ab3182a9-1f35-4c81-85b3-95a69694b51f",
+      "Text": "Pot\u0119ga ciemnej strony Mocy."
+    },
+    {
+      "Id": "2a7501b5-55e6-4bd1-9ba9-a3d7efeb9254",
+      "Text": "Praca domowa."
+    },
+    {
+      "Id": "281d1a05-ab8f-481f-b950-bda556c382c2",
+      "Text": "Przyt\u0142aczaj\u0105ca samotno\u015B\u0107."
+    },
+    {
+      "Id": "1f4f4210-3c5f-4f4a-a420-3b5aff1a4d4a",
+      "Text": "Poca\u0142unek w usta."
+    },
+    {
+      "Id": "05096565-5146-40aa-a775-745c936dcddb",
+      "Text": "Puszka Pringles\u00AE pe\u0142na krzyk\u00F3w."
+    },
+    {
+      "Id": "9615339d-ba07-4884-b96a-bdfe5126fde3",
+      "Text": "Kariera aktorska Przemys\u0142awa Salety."
+    },
+    {
+      "Id": "4d1470d9-fe79-40f4-8435-1a010050c216",
+      "Text": "Karty przeciwko ludzko\u015Bci."
+    },
+    {
+      "Id": "c9a414ef-fe1b-4b7e-b397-de934998d071",
+      "Text": "Kaszaloty."
+    },
+    {
+      "Id": "d43a86ad-5e4a-48b8-bc5a-c37d0581d41f",
+      "Text": "Katapulty."
+    },
+    {
+      "Id": "ee88b9ad-6e5c-4829-9e6b-d6629fc07a1d",
+      "Text": "Kazirodztwo."
+    },
+    {
+      "Id": "6c7df5a3-1fdb-4f98-ae0a-f81511d1fe26",
+      "Text": "Kim Jong-il.  "
+    },
+    {
+      "Id": "1e46c102-cbce-4300-b916-24af78939c79",
+      "Text": "Kobiece prawa wyborcze."
+    },
+    {
+      "Id": "131de8b7-31e8-40b8-83b4-851e249e39e6",
+      "Text": "Kobiety w reklamach jogurt\u00F3w."
+    },
+    {
+      "Id": "1257aaf5-a7a0-48c8-92b4-0874b3748d97",
+      "Text": "Kolesie kt\u00F3rzy nie dzwoni\u0105 p\u00F3\u017Aniej do dziewczyn poznanych na imprezie."
+    },
+    {
+      "Id": "4b07b1da-f7e9-4491-8230-f603a76dc536",
+      "Text": "Kolejny, cholerny film z wampirami.     "
+    },
+    {
+      "Id": "07240b22-8fe3-49cd-9e15-a0de53bcffda",
+      "Text": "Kolczyki do sutk\u00F3w."
+    },
+    {
+      "Id": "cb3a0f9f-cad9-4521-8fc2-ff68de5d16c7",
+      "Text": "Kochanie si\u0119 w ty\u0142ek."
+    },
+    {
+      "Id": "60100423-beb5-48b3-8d19-c9f581a300df",
+      "Text": "Kom\u00F3rki macierzyste. "
+    },
+    {
+      "Id": "772de769-e1eb-479a-923c-670d5c18ad2d",
+      "Text": "Kompleks Edypa."
+    },
+    {
+      "Id": "4cbff2ba-07b7-4a98-a82e-ef75d86b2fd3",
+      "Text": "Konina."
+    },
+    {
+      "Id": "8aca2096-315a-4b28-b6ee-a212b8f1c5de",
+      "Text": "Konsultanci."
+    },
+    {
+      "Id": "60b9fdc1-7f05-41e2-b300-2c4c0eedc2ae",
+      "Text": "Koraliki analne."
+    },
+    {
+      "Id": "d5d9354c-a1dc-4134-9423-2366ab12877a",
+      "Text": "Kozy po\u017Ceraj\u0105ce \u015Bmieci."
+    },
+    {
+      "Id": "67d15e5c-40b9-46a0-8d4b-1b32d133ae58",
+      "Text": "Krasnoludki."
+    },
+    {
+      "Id": "855f87c6-70c8-4954-baa3-ae78c0f2315a",
+      "Text": "Krew Chrystusa."
+    },
+    {
+      "Id": "484a9cd1-bd2a-473b-9880-486f3763401e",
+      "Text": "Ku Klux Klan."
+    },
+    {
+      "Id": "c3bdb8a3-9620-47e8-be3e-c89c9ba6cb6b",
+      "Text": "Kuba Wojew\u00F3dzki n\u0119kany przez r\u00F3j myszo\u0142ow\u00F3w."
+    },
+    {
+      "Id": "d880e974-ff48-4ad5-a63c-1c558f119068",
+      "Text": "Kuba Wojew\u00F3dzki zaczepiony moszn\u0105 o haczyk od zas\u0142ony."
+    },
+    {
+      "Id": "f1cfd53e-b21f-414f-9bdc-d41002be66bd",
+      "Text": "Karta p\u0142atnicza Tatusia."
+    },
+    {
+      "Id": "d89fea58-5eac-4538-8d5b-e8138fb72111",
+      "Text": "Kaszlenie do waginy."
+    },
+    {
+      "Id": "608ce17a-2053-487a-a2e1-2ad9aeb7358f",
+      "Text": "Katastrofalny uraz cewki moczowej."
+    },
+    {
+      "Id": "2b44a27b-3f79-4f5d-9625-3570be191e6b",
+      "Text": "Kucyk."
+    },
+    {
+      "Id": "7ae5f9e2-54eb-40d3-84b7-26e500277259",
+      "Text": "Kichanie, pierdzenie i dochodzenie w tym samym czasie."
+    },
+    {
+      "Id": "c6fcc605-c135-43b9-b19e-19d533d55a07",
+      "Text": "Ki\u0142owe szale\u0144stwo."
+    },
+    {
+      "Id": "602fc111-7bdc-4148-9c63-c61b40fe6912",
+      "Text": "Kleks ze \u015Bmietany."
+    },
+    {
+      "Id": "5c9897de-e1ee-4e80-ab35-9fc45ab9ad1d",
+      "Text": "Kolacja wigilijna z mro\u017Conek."
+    },
+    {
+      "Id": "149cdf94-da9b-4104-8c35-62b3d243e523",
+      "Text": "Kolacja z kartonowymi postaciami z \u0022Przyjaci\u00F3\u0142\u0022."
+    },
+    {
+      "Id": "0ac17a63-c373-4e60-a017-9a065dc2d954",
+      "Text": "Konwenty."
+    },
+    {
+      "Id": "97ab49d8-2b87-42f3-8ef2-bb25e740743e",
+      "Text": "Ko\u0144 bez n\u00F3g."
+    },
+    {
+      "Id": "df99503a-685f-4d67-8ef9-f41528920cb5",
+      "Text": "Kopytko."
+    },
+    {
+      "Id": "dfd0925d-8fbd-4478-adc4-31aadf28bf91",
+      "Text": "Korporacje."
+    },
+    {
+      "Id": "5ea7c712-d531-477d-ada2-46c0204daa55",
+      "Text": "Korpokurwy."
+    },
+    {
+      "Id": "d088419b-8e66-46a4-95fd-a1e21dbcf9d6",
+      "Text": "Kosmiczne "
+    },
+    {
+      "Id": "be0a2f79-811b-4642-a89b-66c9281df3f9",
+      "Text": "babeczki."
+    },
+    {
+      "Id": "c9db93a0-8210-4ba4-8cc0-b248bf2c2188",
+      "Text": "Kot skurwiel."
+    },
+    {
+      "Id": "6088aae1-7004-401a-a8d0-6d1b6a1ddde7",
+      "Text": "Kradzie\u017C kobiecych majtek."
+    },
+    {
+      "Id": "ca1522e3-168e-4d9c-b966-8e157972b842",
+      "Text": "Kraina czekolady."
+    },
+    {
+      "Id": "3409a5f5-6c1d-439b-bc3f-4898d77a4a3b",
+      "Text": "Krwawa \u015Bcie\u017Cka z szabl\u0105 przez LIDL."
+    },
+    {
+      "Id": "70d38378-7dd9-49fd-b7c8-c7a3749d1bef",
+      "Text": "Krwawy b\u0105k."
+    },
+    {
+      "Id": "1e3d9d77-42e4-4bc9-8e42-e67bdde13685",
+      "Text": "Krzyczenie jak wariat."
+    },
+    {
+      "Id": "f84ea0ed-53d4-4aca-a8df-21e22ab6a3cb",
+      "Text": "Kupka."
+    },
+    {
+      "Id": "d044b2d1-9d35-41eb-bdb9-75eaa4d6013c",
+      "Text": "Kupowanie odpowiednich spodni by by\u0107 lubianym."
+    },
+    {
+      "Id": "77ed57a6-261f-4c0e-bc40-2a9582904a4e",
+      "Text": "Krzyki... Te przera\u017Aliwe krzyki..."
+    },
+    {
+      "Id": "e38745bc-96ef-48b0-b99b-c0ed5fc0bbde",
+      "Text": "Karabiny."
+    },
+    {
+      "Id": "bd50164d-7238-44c3-90de-034fdceb6d10",
+      "Text": "Kobieca racja."
+    },
+    {
+      "Id": "91d57882-5bb1-441c-8aac-af398d8a4e8d",
+      "Text": "Krojenie szynki w mro\u017C\u0105cej ciszy."
+    },
+    {
+      "Id": "b13b79eb-e62a-4189-acef-9b66a3b61029",
+      "Text": "Kanapka."
+    },
+    {
+      "Id": "5c9b91c5-223c-4d71-aa87-c1489d8bf280",
+      "Text": "Kobieca perspektywa."
+    },
+    {
+      "Id": "ad72d3e3-0e0e-40d3-ad50-3942d3d706e8",
+      "Text": "Walki kogut\u00F3w. "
+    },
+    {
+      "Id": "6f523889-3ba3-443c-9526-3dbb58e6c500",
+      "Text": "W\u0105chanie kleju."
+    },
+    {
+      "Id": "451db5eb-301f-44be-bc57-14802bec7da1",
+      "Text": "Whiskas\u00AE."
+    },
+    {
+      "Id": "365d5a6e-d0f1-413c-b89d-860f5ec1ddda",
+      "Text": "Wieczny smutek."
+    },
+    {
+      "Id": "f1a328e8-73ec-4841-a7fb-e1a8fa7b602d",
+      "Text": "Wielki wybuch."
+    },
+    {
+      "Id": "00f8d8f0-1d9c-4758-b47f-183dc1d118c9",
+      "Text": "Wielkie halo o nic."
+    },
+    {
+      "Id": "9f69715f-f27c-4fa1-9b61-deb0f5dfde0f",
+      "Text": "Wikingowie."
+    },
+    {
+      "Id": "9da93f97-0281-4b09-a85c-0aa0295cded5",
+      "Text": "W\u0142a\u015Bciwe post\u0119powanie."
+    },
+    {
+      "Id": "42786433-db88-448e-9759-5e6d0c75136f",
+      "Text": "World of Warcraft."
+    },
+    {
+      "Id": "2f9419c2-dd09-4aa1-b75e-38833ce06711",
+      "Text": "Wpierdol."
+    },
+    {
+      "Id": "a25e1ba2-f8dc-4e8a-901b-66e9fa0b935a",
+      "Text": "Wstr\u0119t do samego siebie.  "
+    },
+    {
+      "Id": "47760e63-123e-480b-bbfd-6ccb404ead0d",
+      "Text": "Wybielony odbyt."
+    },
+    {
+      "Id": "88e45059-cdb7-424e-bf81-167a60535ae3",
+      "Text": "Wybuch termoj\u0105drowy."
+    },
+    {
+      "Id": "f9112564-5744-4b9f-91fa-4183dd145cff",
+      "Text": "Wybuchy."
+    },
+    {
+      "Id": "930ece5d-999d-42ef-b485-02d566663884",
+      "Text": "Wykorzystywanie dzieci."
+    },
+    {
+      "Id": "5b6bc807-c08f-4334-b613-cf9a5cc6a202",
+      "Text": "Wymiana uprzejmo\u015Bci."
+    },
+    {
+      "Id": "b0e629ac-9f84-4a8c-989d-bc1cf0fe71eb",
+      "Text": "Wyruszanie w stron\u0119 zachodu s\u0142o\u0144ca."
+    },
+    {
+      "Id": "38b89999-9e23-4fc3-a76b-828987476538",
+      "Text": "Wzw\u00F3d trwaj\u0105cy ponad 4 godziny."
+    },
+    {
+      "Id": "0ff3db81-be6f-4599-8e12-80e34ea18636",
+      "Text": "W chuj du\u017Co."
+    },
+    {
+      "Id": "f854a205-b701-4fcf-bd35-d9ee2c20d5f8",
+      "Text": "Walka niczym gladiatorzy."
+    },
+    {
+      "Id": "5405f9b8-70b0-44f3-a142-096243ac4111",
+      "Text": "Wci\u0105ganie koksu ze stoj\u0105cej ku\u015Bki klauna."
+    },
+    {
+      "Id": "e264b1b5-de0e-45fb-91fa-8546d160794b",
+      "Text": "Widzenie rzeczy z perspektywy Hitlera."
+    },
+    {
+      "Id": "dde3fdca-c506-49c5-837e-4cb444a30f47",
+      "Text": "Wiele, wiele aborcji."
+    },
+    {
+      "Id": "e3fbc4e0-938c-40c0-a14b-0e02395e3be7",
+      "Text": "Wielki czarny kutas."
+    },
+    {
+      "Id": "ebde3583-1792-4be2-a4fd-4ed1fae60e4e",
+      "Text": "Wi\u0119kszy, bardziej czarny kutas."
+    },
+    {
+      "Id": "cdf6ad3b-4aaa-4569-b6bf-c71fee697ec9",
+      "Text": "Wilgotna, wymagaj\u0105ca przepa\u015B\u0107 na jego twarzy."
+    },
+    {
+      "Id": "1d43f535-061e-4eef-bed3-82bb22cbc8a7",
+      "Text": "Wk\u0142adanie kanapki z d\u017Cemem i mas\u0142em orzechowym do magnetowidu."
+    },
+    {
+      "Id": "8f049e2e-0895-4465-82e7-5c33e544bdb1",
+      "Text": "W\u0142\u00F3czenie si\u0119, bicie ludzi."
+    },
+    {
+      "Id": "fe9a0d4a-5a54-411b-beef-15a9d753f59b",
+      "Text": "Wszyscy moi przyjaciele umieraj\u0105."
+    },
+    {
+      "Id": "d29cda28-6479-4d3d-8322-458b337e1b3a",
+      "Text": "Wstrzykiwanie  metamfetaminy w jedno rami\u0119 i \u015Brodka na uspokojenie w drugie."
+    },
+    {
+      "Id": "92ec0cfa-ed2a-40b0-b47f-22c68da77617",
+      "Text": "Wskakiwanie na ludzi."
+    },
+    {
+      "Id": "b3c6bf57-b64a-4672-8bda-f42a3fd62b63",
+      "Text": "Wpadanie do kibla."
+    },
+    {
+      "Id": "3e29296c-f271-436d-96d5-6ddb78748c53",
+      "Text": "Wszystkie samotne panie."
+    },
+    {
+      "Id": "381d4a7b-7736-4c25-9fc7-ded8d6473038",
+      "Text": "Wybuchaj\u0105ce go\u0142\u0119bie."
+    },
+    {
+      "Id": "54b6a6fb-9802-4e92-9f91-226af1a177c8",
+      "Text": "Wychlanie lampy z law\u0105."
+    },
+    {
+      "Id": "ad0e1247-2510-4909-9426-4f61d69655e5",
+      "Text": "Wychodz\u0105ce z kibla gady, gryz\u0105ce Ci\u0119 kiedy robisz kup\u0119."
+    },
+    {
+      "Id": "27ecd692-fa13-4d0f-a817-82db25601fd3",
+      "Text": "Wyko\u0144czenie w ko\u0144cu wszystkich g\u00F3rali."
+    },
+    {
+      "Id": "4f4fe5ac-a4dc-4d95-a61a-56ccdb10ba8f",
+      "Text": "Wykorzystywanie bezdomnych ludzi do stworzenia ruchomych hotspot\u00F3w."
+    },
+    {
+      "Id": "36077738-ef11-43a3-958a-f8d2c0f8cf70",
+      "Text": "Wyruchanie trupa z powrotem do \u017Cycia."
+    },
+    {
+      "Id": "74e5b829-e411-4235-aab0-25c7244bfde1",
+      "Text": "Wyrwanie facetowi j\u0105der i ga\u0142ek ocznych, a nast\u0119pnie w\u0142o\u017Cenie j\u0105der do oczodo\u0142\u00F3w iga\u0142ek ocznych do moszny."
+    },
+    {
+      "Id": "eda6326d-5f75-4793-bbb5-8ba176e4c8b6",
+      "Text": "Wzgardzona kobieta."
+    },
+    {
+      "Id": "6633a284-89c1-44b1-a183-500722c9c01b",
+      "Text": "Wchodzenie do szafy, \u017Ceby sprawdzi\u0107 czy po drugiej stronie jest Narnia."
+    },
+    {
+      "Id": "cad52550-6e8c-44d5-84fa-63c63fcf4217",
+      "Text": "Wr\u00F3\u017Cbita Maciej."
+    },
+    {
+      "Id": "d5796223-d5bd-481b-ad07-c46a81b147ee",
+      "Text": "Wa\u017Cne informacje odno\u015Bnie Taylor Swift."
+    },
+    {
+      "Id": "18d0c10c-f87b-4290-a8cb-472650a30c8c",
+      "Text": "Wchodzenie w szklane drzwi."
+    },
+    {
+      "Id": "45b4ea38-cb65-48d8-9d0f-645dd464e2a7",
+      "Text": "Wiatr."
+    },
+    {
+      "Id": "34d1dca7-0ed4-4d0b-9c87-0046c553a71c",
+      "Text": "Woda."
+    },
+    {
+      "Id": "61431d4d-3ff7-4a77-83db-b2a41ca2648b",
+      "Text": "Wieczne dziewictwo."
+    },
+    {
+      "Id": "e9eeefe0-cc88-48cb-aff3-99c236a98e60",
+      "Text": "Ta ca\u0142a krew."
+    },
+    {
+      "Id": "85d6004d-7709-4924-ba7e-4db411d3c337",
+      "Text": "Ta szalona rzecz zwana mi\u0142o\u015Bci\u0105."
+    },
+    {
+      "Id": "c6cc3c37-1e75-42a5-a1f5-a97b32ebafa7",
+      "Text": "Taki s\u0142odki filmik z kotem, \u017Ce twoje oczy potocz\u0105 si\u0119 wzd\u0142u\u017C kr\u0119gos\u0142upa i wyjd\u0105 z odbytu."
+    },
+    {
+      "Id": "2b7e5d12-6db1-414d-b367-2cb4571ee194",
+      "Text": "Tarta."
+    },
+    {
+      "Id": "7d1c63dd-b84e-4718-a62a-8f9fb8170810",
+      "Text": "Te w\u0142a\u015Bciwe mutanty, czyli chore i bez \u017Cadnych supermocy."
+    },
+    {
+      "Id": "b88fd538-0c28-4f23-b155-fb35341727eb",
+      "Text": "Te wszystkie dekoracyjne poduszki."
+    },
+    {
+      "Id": "7c030c27-adf3-403a-9803-b281cbea2cf9",
+      "Text": "Telefon zaufania."
+    },
+    {
+      "Id": "6e85fd33-e0c1-4159-800a-15ec11a23d06",
+      "Text": "Ten go\u015Bciu!"
+    },
+    {
+      "Id": "021f9ff4-c381-4180-8fda-1004019f9464",
+      "Text": "Te\u015Bciowa."
+    },
+    {
+      "Id": "6fd39145-d784-463a-b274-a8bc4a6a1083",
+      "Text": "To\u017Csamo\u015B\u0107 p\u0142ciowa, z kt\u00F3r\u0105 mo\u017Cna komunikowa\u0107 si\u0119 tylko poprzez poezj\u0119 wi\u0119zienn\u0105."
+    },
+    {
+      "Id": "925d30c2-cdce-4e0d-8787-3df5ab4c9247",
+      "Text": "Trzy kolejne sekundy szcz\u0119\u015Bcia."
+    },
+    {
+      "Id": "c7ca7106-a891-45a0-b293-8e031fe46372",
+      "Text": "Trzy miesi\u0105ce w dziurze."
+    },
+    {
+      "Id": "acd694c5-1274-426a-b7fe-3aea2a1a4835",
+      "Text": "Tygrys kt\u00F3ry zabi\u0142 mojego ojca."
+    },
+    {
+      "Id": "9d0f4e73-c028-4d6a-9e62-aa2dac9f69a1",
+      "Text": "Tysi\u0105c kabanos\u00F3w."
+    },
+    {
+      "Id": "5e34ccc3-1a49-4428-be2a-15e99880f3f9",
+      "Text": "Tabletki gwa\u0142tu."
+    },
+    {
+      "Id": "fed5ea0b-61a8-45bf-bb42-de85dc59a62e",
+      "Text": "Taniec godowy."
+    },
+    {
+      "Id": "ea68d34f-7444-40c9-a700-b60d4818fb4e",
+      "Text": "Terapia hormonalna."
+    },
+    {
+      "Id": "99bff15d-f25b-4e6b-92ab-7ec7aabdd999",
+      "Text": "Ten pas na brzuch z TV Mango."
+    },
+    {
+      "Id": "d7e0d1ec-4bf7-4244-8ba6-adc89e88e501",
+      "Text": "Tede."
+    },
+    {
+      "Id": "8de0c44a-8bd6-4010-9f60-7d9432fe856c",
+      "Text": "Tarcie."
+    },
+    {
+      "Id": "edce0d8d-7d98-4a5e-9956-7b42aa59b742",
+      "Text": "Terrory\u015Bci."
+    },
+    {
+      "Id": "67affebc-c516-4bf5-b4c1-f31119069be4",
+      "Text": "To miejsce u m\u0119\u017Cczyzny mi\u0119dzy j\u0105drami, a odbytem."
+    },
+    {
+      "Id": "f10a5170-b5b4-4358-813f-4ff13948b7da",
+      "Text": "To uczucie, gdy wydaje Ci si\u0119, \u017Ce to tylko bekni\u0119cie, a okazuje si\u0119, \u017Ce to rzyg."
+    },
+    {
+      "Id": "035459a3-2f89-4dbc-bd0a-746c7e0665da",
+      "Text": "Tomasz Karolak."
+    },
+    {
+      "Id": "5d9adef7-3388-4c45-b9b6-2969fe3effb3",
+      "Text": "Tomasz Kot."
+    },
+    {
+      "Id": "a16e3431-cb85-4c3a-8d57-67861abf609d",
+      "Text": "Tortury."
+    },
+    {
+      "Id": "4e47d6dc-8a2f-4982-a90c-ea3ef1db37ce",
+      "Text": "Tr\u0105d."
+    },
+    {
+      "Id": "e474bf08-df6c-40a8-a384-8c45d19e49a1",
+      "Text": "Ty."
+    },
+    {
+      "Id": "5c9a0d28-bd9d-4549-923b-93deb64dc276",
+      "Text": "Tyskie."
+    },
+    {
+      "Id": "8edd8791-5494-407c-a424-23bf23ae6891",
+      "Text": "Tata odchodz\u0105cy na zawsze."
+    },
+    {
+      "Id": "92f91fb5-cb3a-4eea-8abe-bcd672cb2cb5",
+      "Text": "Viagra\u00AE. "
+    },
+    {
+      "Id": "3d72c612-10cc-4b12-b88b-c7e9bd2383c4",
+      "Text": "X-Men kt\u00F3rego moc\u0105 jest to, \u017Ce uprawia\u0142 seks z psami i dzie\u0107mi."
+    },
+    {
+      "Id": "3aebec4a-9763-44ec-88ab-5aa6b26c4866",
+      "Text": "Uduchowione wydanie \u0022Dni, kt\u00F3rych nie znamy\u0022."
+    },
+    {
+      "Id": "51bcc53d-5e20-4e06-902d-c810fcf7b038",
+      "Text": "Ugandyjski w\u00F3dz plemienny."
+    },
+    {
+      "Id": "a609b3a3-c5f4-4f0e-90f3-ff5e04c83d6f",
+      "Text": "Umieranie w samotno\u015Bci i b\u00F3lu."
+    },
+    {
+      "Id": "fe199c51-dc2f-437d-8398-4712342b93e7",
+      "Text": "Up\u0142yw czasu."
+    },
+    {
+      "Id": "ab1c940f-2d4e-4e11-a5f3-71ebf79cd4cd",
+      "Text": "U\u017Cywanie przepychacza do kibla na twarzy."
+    },
+    {
+      "Id": "62a4a58f-db18-42e4-af63-35b1c3f909f9",
+      "Text": "Ubrudzenie si\u0119."
+    },
+    {
+      "Id": "9189f007-7120-4ac3-9fec-878123faf4ae",
+      "Text": "Uczciwy gliniarz z niczym do stracenia. "
+    },
+    {
+      "Id": "1b1e1063-4110-4904-8bbe-ed455cc5118e",
+      "Text": "Uczenie robota mi\u0142o\u015Bci. "
+    },
+    {
+      "Id": "ba56b496-95c5-4728-bef3-29c6e26ed805",
+      "Text": "Udawane wsp\u00F3\u0142czucie."
+    },
+    {
+      "Id": "9e8c45e9-ee08-450e-b078-c5b4c2738e58",
+      "Text": "Ukrywanie wzwodu."
+    },
+    {
+      "Id": "bb8ed540-ae73-48d0-a726-28be56542968",
+      "Text": "Upijanie si\u0119 p\u0142ynem do spryskiwaczy."
+    },
+    {
+      "Id": "4ec5a4eb-6c56-42ce-ba0d-f651ffc4396b",
+      "Text": "Uwodzenie."
+    },
+    {
+      "Id": "c82c982d-5073-4c9a-a12f-9c9c8aaa0166",
+      "Text": "U\u017Cywanie wsp\u00F3lnej strzykawki."
+    },
+    {
+      "Id": "a0dd8eb7-e9d8-4279-901e-038a4ddc1bad",
+      "Text": "Umieranie."
+    },
+    {
+      "Id": "3a2511e1-f88a-4a67-ba9d-3c3605758d5a",
+      "Text": "Ucieczka z psychiatryka."
+    },
+    {
+      "Id": "3847588d-34ff-4dfb-b77f-c1b876cf8f18",
+      "Text": "Uprawianie seksu z pi\u0119kn\u0105 osob\u0105."
+    },
+    {
+      "Id": "e073d6df-b6fb-46c7-b7a1-463870c60d99",
+      "Text": "Uderzenie staruszki-rasistki."
+    },
+    {
+      "Id": "bc45eec7-7acc-4074-928f-8e94f53e6a7f",
+      "Text": "Uczenie twojej dziewczyny jak obci\u0105ga\u0107."
+    },
+    {
+      "Id": "645e841e-7a15-4616-8de2-64d177dd3b06",
+      "Text": "Umieranie w samotno\u015Bci i b\u00F3lu."
+    },
+    {
+      "Id": "a32a117e-23fb-4daf-8e05-b3fb585e8cb8",
+      "Text": "Ubieranie garnituru i okular\u00F3w, tylko po to, \u017Ceby wygl\u0105da\u0107 m\u0105drzej."
+    },
+    {
+      "Id": "f66d2a52-8393-4908-bdda-38a21b4f71b3",
+      "Text": "Samos\u0105d."
+    },
+    {
+      "Id": "4fd65346-168b-4423-82bc-15452907b219",
+      "Text": "Scjentologia."
+    },
+    {
+      "Id": "8f30cd90-4af3-4805-b395-8e58260c9a01",
+      "Text": "Seks niespodzianka."
+    },
+    {
+      "Id": "b124bfdd-e5a4-4e51-af52-e5e96a95fa07",
+      "Text": "Seksowne walki na poduszki."
+    },
+    {
+      "Id": "0dc87ffd-0fd8-4ab1-9ffc-47d000c6257d",
+      "Text": "Seppuku."
+    },
+    {
+      "Id": "d342eeb3-fa0c-4308-9476-484ac6f20fe8",
+      "Text": "Ser topiony."
+    },
+    {
+      "Id": "c0435b62-cdd8-4970-acd4-19ff95fd4a4e",
+      "Text": "Serce dziecka."
+    },
+    {
+      "Id": "7ee87718-cc8a-4662-93d4-8f5e487da916",
+      "Text": "S\u0119dzia Anna Maria Weso\u0142owska."
+    },
+    {
+      "Id": "85f4db45-777a-48ff-a80b-c4caa73735d2",
+      "Text": "Skalpowanie."
+    },
+    {
+      "Id": "bd9c9142-1fd5-4e47-a3e8-5f8aee024aff",
+      "Text": "Skr\u0119t j\u0105dra."
+    },
+    {
+      "Id": "66ebd388-2d7a-4937-bbf1-be4a3f5461f9",
+      "Text": "S\u0142odka zemsta."
+    },
+    {
+      "Id": "dbc64065-cc03-4768-849d-e939efc964ab",
+      "Text": "Smsowanie."
+    },
+    {
+      "Id": "03858429-890c-4e7b-b806-e1f0f0ce5bd5",
+      "Text": "Spektakularne mi\u0119\u015Bnie brzucha."
+    },
+    {
+      "Id": "2638693c-fc82-4e8a-b6dc-9e038e215b38",
+      "Text": "Sol\u00F3wki na saksofonie."
+    },
+    {
+      "Id": "cc3a1805-fc48-4cfd-8cd3-cb2a69f6cf09",
+      "Text": "Spodnie bez ty\u0142ka."
+    },
+    {
+      "Id": "3b1fd295-cc78-49ff-8fc9-94ebbb76eeb4",
+      "Text": "Sok\u00F3\u0142 z czak\u0105 na g\u0142owie."
+    },
+    {
+      "Id": "ae7033c7-2fcc-4c4c-b4e7-c1a19b4ff9bc",
+      "Text": "Spontaniczne samospalenie."
+    },
+    {
+      "Id": "b1238c4e-db3f-4b17-9a61-c7a43c4f0613",
+      "Text": "Spontanicznie wyrwanie si\u0119 do ta\u0144ca i \u015Bpiewu."
+    },
+    {
+      "Id": "f83e2b56-664f-461a-9578-7c5c0d9e7edc",
+      "Text": "Spro\u015Bne SMSy."
+    },
+    {
+      "Id": "d5fc9a42-04f3-4203-b692-5ae0374cb147",
+      "Text": "Spuszczanie si\u0119 do basenu dzieci\u0119cych \u0142ez. "
+    },
+    {
+      "Id": "c688529f-458f-48a3-a86c-ca5a42c77fc7",
+      "Text": "Sranie tam i z powrotem. W niesko\u0144czono\u015B\u0107."
+    },
+    {
+      "Id": "4e88ad8f-f5f7-435e-9b12-7524a61892d7",
+      "Text": "Status mojego zwi\u0105zku."
+    },
+    {
+      "Id": "3f399008-85ad-4c4b-b787-5219294d53ac",
+      "Text": "Steven Hawking m\u00F3wi\u0105cy \u015Bwi\u0144stwa."
+    },
+    {
+      "Id": "975ee8ae-76ac-48d0-bb36-86d53fde9b51",
+      "Text": "Strach w czystej postaci."
+    },
+    {
+      "Id": "a0033048-8060-47ac-9b90-3b779b966f38",
+      "Text": "Strzelanie do swoich."
+    },
+    {
+      "Id": "e1d82b8e-d8a8-4e5e-b584-527090786277",
+      "Text": "Studia."
+    },
+    {
+      "Id": "0d7e392d-f344-4ebb-80ba-97faba86009c",
+      "Text": "Suche wymioty."
+    },
+    {
+      "Id": "c7ab0636-2406-45cf-883e-058a85e11b9f",
+      "Text": "Suki."
+    },
+    {
+      "Id": "543b0305-a3b2-49d9-928d-5c8676675982",
+      "Text": "Szczeniaczki."
+    },
+    {
+      "Id": "82cf06f2-d0ad-4fbd-b667-ec96e5ba9648",
+      "Text": "Szcz\u0119ko\u015Bcisk."
+    },
+    {
+      "Id": "3290434d-2115-44c4-82fa-7d25e5cf1cc9",
+      "Text": "Szkieletor. "
+    },
+    {
+      "Id": "092939d9-2165-42e7-909f-edcb254acd9c",
+      "Text": "\u015Aci\u0105ganie koszulki."
+    },
+    {
+      "Id": "20a385d8-a157-4eb1-b27c-3ba28a80c5e9",
+      "Text": "\u015Amierciono\u015Bny laser."
+    },
+    {
+      "Id": "12bf6946-ee91-4e82-9dbf-28494a92c7ad",
+      "Text": "\u015Al\u0105sk."
+    },
+    {
+      "Id": "9b0c823d-fed8-4118-af5d-4ab38dd5b9d3",
+      "Text": "Samobiczowanie."
+    },
+    {
+      "Id": "9417a7b3-2314-4522-bd7c-dfef6ddebfc8",
+      "Text": "Samookaleczanie."
+    },
+    {
+      "Id": "88f78a56-1572-4a5b-b756-47dcd5495211",
+      "Text": "Samuel L. Jackson."
+    },
+    {
+      "Id": "65b6e0c0-e2db-410d-bcfc-9811274ab39d",
+      "Text": "Scena \u015Bmierci Mufasy."
+    },
+    {
+      "Id": "bfa3cc05-a996-4478-9057-4c079d483f30",
+      "Text": "\u015Awi\u0144stwa, z kt\u00F3rych robione s\u0105 hamburgery z McDonalda."
+    },
+    {
+      "Id": "78de4830-09fd-482f-baaf-55e4bd73af60",
+      "Text": "Sekretna formu\u0142a ostatecznego zaspokojenia kobiety."
+    },
+    {
+      "Id": "4513a5a4-61e1-4ef7-bdd5-d8e151573ce4",
+      "Text": "Seks kometa z Neptuna pogr\u0105\u017Caj\u0105ca Ziemi\u0119 w wiecznej seksualno\u015Bci."
+    },
+    {
+      "Id": "22346bf6-e020-48ce-96f0-4110fbbd85ef",
+      "Text": "Seks na wierzchu pizzy."
+    },
+    {
+      "Id": "e1b1ad22-62ea-4bc7-a7c2-0fd64abcf75e",
+      "Text": "Seksowne bli\u017Ani\u0119ta syjamskie."
+    },
+    {
+      "Id": "45b7eeed-8173-4453-ae74-9ea5908b1f49",
+      "Text": "Seksowne szeptanie."
+    },
+    {
+      "Id": "26a96867-ed71-4d47-bacb-60e9eae395aa",
+      "Text": "Sie\u0107 k\u0142amstw."
+    },
+    {
+      "Id": "64eaaa26-b944-4715-9603-b850f8cb9901",
+      "Text": "Sie\u0107 restauracji Magdy Gessler."
+    },
+    {
+      "Id": "4d2f5aa3-1326-4b5e-ba8e-816b8855e867",
+      "Text": "S\u0142owa, s\u0142owa, s\u0142owa."
+    },
+    {
+      "Id": "0f17e782-32c6-44b4-ac99-e58491a10948",
+      "Text": "Smoczek we krwi."
+    },
+    {
+      "Id": "91e0e5cc-c4e1-4d3d-9986-319f37d80a3f",
+      "Text": "Smutny, gruby, nie maj\u0105cy przyjaci\u00F3\u0142 smok."
+    },
+    {
+      "Id": "537aeb1a-220f-44b9-ae51-b8d11c24e941",
+      "Text": "Sosnowiec."
+    },
+    {
+      "Id": "3ee46068-8ca6-44a9-af94-c5dd2eae234f",
+      "Text": "Specjalny go\u015B\u0107 muzyczny, Maryla Rodowicz."
+    },
+    {
+      "Id": "e3d2faf4-9a95-4a15-bff2-21a184019e50",
+      "Text": "Sperma."
+    },
+    {
+      "Id": "9ad41428-c51f-4377-9103-8bc99bdc7c11",
+      "Text": "Spocony, zdyszany dominator seksualny."
+    },
+    {
+      "Id": "7abab750-c069-4516-9068-d50107dd3fd5",
+      "Text": "Spodnie w khaki."
+    },
+    {
+      "Id": "d973736a-561d-49c2-b0b1-2901995cc434",
+      "Text": "Spojlery."
+    },
+    {
+      "Id": "f0dd2d11-4d4a-4ad0-85ce-7e13a78c0259",
+      "Text": "Spokojny i niegro\u017Any rozw\u00F3j Podkarpacia."
+    },
+    {
+      "Id": "5d20aae3-e6f3-4a2d-9710-bcf38859b41e",
+      "Text": "Spontaniczny taniec Konga."
+    },
+    {
+      "Id": "b14a3d09-d07f-4e04-9ef0-39a798f5a692",
+      "Text": "Spos\u00F3b by zarobi\u0107 6000 z\u0142 bez wychodzenia z domu."
+    },
+    {
+      "Id": "f7d84197-8c58-4ef9-8257-89fe892db44c",
+      "Text": "Spos\u00F3b bycia bia\u0142ych ludzi."
+    },
+    {
+      "Id": "5b52fbb4-3de5-4280-83c5-5d9949faecd2",
+      "Text": "Sprzedawanie kupionych taniej rzeczy na Allegro."
+    },
+    {
+      "Id": "acb05290-1e68-4902-b224-3aa1920a23ba",
+      "Text": "Stara kurwica."
+    },
+    {
+      "Id": "0999ef14-96a1-4488-894b-adf19aee050d",
+      "Text": "Statystycznie potwierdzone stereotypy."
+    },
+    {
+      "Id": "c14d22b2-274e-437b-ac91-0f9f549f4bdd",
+      "Text": "Stos wij\u0105cych si\u0119 cia\u0142."
+    },
+    {
+      "Id": "81c3864a-6574-40dc-bcfc-8c6d5ea9dfd2",
+      "Text": "Syndrom poobozowy."
+    },
+    {
+      "Id": "63941c8a-ad9e-4347-ab7b-a4862fe82477",
+      "Text": "Syndrom sztokholmski."
+    },
+    {
+      "Id": "b911f97a-08be-44ff-a293-0f7852f4460d",
+      "Text": "Systematyczne niszczenie wszystkich ludzi, i ich sposobu \u017Cycia."
+    },
+    {
+      "Id": "3ac75bf5-4f99-4d75-ae72-e4dc014f1800",
+      "Text": "Szalone tricki podczas grania w Zo\u015Bk\u0119."
+    },
+    {
+      "Id": "0ca19c05-6398-4595-875b-075deb67ea44",
+      "Text": "Szastanie kas\u0105."
+    },
+    {
+      "Id": "f1d23850-2362-4d66-b9ee-3fa9db800cdc",
+      "Text": "Szlam."
+    },
+    {
+      "Id": "fd224b82-257d-4607-8545-5b48aa50c403",
+      "Text": "Szmata nas\u0105czona eterem."
+    },
+    {
+      "Id": "b01c8faf-1a5a-4b09-bd09-788fcc04142d",
+      "Text": "Szukanie Walliego."
+    },
+    {
+      "Id": "85c101c9-ac54-4813-9ebe-1d5e13005083",
+      "Text": "Szwadron moli nosz\u0105cych okulary lotnika."
+    },
+    {
+      "Id": "5b9ce78b-7472-42d2-9c1a-b9eaa23a02aa",
+      "Text": "\u015Alina."
+    },
+    {
+      "Id": "d8b046e7-feaf-494b-a375-f697856c6bf1",
+      "Text": "\u015Amier\u0107 z r\u0105k Stevena Seagala."
+    },
+    {
+      "Id": "1569d09d-4136-466d-8979-db1358f76cdd",
+      "Text": "\u015Arednio-mocny b\u00F3l staw\u00F3w."
+    },
+    {
+      "Id": "0076b411-2a43-4320-b759-7310d2c112d5",
+      "Text": "\u015Awi\u0119ty Miko\u0142aj."
+    },
+    {
+      "Id": "4de3156f-875d-482a-95e6-792522e21b2a",
+      "Text": "Schowek na miot\u0142y."
+    },
+    {
+      "Id": "32a28529-c9e0-4b35-9a74-f3c8ff94a69c",
+      "Text": "S\u0142odcy ch\u0142opacy."
+    },
+    {
+      "Id": "37b29462-fd4e-48c0-8ab6-1e78db3ed90f",
+      "Text": "Sztuka."
+    },
+    {
+      "Id": "c383bc10-ca94-4560-9053-586ee9309b1c",
+      "Text": "SZE\u015A\u0106 CHOLERNYCH GODZIN PIERDOLONEJ DYPLOMACJI!!!!"
+    },
+    {
+      "Id": "495c157c-b388-4a50-a7e7-0c4637da0ed2",
+      "Text": "Somsiad."
+    },
+    {
+      "Id": "01cf9ad8-0fe6-4b50-9301-07f22a5fa2c6",
+      "Text": "Z dupy do ust."
+    },
+    {
+      "Id": "9fa131a3-b3e2-42ef-8a95-a845bec45179",
+      "Text": "Za du\u017Co koki."
+    },
+    {
+      "Id": "906a6d62-e171-454a-b8fc-9eb0a5f590df",
+      "Text": "Zachodnie standardy pi\u0119kna."
+    },
+    {
+      "Id": "ddfd65e2-89aa-416b-a86a-0d6df731ff65",
+      "Text": "Zaci\u015Bni\u0119te po\u015Bladki."
+    },
+    {
+      "Id": "f26469db-b58a-4cb3-9fab-c30b2555dc3c",
+      "Text": "Zajebisty statek kosmiczny."
+    },
+    {
+      "Id": "b7695569-7142-48bc-bf4d-3431e81097ab",
+      "Text": "Zajebi\u015Bcie dobra sol\u00F3wka."
+    },
+    {
+      "Id": "45cb5169-dbe1-4227-b41a-164bac3cb65d",
+      "Text": "Zamkni\u0119cie ryja."
+    },
+    {
+      "Id": "7916113a-bd0d-482a-967e-fa1f46c4964d",
+      "Text": "Zapanowanie nad nied\u017Awiedziem grizzly i uczynienie go swoj\u0105 \u017Con\u0105."
+    },
+    {
+      "Id": "074d92e1-d1a4-495e-92b3-440a00a1ebb8",
+      "Text": "Zaprzyja\u017Anienie si\u0119."
+    },
+    {
+      "Id": "6db7ecd6-38c4-4ab4-8156-345ef864773a",
+      "Text": "Zaskakuj\u0105ca ilo\u015B\u0107 w\u0142os\u00F3w."
+    },
+    {
+      "Id": "96a8f1a4-0d09-4992-8314-819e196ad55b",
+      "Text": "Zatrza\u015Bni\u0119cie penisa w  pu\u0142apce na myszy z innym penisem."
+    },
+    {
+      "Id": "03ef957a-be2d-4194-a66f-483f0eb544fd",
+      "Text": "Zawiedzenie wszystkich."
+    },
+    {
+      "Id": "912b988b-292e-4ea3-9636-34223b67e0ff",
+      "Text": "Zbli\u017Caj\u0105cy si\u0119 korek uliczny."
+    },
+    {
+      "Id": "30c67a86-9413-46d9-8e01-02adf3a314e1",
+      "Text": "Zdejmowanie \u015Bwi\u0119tego Miko\u0142aja rakiet\u0105 ziemia-powietrze."
+    },
+    {
+      "Id": "68eab549-126f-4357-95d7-1711b7718ddb",
+      "Text": "Z\u0142owieszcza muzyka w tle."
+    },
+    {
+      "Id": "3d6edba5-a65a-473d-99e9-d09573203ccf",
+      "Text": "Z\u0142y cz\u0142owiek w diabolicznym garniaku."
+    },
+    {
+      "Id": "b3021231-1201-44ab-9a4f-170311098437",
+      "Text": "Zmienianie pogl\u0105d\u00F3w innych wykorzystuj\u0105c logik\u0119 i fakty."
+    },
+    {
+      "Id": "1b6e2d3a-7ebe-40aa-ab5c-f6b489365d7c",
+      "Text": "Zmy\u015Blanie statystyk."
+    },
+    {
+      "Id": "a0517d09-ba6e-488f-bc3a-a8546d535afb",
+      "Text": "Znalezienie szkieletu."
+    },
+    {
+      "Id": "851c0c05-0984-4c1d-98e8-5422dd44bff3",
+      "Text": "Zrobienie dobrze kilku go\u015Bciom w ciemnej alejce."
+    },
+    {
+      "Id": "5ad598dd-3ecf-44de-8ce0-9201f131edac",
+      "Text": "Zrobienie sobie kuku."
+    },
+    {
+      "Id": "e10f2b9c-8d83-4de3-8aaa-2ff1cd92384e",
+      "Text": "Za du\u017Co \u017Celu we w\u0142osach."
+    },
+    {
+      "Id": "89c82e14-7c2d-4719-9550-cf90c26f51c4",
+      "Text": "Za gor\u0105ca zupa."
+    },
+    {
+      "Id": "359dc0e9-8708-42f7-a0eb-be6b6f625071",
+      "Text": "Zabawa w wampira podczas miesi\u0105czki."
+    },
+    {
+      "Id": "7b644955-98b4-4370-a50d-c8b94155ba54",
+      "Text": "Zakazany owoc."
+    },
+    {
+      "Id": "5b4a6af1-aae7-461f-9712-f26a22854abb",
+      "Text": "Zamra\u017Carka pe\u0142na organ\u00F3w."
+    },
+    {
+      "Id": "178b86d9-5ef2-4ffe-a9d5-cd75901fce56",
+      "Text": "Zaj\u0119cia integracyjne."
+    },
+    {
+      "Id": "ea6022bb-cbcb-4e44-bfd5-ccc4e408962b",
+      "Text": "Zab\u0142\u0105kany w\u0142os \u0142onowy."
+    },
+    {
+      "Id": "38ba99bd-fb46-48b5-9492-1fe5cec45848",
+      "Text": "Zastawianie pu\u0142apek na z\u0142odziei."
+    },
+    {
+      "Id": "fb0fe742-d416-48ff-bafe-ddaa4132f22e",
+      "Text": "Zaspany Lew w ZOO."
+    },
+    {
+      "Id": "df05ace8-1e07-4d22-83a3-ba724f130ce0",
+      "Text": "Zapach starych ludzi."
+    },
+    {
+      "Id": "0840e9d0-18d4-4297-8b7c-d7f60e6a7693",
+      "Text": "Zbilansowane \u015Bniadanie."
+    },
+    {
+      "Id": "16f0cca6-9c8f-475e-9d14-93c6d031b964",
+      "Text": "Zdj\u0119cia piersi."
+    },
+    {
+      "Id": "d33e72a2-f7ca-4c5f-a639-d1dd9d730546",
+      "Text": "Zerkni\u0119cie."
+    },
+    {
+      "Id": "df1845b8-3c4e-4e34-bd49-a00b5896c87e",
+      "Text": "Zesp\u00F3\u0142 Feel."
+    },
+    {
+      "Id": "9799faa0-2950-4435-a7df-c037658d9ed3",
+      "Text": "Trawka."
+    },
+    {
+      "Id": "18562ace-edee-4d3a-91bd-0a96fcfb7fc3",
+      "Text": "Zio\u0142owe tabletki na problemy z potencj\u0105."
+    },
+    {
+      "Id": "7902a9b7-0503-47c0-aba8-f603d352ed6c",
+      "Text": "Z\u0142e decyzje \u017Cyciowe."
+    },
+    {
+      "Id": "8bb55175-de9d-4ba7-ba27-816a0bb70a29",
+      "Text": "Z\u0142oty deszcz."
+    },
+    {
+      "Id": "1e28b502-6fa4-48d5-b4a5-aaa6cbd7b0d4",
+      "Text": "Zmazy nocne."
+    },
+    {
+      "Id": "cfa6147a-3b42-4e84-ae61-ecdd2bdc3a08",
+      "Text": "Znajomi wyjadaj\u0105cy ca\u0142\u0105 zagrych\u0119."
+    },
+    {
+      "Id": "194132e9-b2b0-4e15-adfd-35ee9cc7e747",
+      "Text": "Zno\u015Bni transwestyci."
+    },
+    {
+      "Id": "bf020676-eb79-4eb7-8185-af44edbdb8d9",
+      "Text": "Z\u0142oty \u0142a\u0144cuch."
+    },
+    {
+      "Id": "970434e0-b59f-4c7c-8119-36d754def512",
+      "Text": "Zostawianie k\u0142opotliwych wiadomo\u015Bci na poczcie g\u0142osowej."
+    },
+    {
+      "Id": "38dc0cba-4d54-46fc-a6e2-99413d947198",
+      "Text": "Zrzucane \u017Cyrandolu na przeciwnik\u00F3w i wje\u017Cd\u017Canie do g\u00F3ry po linie."
+    },
+    {
+      "Id": "54e31a84-e23a-4ce4-b4fd-066b9e1a36b6",
+      "Text": "Zastrzelenie czarodzieja z pistoletu."
+    },
+    {
+      "Id": "91d92aae-636b-4259-810d-abae107ff351",
+      "Text": "Zostanie prezydentem Stan\u00F3w Zjednoczonych."
+    },
+    {
+      "Id": "a5a79e2d-6cc2-4394-9cc8-95041e15c9ef",
+      "Text": "Zapuszkowanie wi\u0119kszej ilo\u015Bci czarnych ludzi w wi\u0119zieniu."
+    },
+    {
+      "Id": "2dc3183e-f090-441b-a207-bd808050a94b",
+      "Text": "\u017Badnych ubra\u0144, penis w pochwie."
+    },
+    {
+      "Id": "aaf4811e-2e63-4764-982b-1234084eebba",
+      "Text": "\u017Ba\u0142osna gra wst\u0119pna."
+    },
+    {
+      "Id": "d6301f5c-57f4-4cf6-bd89-b90cb65d7b7e",
+      "Text": "\u017B\u00F3\u0142w jaszczurowaty gryz\u0105cy ci\u0119 w ko\u0144c\u00F3wk\u0119 penisa."
+    },
+    {
+      "Id": "b9583355-a5ea-4cb4-9d8e-80deb641e7b1",
+      "Text": "\u017Bydzi."
+    },
+    {
+      "Id": "312ae136-6cf0-4bb0-8610-2e1845c85ba5",
+      "Text": "Rekiny z nogami."
+    },
+    {
+      "Id": "2539fcf8-9f2d-4a9e-9dbd-5c08d0c8d660",
+      "Text": "Rekonstrukcja bitwy pod Grunwaldem."
+    },
+    {
+      "Id": "cdeb6dc9-01ec-4eb0-8f97-72b1c14affea",
+      "Text": "Reprezentacja polskich polityk\u00F3w w pi\u0142ce no\u017Cnej."
+    },
+    {
+      "Id": "67a71d3b-0448-41b6-95f3-dbfc5e05d92f",
+      "Text": "Reprodukcja serialu \u0022Wied\u017Amin\u0022 tylko i wy\u0142\u0105cznie z aktorami-kar\u0142ami."
+    },
+    {
+      "Id": "1c8b822e-eabd-43fb-a167-9884f3cb364b",
+      "Text": "Retrospekcje wojenne."
+    },
+    {
+      "Id": "6f14924a-aec5-4010-bb56-61f31eebe994",
+      "Text": "Rewizjonizm historyczny."
+    },
+    {
+      "Id": "91db9c25-d09b-469b-aacd-f5bdeef1f2c7",
+      "Text": "Rodowity Amerykanin, kt\u00F3ry rozwi\u0105zuje zbrodnie przechodz\u0105c do \u015Bwiata duch\u00F3w."
+    },
+    {
+      "Id": "59457c12-a110-4267-9a07-6e3da69faeb4",
+      "Text": "Ropa naftowa."
+    },
+    {
+      "Id": "0875f392-7169-4399-b884-2a20495a2ced",
+      "Text": "Rosyjska super-gru\u017Alica."
+    },
+    {
+      "Id": "f312774b-a0c8-438f-9905-74c3a00638d8",
+      "Text": "Rozczarowuj\u0105ca sa\u0142atka."
+    },
+    {
+      "Id": "6e0def22-0566-4a53-83b1-8f53c9f56675",
+      "Text": "Rozdziewiczanie ksi\u0119\u017Cniczki."
+    },
+    {
+      "Id": "f008debe-b110-47e4-b333-4c873a63c1cf",
+      "Text": "Rozerwanie klatki piersiowej m\u0119\u017Cczyzny i wyci\u0105ganie wci\u0105\u017C bij\u0105cego serca."
+    },
+    {
+      "Id": "f1604f3b-2173-459e-93f7-efe3744509d4",
+      "Text": "Rozkminianie jak uprawia\u0107 seks z delfinem."
+    },
+    {
+      "Id": "9bcaf7e6-0d75-40b0-b432-3dcd91e783b3",
+      "Text": "Rozmiar mojego penisa."
+    },
+    {
+      "Id": "ec241b68-7a59-4202-bdb4-a52fbed2266f",
+      "Text": "Ruch taneczny, kt\u00F3ry jest po prostu pozycj\u0105 seksualn\u0105."
+    },
+    {
+      "Id": "2881e72b-89b6-4c8d-ba19-4ae24719b532",
+      "Text": "Ryszard Kalisz trzymaj\u0105cy saksofon le\u017C\u0105c nago na nied\u017Awiedziej sk\u00F3rze."
+    },
+    {
+      "Id": "4c0616b5-764e-4f9c-8688-58d8d173ffff",
+      "Text": "Rak."
+    },
+    {
+      "Id": "1ba16f84-a7b7-4e97-8ab1-bc45f6621254",
+      "Text": "Rzep."
+    },
+    {
+      "Id": "b263f6a3-57ad-462b-947a-df6c3a2b6564",
+      "Text": "Rzewny p\u0142acz podczas czytania Harlequina."
+    },
+    {
+      "Id": "efef4f1d-fb4f-4d67-ad59-9aea39deb4d8",
+      "Text": "Rzyganie w trakcie lodzika."
+    },
+    {
+      "Id": "1aebc029-b496-4667-bde3-1e345358f6b3",
+      "Text": "Rasizm."
+    },
+    {
+      "Id": "3e686f03-5ea9-4ab0-b015-134a744a4c6a",
+      "Text": "RoboCop."
+    },
+    {
+      "Id": "8d2e3d7d-b2d6-479a-bff5-c0dfee1bcfdb",
+      "Text": "Robienie smutnej minki."
+    },
+    {
+      "Id": "a8ecfad2-55da-4f07-bac8-5b9344f23fe9",
+      "Text": "Rodzenie kamienia nerkowego."
+    },
+    {
+      "Id": "55f9a205-d453-42c8-a8a3-528681ff9681",
+      "Text": "Rolnictwo."
+    },
+    {
+      "Id": "5e2e5b49-270e-40bc-aa12-305d621aff40",
+      "Text": "Rozbieranie si\u0119 do naga i ogl\u0105danie Cartoon Network."
+    },
+    {
+      "Id": "44c522b8-bae6-425d-bace-46853627911a",
+      "Text": "Rozczarowuj\u0105ce przyj\u0119cie urodzinowe."
+    },
+    {
+      "Id": "35c593d8-be17-4911-b611-8bf5300c1b40",
+      "Text": "Rycersko\u015B\u0107."
+    },
+    {
+      "Id": "eb1a53cf-1891-438c-926d-9dd76e0ab2aa",
+      "Text": "Rzut kar\u0142em."
+    },
+    {
+      "Id": "b6877f3e-de4f-49f4-924b-af23be62cfbb",
+      "Text": "Rasowo czysta Europa. "
+    },
+    {
+      "Id": "303f30fb-452f-42c8-b58d-b6c73a5a8424",
+      "Text": "Rzucam wszystko w choler\u0119 i wyje\u017Cd\u017Cam w Bieszczady."
+    },
+    {
+      "Id": "f3415451-51fa-4f35-8bab-550411b09a09",
+      "Text": "Rzucanie kamieniami w cz\u0142owieka, dop\u00F3ki nie umrze."
+    },
+    {
+      "Id": "9a9cf243-c532-470a-bafc-653cb9dd6a23",
+      "Text": "Rzucanie kamieniami w dinozaury."
     }
   ]
 }
