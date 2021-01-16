@@ -4,6 +4,7 @@ using KrzyWro.CAH.Client.StateManagement.TableState;
 using KrzyWro.CAH.Shared;
 using KrzyWro.CAH.Shared.Cards;
 using KrzyWro.CAH.Shared.Dto;
+using Microsoft.AspNetCore.Components;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,6 +18,7 @@ namespace KrzyWro.CAH.Client.StateManagement
         private readonly IPlayerHubClient _playerHub;
         private readonly ILobbyHubClient _lobbyHub;
         private readonly ITableHubClient _tableHub;
+        private readonly NavigationManager _navigationManager;
 
         public AppEvents Events { get; } = new AppEvents();
 
@@ -38,12 +40,13 @@ namespace KrzyWro.CAH.Client.StateManagement
 
         public bool ConnectionFailed { get; private set; } = false;
 
-        public AppState(IAppLocalStorage localStorage, IPlayerHubClient playerHub, ILobbyHubClient lobbyHub, ITableHubClient tableHub)
+        public AppState(IAppLocalStorage localStorage, IPlayerHubClient playerHub, ILobbyHubClient lobbyHub, ITableHubClient tableHub, NavigationManager navigationManager)
         {
             _localStorage = localStorage;
             _playerHub = playerHub;
             _lobbyHub = lobbyHub;
             _tableHub = tableHub;
+            _navigationManager = navigationManager;
         }
 
         public async Task RegisterPlayer()
@@ -257,7 +260,10 @@ namespace KrzyWro.CAH.Client.StateManagement
 
 
             if (await _localStorage.ShouldFirstRunSetup())
+            {
+                _navigationManager.NavigateTo("/");
                 CurrentState = CurrentState.ChangeState(Flow.Action.FirstRunSetup);
+            }
             else
             {
                 await Events.PlayerNameChanged.RaiseAsync();
