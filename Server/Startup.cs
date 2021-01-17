@@ -9,6 +9,7 @@ using System.Linq;
 using KrzyWro.CAH.Server.Hubs;
 using KrzyWro.CAH.Server.Services;
 using KrzyWro.CAH.Shared.Contracts;
+using Microsoft.AspNetCore.HttpOverrides;
 
 namespace KrzyWro.CAH.Server
 {
@@ -37,6 +38,12 @@ namespace KrzyWro.CAH.Server
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+
+            app.UseForwardedHeaders(new ForwardedHeadersOptions
+            {
+                ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto
+            }); 
+            
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
