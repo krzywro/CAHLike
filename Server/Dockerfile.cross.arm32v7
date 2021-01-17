@@ -1,11 +1,11 @@
 #See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
 
-FROM mcr.microsoft.com/dotnet/aspnet:5.0-buster-slim-arm32v7 AS base
+FROM mcr.microsoft.com/dotnet/aspnet:5.0-buster-slim AS base
 WORKDIR /app
 EXPOSE 80
 EXPOSE 443
 
-FROM mcr.microsoft.com/dotnet/sdk:5.0-buster-slim-arm32v7 AS build
+FROM mcr.microsoft.com/dotnet/sdk:5.0-buster-slim AS build
 WORKDIR /src
 COPY ["Server/KrzyWro.CAH.Server.csproj", "Server/"]
 COPY ["Shared/KrzyWro.CAH.Shared.csproj", "Shared/"]
@@ -19,7 +19,7 @@ RUN dotnet build "KrzyWro.CAH.Server.csproj" -c Release -o /app/build
 FROM build AS publish
 RUN dotnet publish "KrzyWro.CAH.Server.csproj" -c Release -o /app/publish
 
-FROM base AS final
+FROM mcr.microsoft.com/dotnet/aspnet:5.0-buster-slim-arm32v7 AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "KrzyWro.CAH.Server.dll"]
